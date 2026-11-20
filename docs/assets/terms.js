@@ -19,7 +19,7 @@
   const panel = document.createElement('aside');
   panel.id = 'term-panel'; panel.className = 'term-panel'; panel.hidden = true;
   panel.setAttribute('aria-labelledby', 'term-panel-heading');
-  panel.innerHTML = '<div class="close-row"><button type="button" aria-label="Close definition">Close</button></div><p class="eyebrow">Technical term</p><h2 id="term-panel-heading"></h2><p class="term-definition"></p>';
+  panel.innerHTML = '<div class="close-row"><button type="button" aria-label="Close definition">Close</button></div><p class="eyebrow">Technical term</p><h2 id="term-panel-heading" tabindex="-1"></h2><p class="term-definition"></p>';
   const closeButton = panel.querySelector('button');
   function closePanel() {
     panel.hidden = true;
@@ -32,7 +32,7 @@
     activeButton = button; button.setAttribute('aria-expanded', 'true');
     panel.querySelector('h2').textContent = term;
     panel.querySelector('.term-definition').textContent = terms[term];
-    panel.hidden = false; closeButton.focus();
+    panel.hidden = false; panel.querySelector('h2').focus();
   }
   function addHelp(root) {
     const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT);
