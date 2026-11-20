@@ -1,0 +1,1057 @@
+{
+  "schema": "irea.dataset-view-catalogue",
+  "version": "1.0.0",
+  "observedOn": "2026-11-20",
+  "locale": "en-GB",
+  "purpose": "Declarative recommendations for later visualisation of the estate evidence.",
+  "contract": {
+    "datasetIds": "Stable keys of datasets. View IDs are unique within each dataset.",
+    "references": "Repository paths are relative to this catalogue. Notebook paths are relative to the public site origin and describe existing data assets. Local paths are absolute or relative to this catalogue and describe scratch or ignored inputs.",
+    "fields": "Physical names are verified against the referenced input. Semantic fields require an explicit transformation or reviewed evidence and are defined per dataset.",
+    "encoding": "Channel values refer to the dataset's physical or semantic fields. Channels describe intent independently of a charting library.",
+    "availability": [
+      "available",
+      "conditional",
+      "planned"
+    ],
+    "statusPolicy": "A conditional view is ready only after its prerequisites are met. A planned view describes evidence to collect. Preserve unknown, unavailable, suppressed and ineligible values, distinct from measured zero."
+  },
+  "datasets": {
+    "uk-deprivation-area-reference": {
+      "title": "UK national small-area deprivation reference",
+      "edition": "IoD 2025, WIMD 2025, SIMD 2020 v2 and NIMDM 2017. Reference observed 20 November 2026.",
+      "references": {
+        "repository": [
+          "uk-public-estate-decarbonisation-method.md#national-small-area-reference"
+        ],
+        "primary": [
+          "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025",
+          "https://www.gov.wales/welsh-index-multiple-deprivation-2025",
+          "https://www.gov.scot/publications/scottish-index-of-multiple-deprivation-2020v2-data-zone-look-up/",
+          "https://www.nisra.gov.uk/publications/nimdm17-soa-level-results"
+        ],
+        "notebookPaths": [
+          "/data/uk-deprivation-area-reference.csv",
+          "/data/uk-deprivation-area-summary.json"
+        ]
+      },
+      "grain": "One published small-area code per nation, geography and index release.",
+      "measure": "Nation-relative ordinal decile or distinct area count.",
+      "physicalFields": [
+        "nation",
+        "index_release",
+        "geography",
+        "area_code",
+        "area_name",
+        "overall_rank",
+        "overall_decile",
+        "overall_decile_1_to_5",
+        "children_indicator",
+        "children_rank",
+        "children_decile",
+        "older_people_indicator",
+        "older_people_rank",
+        "older_people_decile"
+      ],
+      "semanticFields": {
+        "area_polygon": "Join to licensed or open official boundaries using nation, geography, edition and area_code.",
+        "selected_area_count": "Count distinct area_code with overall_decile_1_to_5 = 1 within a nation and release.",
+        "published_area_count": "Count all distinct area_code in the same nation and release, before any decile filter."
+      },
+      "rules": {
+        "aggregation": "Count areas within each national release and show the published denominator. A cross-national sum of area counts has no common rank interpretation.",
+        "filter": "Start with the overall index. Highlight deciles 1–5 inclusive using the published reference flag. Switch to each supplementary indicator independently.",
+        "comparability": "Facets use nation-relative deciles with distinct source definitions and boundary vintages. Keep Scotland's 2011 Data Zones and check the Northern Ireland SOA code and boundary match. Keep absolute scores and national ranks out of shared scales.",
+        "missing": "Use labelled grey or hatching for unmatched geometry and missing values. Blank Wales or Scotland supplements mean not applied. England IDACI/IDAOPI and Northern Ireland IDAC/IDAP retain their own definition."
+      },
+      "views": [
+        {
+          "id": "national-decile-map",
+          "role": "preferred",
+          "availability": "conditional",
+          "needs": [
+            "Versioned boundaries for all four releases with unique area-code joins and compatible reuse terms."
+          ],
+          "question": "Where are the more deprived small areas within each nation?",
+          "mark": "choropleth",
+          "encoding": {
+            "geometry": [
+              "area_polygon"
+            ],
+            "colour": [
+              "overall_decile"
+            ],
+            "facet": [
+              "nation"
+            ],
+            "detail": [
+              "area_code"
+            ],
+            "tooltip": [
+              "area_name",
+              "index_release",
+              "overall_rank",
+              "overall_decile",
+              "overall_decile_1_to_5"
+            ]
+          },
+          "design": "Use a stepped sequential palette with a discrete legend. Label 1 most deprived, highlight the 1–5 selection distinctly and label missing separately."
+        },
+        {
+          "id": "national-area-counts",
+          "role": "fallback",
+          "availability": "available",
+          "question": "How many published small areas pass each nation's overall threshold?",
+          "mark": "table",
+          "encoding": {
+            "detail": [
+              "nation"
+            ],
+            "columns": [
+              "index_release",
+              "geography",
+              "selected_area_count",
+              "published_area_count"
+            ]
+          }
+        },
+        {
+          "id": "supplementary-maps",
+          "role": "alternative",
+          "availability": "conditional",
+          "needs": [
+            "Matching area polygons and a separate labelled view for each published indicator."
+          ],
+          "question": "Where do the recorded child or older-person indicators flag deprivation?",
+          "mark": "choropleth",
+          "encoding": {
+            "geometry": [
+              "area_polygon"
+            ],
+            "colour": [
+              "children_decile",
+              "older_people_decile"
+            ],
+            "facet": [
+              "nation"
+            ],
+            "tooltip": [
+              "children_indicator",
+              "older_people_indicator",
+              "area_name"
+            ]
+          },
+          "design": "Use one colour field per view. Label the applicable indicator and its edition. Joint comparisons require reviewed comparable definitions."
+        }
+      ]
+    },
+    "tower-hamlets-lsoa-deprivation": {
+      "title": "Tower Hamlets LSOA deprivation",
+      "edition": "English Indices of Deprivation 2025, ONS 2021 LSOA geometry",
+      "references": {
+        "repository": [
+          "tower-hamlets-estate-evidence.md#neighbourhood-context"
+        ],
+        "primary": [
+          "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025",
+          "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/LSOA_2021_EW_BFE_V10_RUC/FeatureServer/3"
+        ],
+        "inputSelector": "lsoa.features with attributes under properties"
+      },
+      "grain": "One 2021 LSOA in Tower Hamlets.",
+      "measure": "National ordinal decile, shown separately by index.",
+      "physicalFields": [
+        "geometry",
+        "code",
+        "name",
+        "imdDecile",
+        "idaciDecile",
+        "idaopiDecile",
+        "idaciPercent",
+        "idaopiPercent"
+      ],
+      "semanticFields": {},
+      "rules": {
+        "aggregation": "Display individual LSOA features and count distinct LSOA codes only when summarising.",
+        "filter": "Select one of IMD, IDACI or IDAOPI at a time. Label 1 most deprived and any 1–5 selection.",
+        "comparability": "Keep deciles separate from Census OA shares. Compare within the same index and edition.",
+        "missing": "Show missing with a neutral swatch or hatch. Review geometry exceptions before precision use."
+      },
+      "views": [
+        {
+          "id": "lsoa-decile-map",
+          "role": "preferred",
+          "availability": "available",
+          "question": "How does the selected deprivation index vary across the borough?",
+          "mark": "choropleth",
+          "encoding": {
+            "geometry": [
+              "geometry"
+            ],
+            "colour": [
+              "imdDecile",
+              "idaciDecile",
+              "idaopiDecile"
+            ],
+            "detail": [
+              "code"
+            ],
+            "tooltip": [
+              "name",
+              "imdDecile",
+              "idaciDecile",
+              "idaopiDecile"
+            ]
+          },
+          "design": "One index colours the map at a time using a stepped sequential scale. Reproduce the source and boundary edition in the legend."
+        }
+      ]
+    },
+    "tower-hamlets-oa-census": {
+      "title": "Tower Hamlets Output Area Census context",
+      "edition": "Census 2021 TS007a and TS011, ONS 2021 OA geography",
+      "references": {
+        "repository": [
+          "tower-hamlets-estate-evidence.md#neighbourhood-context"
+        ],
+        "primary": [
+          "https://www.nomisweb.co.uk/sources/census_2021",
+          "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/OA_2021_EW_BFE_V9_RUC/FeatureServer/3"
+        ],
+        "inputSelector": "oa.features with attributes under properties",
+        "relatedDatasetIds": [
+          "tower-hamlets-lsoa-deprivation"
+        ]
+      },
+      "grain": "One 2021 OA with its parent 2021 LSOA.",
+      "measure": "Resident or household counts and shares, in people, households or percent.",
+      "physicalFields": [
+        "geometry",
+        "code",
+        "lsoa",
+        "residents",
+        "under5",
+        "age60Plus",
+        "households",
+        "deprivedTwoOrMore",
+        "under5Percent",
+        "age60PlusPercent",
+        "deprivedTwoOrMorePercent"
+      ],
+      "semanticFields": {},
+      "rules": {
+        "aggregation": "Age denominators are residents and household deprivation denominators are households. To combine OAs, sum compatible numerators and denominators before dividing.",
+        "filter": "Show OA outlines and selected details. Any joined parent LSOA results must be separately labelled.",
+        "comparability": "Census deprivation dimensions and LSOA indices measure different things. Keep the geography and source date visible. Area context cannot establish household characteristics or who uses a facility.",
+        "missing": "Zero denominator or missing value is unknown. Review invalid captured geometry before precise joins."
+      },
+      "views": [
+        {
+          "id": "oa-outline-detail",
+          "role": "preferred",
+          "availability": "available",
+          "question": "What does the Census say about the selected Output Area?",
+          "mark": "boundary-outline",
+          "encoding": {
+            "geometry": [
+              "geometry"
+            ],
+            "detail": [
+              "code"
+            ],
+            "tooltip": [
+              "lsoa",
+              "under5",
+              "age60Plus",
+              "residents",
+              "deprivedTwoOrMore",
+              "households",
+              "under5Percent",
+              "age60PlusPercent",
+              "deprivedTwoOrMorePercent"
+            ]
+          }
+        },
+        {
+          "id": "oa-indicator-table",
+          "role": "fallback",
+          "availability": "available",
+          "question": "What denominators support the selected area shares?",
+          "mark": "table",
+          "encoding": {
+            "detail": [
+              "code"
+            ],
+            "columns": [
+              "lsoa",
+              "residents",
+              "under5",
+              "age60Plus",
+              "households",
+              "deprivedTwoOrMore"
+            ]
+          }
+        }
+      ]
+    },
+    "tower-hamlets-estate-workbook-locations": {
+      "title": "Government Property Estate workbook locations",
+      "edition": "Cabinet Office Building workbook snapshot downloaded 17 November 2026",
+      "references": {
+        "repository": [
+          "government-property-estate.md",
+          "workbook-snapshots.json",
+          "tower-hamlets-estate-evidence.md#estate-and-geography",
+          "tower-hamlets-estate-evidence.md#building-identity-and-quantities"
+        ],
+        "primary": [
+          "https://www.data.gov.uk/dataset/a3ad62cf-d8a2-4d3b-b3c6-24c35c5e0f71/the-government-property-estate-including-buildings-and-land"
+        ],
+        "relatedDatasetIds": [
+          "tower-hamlets-certificate-evidence",
+          "tower-hamlets-lsoa-deprivation"
+        ]
+      },
+      "grain": "Workbook Building row, with a separate group of identical coordinates and a proposed verified premises grain.",
+      "measure": "Rows or coordinate groups counted separately. Floor Area in m² only within the recorded measurement convention.",
+      "physicalFields": [
+        "Insite Property Reference",
+        "Insite Building Reference",
+        "Building Name",
+        "Property Name",
+        "Organisation",
+        "Usage",
+        "Easting",
+        "Northing",
+        "Floor Area",
+        "Floor Area Measurement",
+        "EPC Property Rating",
+        "DEC Building Rating"
+      ],
+      "semanticFields": {
+        "coordinate_group_id": "Exact ordered pair of original BNG Easting and Northing values in the pinned snapshot.",
+        "workbook_rows_at_point": "Count eligible source rows linked to the exact coordinate group.",
+        "verified_premises_id": "Reviewed premises key linked to valid UPRN, owner or service, dates and occupied extent. A workbook point does not supply this key.",
+        "address_match_status": "Review result for current unit, parent, candidate, historical, rejected or unresolved match."
+      },
+      "rules": {
+        "aggregation": "Count rows, coordinate groups and verified premises separately. Keep colocated identities and hold any conflicting joins for review.",
+        "filter": "Use the published borough join and the documented non-domestic cut. Allow usage and organisation filters, and flag historical or unresolved points.",
+        "comparability": "The point locates a workbook record. Compare area only for the same measurement convention and scope. Use measured area for sizing only when it matches the premises. Keep local licensed OS attributes under their source terms.",
+        "missing": "Keep unknown area and uncertain or missing address evidence labelled. Map excluded coordinate failures in a coverage table or exception list."
+      },
+      "views": [
+        {
+          "id": "workbook-point-map",
+          "role": "preferred",
+          "availability": "available",
+          "question": "Which workbook locations should we check?",
+          "mark": "point-map",
+          "encoding": {
+            "x": [
+              "Easting"
+            ],
+            "y": [
+              "Northing"
+            ],
+            "colour": [
+              "address_match_status"
+            ],
+            "detail": [
+              "coordinate_group_id"
+            ],
+            "tooltip": [
+              "Property Name",
+              "Usage",
+              "workbook_rows_at_point",
+              "Floor Area",
+              "Floor Area Measurement"
+            ]
+          },
+          "design": "Use labelled status symbols where reviewed status exists and keep unknown explicit. A count can size a symbol only when the legend clearly says workbook rows."
+        },
+        {
+          "id": "premises-scope-table",
+          "role": "fallback",
+          "availability": "conditional",
+          "needs": [
+            "Reviewed UPRN and premises crosswalk with reuse approval for its fields."
+          ],
+          "question": "Which workbook points resolve to which premises or building parts?",
+          "mark": "table",
+          "encoding": {
+            "detail": [
+              "coordinate_group_id"
+            ],
+            "columns": [
+              "Insite Building Reference",
+              "verified_premises_id",
+              "address_match_status",
+              "Floor Area",
+              "Floor Area Measurement"
+            ]
+          }
+        }
+      ]
+    },
+    "tower-hamlets-certificate-evidence": {
+      "title": "Workbook and public certificate evidence",
+      "edition": "Workbook downloaded 17 November 2026. Public checks observed 20 November 2026.",
+      "references": {
+        "repository": [
+          "tower-hamlets-estate-evidence.md#finding-energy-certificates",
+          "tower-hamlets-screening-method.md#certificate-lookup-procedure",
+          "uk-public-estate-decarbonisation-method.md#tower-hamlets-threshold-dry-run"
+        ],
+        "primary": [
+          "https://www.gov.uk/find-energy-certificate",
+          "https://get-energy-performance-data.communities.gov.uk/"
+        ],
+        "relatedDatasetIds": [
+          "tower-hamlets-estate-workbook-locations"
+        ]
+      },
+      "grain": "Workbook row and field, or independently observed certificate reference and assessed premises.",
+      "measure": "Counts and coverage share by type and evidence status. Rating is an ordinal band.",
+      "physicalFields": [
+        "EPC Property Rating",
+        "DEC Building Rating",
+        "EPC Expiry Date",
+        "DEC Expiry Date"
+      ],
+      "semanticFields": {
+        "record_grain": "Declare workbook_row or assessed_premises for each displayed series.",
+        "certificate_type": "Non-domestic asset EPC or operational DEC.",
+        "certificate_band": "Letter band at the declared source grain and date.",
+        "coverage_state": "Distinguish valid and scope-verified, expired, conflicting, unmatched, missing workbook field, public match not found, unavailable, unresolved scope, and not applicable.",
+        "eligible_count": "Count distinct applicable records at record_grain within one certificate type, reporting each unverified applicability separately.",
+        "state_count": "Count distinct records by coverage_state and certificate_type at record_grain. Publish the rule for selecting current certificates where several were found."
+      },
+      "rules": {
+        "aggregation": "Show search and applicability coverage and explicit denominators. Keep raw workbook band counts separate from reviewed premises results.",
+        "filter": "Separate EPC and DEC. Show D, E, F and G as candidate bands. Verified current D–G requires register status and premises scope.",
+        "comparability": "Use the same nation-specific methodology, assessed unit and coverage date before comparing. Avoid pooling EPC asset and DEC operational bands.",
+        "missing": "No match, missing, expired, open scope and unavailable each need an explicit status. A–C is not a default for any of these states."
+      },
+      "views": [
+        {
+          "id": "certificate-coverage-table",
+          "role": "preferred",
+          "availability": "available",
+          "question": "What rating evidence exists at the declared grain?",
+          "mark": "table",
+          "encoding": {
+            "detail": [
+              "record_grain",
+              "certificate_type"
+            ],
+            "columns": [
+              "coverage_state",
+              "certificate_band",
+              "state_count",
+              "eligible_count"
+            ]
+          },
+          "design": "Use workbook counts and the checked site cases from the evidence notes. Keep unmeasured denominators explicitly unknown."
+        },
+        {
+          "id": "certificate-verification-bars",
+          "role": "alternative",
+          "availability": "conditional",
+          "needs": [
+            "Reviewed register match log with applicability and occupied scope recorded across the cohort."
+          ],
+          "question": "How much of the eligible cohort has comparable D–G evidence?",
+          "mark": "bar",
+          "encoding": {
+            "x": [
+              "state_count"
+            ],
+            "y": [
+              "coverage_state"
+            ],
+            "facet": [
+              "certificate_type",
+              "record_grain"
+            ],
+            "tooltip": [
+              "eligible_count",
+              "certificate_band"
+            ]
+          }
+        }
+      ]
+    },
+    "mile-end-eric-site-year": {
+      "title": "Mile End Hospital ERIC site returns",
+      "edition": "ERIC 2024/25 and 2025/26 Site data v3, site R1H13",
+      "references": {
+        "repository": [
+          "tower-hamlets-estate-evidence.md#mile-end-hospital-costs-and-estate-condition"
+        ],
+        "primary": [
+          "https://digital.nhs.uk/data-and-information/publications/statistical/estates-returns-information-collection/summary-page-and-dataset-for-eric-2024-25",
+          "https://digital.nhs.uk/data-and-information/publications/statistical/estates-returns-information-collection/summary-page-and-dataset-for-eric-2025-26"
+        ],
+        "relatedDatasetIds": [
+          "premises-meter-bills",
+          "public-estate-investment-ledger"
+        ]
+      },
+      "grain": "One ERIC site return per financial year, or one separately identified risk category after reshaping.",
+      "measure": "Annual GBP and kWh, gross internal area in m², derived p/kWh, and estimated backlog GBP by risk.",
+      "physicalFields": [
+        "Site Code",
+        "Gross internal floor area (m²)",
+        "Electricity - green electricity tariff costs (£)",
+        "Electricity - other costs (£)",
+        "Electricity - green electricity consumed (kWh)",
+        "Electricity - other consumed (kWh)",
+        "Gas costs (£)",
+        "Gas consumed (kWh)",
+        "Estates and property maintenance (£)",
+        "Other Hard FM (Estates) costs (£)",
+        "Cleaning service cost (£)",
+        "Other Soft FM (Hotel Services) costs (£)",
+        "Investment to reduce backlog maintenance - Critical Infrastructure Risk (£)",
+        "Investment to reduce backlog maintenance - non Critical Infrastructure Risk (£)",
+        "Methodology used to review costs to eradicate backlog (Select)",
+        "Cost to eradicate high risk backlog (£)",
+        "Cost to eradicate significant risk backlog (£)",
+        "Cost to eradicate moderate risk backlog (£)",
+        "Cost to eradicate low risk backlog (£)"
+      ],
+      "semanticFields": {
+        "reporting_year": "Financial year identified by the release.",
+        "fuel": "Gas or electricity in the site return; keep other utilities separate.",
+        "annual_cost_gbp": "Gas costs, or electricity green plus other costs for the checked Mile End rows.",
+        "annual_consumption_kwh": "Gas consumed, or electricity green plus other consumption for these rows.",
+        "effective_cost_p_per_kwh": "100 times same-fuel annual cost divided by positive annual consumption. Includes charges beyond the tariff.",
+        "risk_band": "High, significant, moderate or low, from the four ERIC backlog fields.",
+        "estimated_backlog_gbp": "Estimated cost to eradicate backlog for the stated risk band and report year."
+      },
+      "rules": {
+        "aggregation": "Keep annual costs, energy, backlog stock, routine maintenance and investment separate. Sum like-for-like risk bands only within a return.",
+        "filter": "R1H13 only. Label both financial years and the area for each.",
+        "comparability": "Treat year-to-year changes as screening while footprint, loads and meter coverage differ or remain unresolved. Label GIA separately from the DEC useful floor area and any project scope.",
+        "missing": "Missing or not applicable costs are not zero. Withhold p/kWh for missing or zero denominators. No campus capital total inferred."
+      },
+      "views": [
+        {
+          "id": "annual-energy-cost-panels",
+          "role": "preferred",
+          "availability": "available",
+          "question": "How do use and spend differ between the recorded site years?",
+          "mark": "small-multiple-bars",
+          "encoding": {
+            "x": [
+              "reporting_year"
+            ],
+            "y": [
+              "annual_consumption_kwh",
+              "annual_cost_gbp"
+            ],
+            "facet": [
+              "fuel"
+            ],
+            "tooltip": [
+              "Site Code",
+              "Gross internal floor area (m²)",
+              "effective_cost_p_per_kwh"
+            ]
+          },
+          "design": "Use separate unit-specific panels on the same year sequence. Label cost and consumption separately. Do not use dual axes."
+        },
+        {
+          "id": "backlog-risk-bars",
+          "role": "alternative",
+          "availability": "available",
+          "question": "Which risk bands contribute to the reported backlog estimate?",
+          "mark": "bar",
+          "encoding": {
+            "x": [
+              "estimated_backlog_gbp"
+            ],
+            "y": [
+              "risk_band"
+            ],
+            "facet": [
+              "reporting_year"
+            ],
+            "tooltip": [
+              "Site Code",
+              "Methodology used to review costs to eradicate backlog (Select)"
+            ]
+          },
+          "design": "Order by risk, start the amount scale at zero and label as an estimate of deferred work."
+        },
+        {
+          "id": "spend-and-investment-table",
+          "role": "companion",
+          "availability": "available",
+          "question": "Which reported lines are routine operating costs and which are investments to reduce backlog?",
+          "mark": "table",
+          "encoding": {
+            "detail": [
+              "Site Code",
+              "reporting_year"
+            ],
+            "columns": [
+              "Estates and property maintenance (£)",
+              "Other Hard FM (Estates) costs (£)",
+              "Cleaning service cost (£)",
+              "Other Soft FM (Hotel Services) costs (£)",
+              "Investment to reduce backlog maintenance - Critical Infrastructure Risk (£)",
+              "Investment to reduce backlog maintenance - non Critical Infrastructure Risk (£)"
+            ]
+          },
+          "design": "Separate the hard and soft services group from backlog investment and label each financial year. Show project funding and its evidence date in the investment review."
+        }
+      ]
+    },
+    "premises-meter-bills": {
+      "title": "Premises meter readings and bills",
+      "edition": "Proposed local evidence contract, v1",
+      "references": {
+        "repository": [
+          "tower-hamlets-screening-method.md#6-establish-energy-area-and-emissions-at-the-same-scope",
+          "tower-hamlets-data-access.md#evidence-from-occupiers"
+        ],
+        "relatedDatasetIds": [
+          "mile-end-eric-site-year",
+          "public-estate-measure-outcomes"
+        ]
+      },
+      "grain": "Meter or reconciled premises, fuel and non-overlapping billing or reading period.",
+      "measure": "kWh, GBP, p/kWh and where scope permits kWh/m².",
+      "physicalFields": [],
+      "semanticFields": {
+        "period": "Start and end of reconciled period.",
+        "fuel": "Fuel or electricity type.",
+        "kwh": "Reconciled activity with reading status.",
+        "billed_gbp": "Actual billed charges for same supply and period.",
+        "effective_p_per_kwh": "100 times billed_gbp/kwh when positive and scope aligned.",
+        "meter_scope": "Covered premises and primary or submeter relation.",
+        "reading_status": "Actual, estimated, partial, missing or unresolved."
+      },
+      "rules": {
+        "aggregation": "Sum only disjoint intervals and supplies. Reconcile primary and submeters and keep actual and estimated use labelled.",
+        "filter": "Choose a consistent premises, fuel and reporting window.",
+        "comparability": "Check meter and floor boundaries, weather, operating hours and charges first. Keep demand and cost measures separate.",
+        "missing": "Show gaps rather than interpolate, and flag estimated reads and unresolved supplies."
+      },
+      "views": [
+        {
+          "id": "bill-period-panels",
+          "role": "preferred",
+          "availability": "planned",
+          "needs": [
+            "Authorised bills, validated monthly reads, fuel and meter boundary, and aligned premises and periods."
+          ],
+          "question": "Did use or effective charges drive a change in site spending?",
+          "mark": "small-multiple-lines",
+          "encoding": {
+            "x": [
+              "period"
+            ],
+            "y": [
+              "kwh",
+              "billed_gbp"
+            ],
+            "facet": [
+              "fuel"
+            ],
+            "tooltip": [
+              "meter_scope",
+              "reading_status",
+              "effective_p_per_kwh"
+            ]
+          },
+          "design": "Use a separate panel per unit and align time axes. Display gaps and period changes."
+        }
+      ]
+    },
+    "tower-hamlets-desnz-subnational-energy": {
+      "title": "DESNZ non-domestic area energy in Tower Hamlets",
+      "edition": "DESNZ subnational electricity and gas, 2024",
+      "references": {
+        "repository": [
+          "tower-hamlets-estate-evidence.md#non-domestic-energy-consumption"
+        ],
+        "primary": [
+          "https://www.gov.uk/government/statistical-data-sets/stacked-electricity-consumption-statistics-data",
+          "https://www.gov.uk/government/statistical-data-sets/stacked-gas-consumption-statistics-data",
+          "https://www.gov.uk/government/statistics/subnational-electricity-and-gas-consumption-summary-report-2024/subnational-electricity-and-gas-consumption-summary-report-2024--2#accompanying-tables"
+        ],
+        "inputSelector": "data.gas and data.electricity"
+      },
+      "grain": "Year, fuel, published MSOA and applicable meter class. Half-hourly electricity has a separate borough-wide row.",
+      "measure": "Total consumption in kWh, meter count, and supplied mean or median kWh per meter.",
+      "physicalFields": [
+        "Year",
+        "LA_code",
+        "LA",
+        "MSOA_code",
+        "MSOA",
+        "Meter_type",
+        "Meters",
+        "Consumption_kWh",
+        "Mean_consumption_kWh_per_meter",
+        "Median_consumption_kWh_per_meter"
+      ],
+      "semanticFields": {
+        "fuel": "Gas or electricity based on the input collection.",
+        "consumption_gwh": "Consumption_kWh divided by 1,000,000.",
+        "area_polygon": "Official MSOA geography matched on MSOA_code and edition.",
+        "published_scope": "Named MSOA or borough-wide All MSOAs as supplied."
+      },
+      "rules": {
+        "aggregation": "Keep gas and non-half-hourly electricity as separate MSOA series. Do not average area medians or treat meter counts as premises counts.",
+        "filter": "2024 and Tower Hamlets LA_code E09000030. Use named areas for MSOA views and the All MSOAs row for the borough half-hourly view.",
+        "comparability": "Show actual published spatial resolution and meter definition. Preserve period and geography. Never allocate borough half-hourly electricity to MSOA or LSOA or attribute area aggregates to a facility.",
+        "missing": "Label suppressed, unavailable and unmatched areas explicitly. Do not substitute zero."
+      },
+      "views": [
+        {
+          "id": "named-msoa-table",
+          "role": "preferred",
+          "availability": "available",
+          "question": "What gas and non-half-hourly electricity use does DESNZ report by MSOA?",
+          "mark": "table",
+          "encoding": {
+            "detail": [
+              "MSOA_code"
+            ],
+            "facet": [
+              "fuel"
+            ],
+            "columns": [
+              "MSOA",
+              "Year",
+              "consumption_gwh",
+              "Meters"
+            ]
+          }
+        },
+        {
+          "id": "named-msoa-maps",
+          "role": "alternative",
+          "availability": "conditional",
+          "needs": [
+            "Verified MSOA boundaries at the published geography edition and a unique MSOA code match."
+          ],
+          "question": "Where do the published totals vary within the borough?",
+          "mark": "choropleth",
+          "encoding": {
+            "geometry": [
+              "area_polygon"
+            ],
+            "colour": [
+              "consumption_gwh"
+            ],
+            "facet": [
+              "fuel"
+            ],
+            "detail": [
+              "MSOA_code"
+            ],
+            "tooltip": [
+              "MSOA",
+              "Year",
+              "Meters",
+              "published_scope"
+            ]
+          }
+        },
+        {
+          "id": "borough-half-hourly-note",
+          "role": "companion",
+          "availability": "available",
+          "question": "What half-hourly electricity does DESNZ report for the borough?",
+          "mark": "table",
+          "encoding": {
+            "detail": [
+              "LA_code"
+            ],
+            "columns": [
+              "Year",
+              "published_scope",
+              "Meter_type",
+              "consumption_gwh",
+              "Meters"
+            ]
+          }
+        }
+      ]
+    },
+    "uk-ecuk-community-estate-2025": {
+      "title": "ECUK modelled end uses for community and public buildings",
+      "edition": "Energy Consumption in the UK 2026, End Uses Table U6, 2025 estimates",
+      "references": {
+        "repository": [
+          "tower-hamlets-estate-evidence.md#uk-modelled-end-uses-for-community-buildings"
+        ],
+        "primary": [
+          "https://www.gov.uk/government/statistics/energy-consumption-in-the-uk-2026"
+        ],
+        "notebookPaths": [
+          "/data/ecuk-2025-community-estate.csv"
+        ]
+      },
+      "grain": "One of seven selected UK facility categories by reference year.",
+      "measure": "Modelled national electricity or natural gas in ktoe.",
+      "physicalFields": [
+        "year",
+        "geography",
+        "sector",
+        "category",
+        "workbook_row",
+        "total_electricity_ktoe",
+        "total_natural_gas_ktoe",
+        "heating_electricity_ktoe",
+        "heating_natural_gas_ktoe",
+        "hot_water_electricity_ktoe",
+        "hot_water_natural_gas_ktoe",
+        "catering_electricity_ktoe",
+        "catering_natural_gas_ktoe",
+        "source_workbook",
+        "source_sheet"
+      ],
+      "semanticFields": {
+        "fuel": "Electricity or natural gas from the column name.",
+        "total_ktoe": "Reshaped value from the corresponding total fuel column."
+      },
+      "rules": {
+        "aggregation": "Use facility categories as released. The selected end uses do not exhaust the fuel totals. Avoid adding end-use lines to totals or mixing parents and children.",
+        "filter": "UK 2025 and the seven selected categories from Table U6.",
+        "comparability": "Modelled national totals using service-sector proportions from BEES 2015. Keep category size and coverage visible. Figures provide neither site bills nor per-site intensity.",
+        "missing": "Distinguish source nulls from modelled zeros and categories outside the extract."
+      },
+      "views": [
+        {
+          "id": "category-fuel-bars",
+          "role": "preferred",
+          "availability": "available",
+          "question": "How large are modelled UK gas and electricity totals for the selected types?",
+          "mark": "small-multiple-bars",
+          "encoding": {
+            "x": [
+              "total_ktoe"
+            ],
+            "y": [
+              "category"
+            ],
+            "facet": [
+              "fuel"
+            ],
+            "tooltip": [
+              "year",
+              "geography",
+              "sector",
+              "source_sheet"
+            ]
+          },
+          "design": "Use zero-based comparable ktoe scales and a fixed category order. State modelled UK totals in the title or caption."
+        },
+        {
+          "id": "selected-end-uses-table",
+          "role": "fallback",
+          "availability": "available",
+          "question": "What selected end uses contribute to the published fuel totals?",
+          "mark": "table",
+          "encoding": {
+            "detail": [
+              "category"
+            ],
+            "columns": [
+              "total_electricity_ktoe",
+              "total_natural_gas_ktoe",
+              "heating_electricity_ktoe",
+              "heating_natural_gas_ktoe",
+              "hot_water_electricity_ktoe",
+              "hot_water_natural_gas_ktoe",
+              "catering_electricity_ktoe",
+              "catering_natural_gas_ktoe"
+            ]
+          }
+        }
+      ]
+    },
+    "public-estate-investment-ledger": {
+      "title": "Investment and measure status",
+      "edition": "Proposed evidence model from UK method v0.2",
+      "references": {
+        "repository": [
+          "uk-public-estate-decarbonisation-method.md#3-record-investment-by-site-and-measure",
+          "uk-public-estate-decarbonisation-method.md#4-assign-a-queue-deterministically",
+          "tower-hamlets-estate-evidence.md#building-projects-and-the-national-context"
+        ],
+        "primary": [
+          "https://www.gov.uk/government/publications/public-sector-decarbonisation-scheme-phase-4"
+        ],
+        "relatedDatasetIds": [
+          "public-estate-measure-outcomes",
+          "mile-end-eric-site-year"
+        ]
+      },
+      "grain": "Dated observation for a scoped site, project and measure. Funding lines retain separate award grain.",
+      "measure": "Distinct measures or premises by stage, published as-on dates and separately defined GBP amounts.",
+      "physicalFields": [],
+      "semanticFields": {
+        "premises_id": "Verified occupied premises and scope.",
+        "measure_id": "Stable key for the scoped delivery measure.",
+        "stage": "Development, approved or committed, underway, commissioning, operational, historic, cancelled or unresolved.",
+        "stage_as_of": "Observation date and effective date of the supported stage.",
+        "investment_check": "Known relevant investment, confirmed no active delivery, no public award found, or unknown.",
+        "grant_gbp": "Amount awarded for the stated scope.",
+        "approved_budget_gbp": "Approved budget for the scoped project or measure.",
+        "committed_gbp": "Contractual commitment for the stated scope.",
+        "outturn_gbp": "Actual spend or outturn evidenced for that scope.",
+        "measure_count": "Distinct measure IDs in the stated stage at the as-of date.",
+        "eligible_measure_count": "Distinct measures assessed at the same scope and as-of date before stage filters."
+      },
+      "rules": {
+        "aggregation": "Choose one stage per measure at the as-of date. Count sites separately; deduplicate award lines. Award, budget, commitment and outturn amounts are distinct.",
+        "filter": "Show date, nation, stage and scope. Confirm owner evidence and freshness before including no-active-investment measures.",
+        "comparability": "Keep current or historical work, routine maintenance, backlog estimates and utility bills distinct. Scope a measure separately when other site work exists.",
+        "missing": "No public award found does not confirm absence of investment. Mark missing owner records, stale dates, conflicts and unknown outturn."
+      },
+      "views": [
+        {
+          "id": "investment-review-table",
+          "role": "preferred",
+          "availability": "planned",
+          "needs": [
+            "Dated owner and programme evidence with a reviewed site and measure crosswalk."
+          ],
+          "question": "Which measures are in development or delivery, and what funding and status evidence exists?",
+          "mark": "table",
+          "encoding": {
+            "detail": [
+              "premises_id",
+              "measure_id"
+            ],
+            "columns": [
+              "stage",
+              "stage_as_of",
+              "investment_check",
+              "grant_gbp",
+              "approved_budget_gbp",
+              "committed_gbp",
+              "outturn_gbp"
+            ]
+          }
+        },
+        {
+          "id": "stage-coverage-bars",
+          "role": "alternative",
+          "availability": "planned",
+          "needs": [
+            "Enough consistently classified measures with a known denominator and an explicit unknown category."
+          ],
+          "question": "How much of the assessed measure cohort is accounted for at each stage?",
+          "mark": "bar",
+          "encoding": {
+            "x": [
+              "measure_count"
+            ],
+            "y": [
+              "stage"
+            ],
+            "tooltip": [
+              "stage_as_of",
+              "eligible_measure_count"
+            ]
+          }
+        }
+      ]
+    },
+    "public-estate-measure-outcomes": {
+      "title": "Evaluation of funded or completed measures",
+      "edition": "Proposed evaluation evidence model from UK method v0.2",
+      "references": {
+        "repository": [
+          "uk-public-estate-decarbonisation-method.md#5-freeze-the-baseline-and-evaluate-delivered-work",
+          "uk-public-estate-decarbonisation-method.md#6-worked-application-at-mile-end-hospital"
+        ],
+        "primary": [
+          "https://www.gov.uk/government/publications/public-sector-decarbonisation-scheme-psds-evaluation-of-phase-3"
+        ],
+        "relatedDatasetIds": [
+          "public-estate-investment-ledger",
+          "premises-meter-bills"
+        ]
+      },
+      "grain": "Completed measure or evaluated package, fuel or reported outcome, stable measurement window and declared scope.",
+      "measure": "Measured or adjusted kWh, GBP and tonnes CO₂e in separate units and evidence classes.",
+      "physicalFields": [],
+      "semanticFields": {
+        "measure_id": "Reviewed measure or package with commissioning date.",
+        "window": "Approved baseline, follow-up or comparator period.",
+        "fuel": "Metered fuel or electricity flow.",
+        "metric": "Outcome quantity with unit and factor basis or tariff basis.",
+        "value": "Documented estimated, observed, adjusted or attributable quantity in the specified unit.",
+        "evidence_class": "Anticipated, observed, adjusted, attributable, or unavailable.",
+        "scope_check": "Agreement on scope, data quality, weather, usage, area and concurrent works."
+      },
+      "rules": {
+        "aggregation": "Compute one result per declared measure or package, metric and window. Avoid double-counting shared meters or overlapping measures.",
+        "filter": "Show before and after only with stable, aligned observed windows and defensible scope. Put forecasts in a separate view or column.",
+        "comparability": "Document weather and usage adjustment, commissioning, comparator, PV imports and exports or fuel switching, and separate actual bills from constant tariff cost and fixed-factor savings from realised emissions.",
+        "missing": "If evidence is incomplete show a readiness table. Leave savings blank and explain the blocker."
+      },
+      "views": [
+        {
+          "id": "aligned-before-after-panels",
+          "role": "preferred",
+          "availability": "planned",
+          "needs": [
+            "Commissioning evidence and matched stable metered windows with reviewed adjustments and concurrent works."
+          ],
+          "question": "How did an eligible measured outcome change after delivery?",
+          "mark": "small-multiple-dots",
+          "encoding": {
+            "x": [
+              "window"
+            ],
+            "y": [
+              "value"
+            ],
+            "facet": [
+              "metric",
+              "fuel"
+            ],
+            "detail": [
+              "measure_id"
+            ],
+            "tooltip": [
+              "evidence_class",
+              "scope_check"
+            ]
+          },
+          "design": "Use one unit and evidence class per panel. Label observed and adjusted quantities separately. Only claim attributable change with the evaluation evidence."
+        },
+        {
+          "id": "evaluation-readiness-table",
+          "role": "fallback",
+          "availability": "planned",
+          "needs": [
+            "A scoped project or package record and documented readiness checks."
+          ],
+          "question": "Which completed measures have the evidence needed for evaluation?",
+          "mark": "table",
+          "encoding": {
+            "detail": [
+              "measure_id"
+            ],
+            "columns": [
+              "window",
+              "scope_check",
+              "evidence_class"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

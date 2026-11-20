@@ -1,0 +1,7 @@
+# Local source downloads and generated debris
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+sources/snapshots/
+.playwright-mcp/

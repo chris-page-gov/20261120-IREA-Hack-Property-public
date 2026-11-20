@@ -1,0 +1,341 @@
+{
+  "observed_on": "2026-11-18",
+  "scope": "Public five-pilot output audit and controlled Warwickshire reuse assessment. No source case records or candidate business keys retained.",
+  "source_checks_time": "2026-11-18T15:48:39.080803+00:00",
+  "partner_mapping_release_status": "No named partner-specific mapping or conformant National Public View export found in checked primary sources.",
+  "programme_evidence": [
+    "https://mhclgdigital.blog.gov.uk/2025/11/18/testing-new-planning-data-specifications-with-industry-5-pilot-partnerships-paving-the-way/",
+    "https://mhclgdigital.blog.gov.uk/2026/01/30/testing-new-planning-data-standards-with-industry-what-we-learned-from-phase-1-and-where-we-go-next/",
+    "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/What%20we%20are%20learning%20about%20implementing%20the%20Open%20Data%20Standards.pdf"
+  ],
+  "live_source_checks": [
+    {
+      "id": "hounslow-legacy-csv",
+      "url": "https://data.hounslow.gov.uk/download/planning/hounslow-planning-applications/planning-applications/CSV?version=30/05/2019",
+      "status": 206,
+      "resolved": "https://data.hounslow.gov.uk/download/planning/hounslow-planning-applications/planning-applications/CSV?version=30/05/2019",
+      "content_type": "text/html; charset=utf-8",
+      "content-range": "bytes 0-2736/2737",
+      "last-modified": "Wed, 18 Nov 2026 00:31:57 GMT",
+      "etag": "\"aa14557961438cb377b02c090c359fad\"",
+      "error": "Endpoint served HTML or XML instead of CSV"
+    },
+    {
+      "id": "hounslow-legacy-definition",
+      "url": "https://data.hounslow.gov.uk/api/planning/hounslow-planning-applications/definition?format=JSON",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "salford-legacy-csv",
+      "url": "https://map.salford.gov.uk/maps/opendata/SCC-planning-applications.csv",
+      "error": "HTTP Error 502: Bad Gateway"
+    },
+    {
+      "id": "redbridge-download-page",
+      "url": "https://data.redbridge.gov.uk/Download/planning-and-land/planning-applications",
+      "status": 200,
+      "resolved": "https://data.redbridge.gov.uk/Download/planning-and-land/planning-applications",
+      "content_type": "text/html; charset=utf-8",
+      "bytes_read": 6786,
+      "response_sample_sha256": "54bcef3338525247c6b54771ef4334409b0ab13065dde54c40cc61cb0137900f"
+    },
+    {
+      "id": "dorset-portal",
+      "url": "https://www.dorsetcouncil.gov.uk/planning-buildings-land/planning/planning",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "dorset-announced-checklist",
+      "url": "https://www.dorsetcouncil.gov.uk/documents/d/guest/validation-national-and-local-list-02-02-2026",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "london-datastore",
+      "url": "https://data.london.gov.uk/dataset/planning-london-datahub-applications-236qk",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "national-applications",
+      "url": "https://www.planning.data.gov.uk/entity.json?dataset=planning-application&limit=1",
+      "status": 200,
+      "resolved": "https://www.planning.data.gov.uk/entity.json?dataset=planning-application&limit=1",
+      "content_type": "application/json",
+      "count": 0,
+      "count_is_capped": false,
+      "entities_returned": 0,
+      "bytes_read": 60,
+      "response_sample_sha256": "1d1a2b306eea5618cc10669c3b56dc5f76007c6abeaa364afe96fcc68236e29e"
+    },
+    {
+      "id": "national-decisions",
+      "url": "https://www.planning.data.gov.uk/entity.json?dataset=planning-decision&limit=1",
+      "status": 200,
+      "resolved": "https://www.planning.data.gov.uk/entity.json?dataset=planning-decision&limit=1",
+      "content_type": "application/json",
+      "count": 0,
+      "count_is_capped": false,
+      "entities_returned": 0,
+      "bytes_read": 60,
+      "response_sample_sha256": "1d1a2b306eea5618cc10669c3b56dc5f76007c6abeaa364afe96fcc68236e29e"
+    },
+    {
+      "id": "hounslow-planning-datahub",
+      "url": "https://planninglondondatahub.london.gov.uk/",
+      "status": 200,
+      "resolved": "https://planninglondondatahub.london.gov.uk/",
+      "content_type": "text/html",
+      "last-modified": "Wed, 08 Jul 2026 15:01:10 GMT",
+      "etag": "\"6a4e6636-6c5\"",
+      "bytes_read": 1867,
+      "response_sample_sha256": "9d17de17ce9650c44e7b0bbf8599d8e53ca1fcb803a67acbee2c498e4e98ffcb"
+    },
+    {
+      "id": "redbridge-schema",
+      "url": "https://data.redbridge.gov.uk/api/planning-and-land/planning-applications/definition",
+      "status": 200,
+      "response_format": "XML",
+      "payload_state": "Schema disabled"
+    },
+    {
+      "id": "redbridge-dataset-list",
+      "url": "https://data.redbridge.gov.uk/api/planning-and-land/planning-applications",
+      "status": 200,
+      "response_format": "XML",
+      "datasets_returned": 0
+    },
+    {
+      "id": "wcc-county-register",
+      "url": "https://www.warwickshire.gov.uk/wccplanning",
+      "resolved": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHVARYLOGIN.display",
+      "status": 200,
+      "public_routes": [
+        "https://planning.warwickshire.gov.uk/swiftlg/apas/run/wphappcriteria.display",
+        "https://planning.warwickshire.gov.uk/swiftlg/apas/run/Wchweeklylist.displayPlanningLists"
+      ],
+      "payload_state": "Search and weekly list navigation verified; case-level fields not measured"
+    },
+    {
+      "id": "wcc-minerals-waste-register",
+      "url": "https://www.warwickshire.gov.uk/mineralsandwasteplanning",
+      "resolved": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHVARYLOGIN.display",
+      "status": 200,
+      "payload_state": "Same register landing as county applications"
+    }
+  ],
+  "leeds_csv_profile": {
+    "url": "https://opendata.leeds.gov.uk/downloads/planning/applications/apps.csv",
+    "status": 200,
+    "resolved": "https://opendata.leeds.gov.uk/downloads/planning/applications/apps.csv",
+    "observed_at": "2026-11-18T15:52:14.441511+00:00",
+    "last_modified": "Sun, 01 Nov 2026 04:20:26 GMT",
+    "etag": "\"38c6652b869dd1:0\"",
+    "headings": [
+      "extractDate",
+      "publisherURL",
+      "publisherLabel",
+      "organisationURL",
+      "organisationLabel",
+      "caseReference",
+      "caseURL",
+      "caseDate",
+      "serviceTypeURL",
+      "serviceTypeLabel",
+      "classificationURL",
+      "classificationLabel",
+      "caseText",
+      "locationText",
+      "status",
+      "decisionDate",
+      "decision",
+      "decisionType",
+      "decisionNoticeDate",
+      "appealDecisionDate",
+      "appealDecision",
+      "geoAreaURL",
+      "geoAreaLabel",
+      "agent",
+      "publicConsultationStart_Date",
+      "publicConsultationEnd_Date"
+    ],
+    "bytes": 32229539,
+    "sha256": "59701a281e63984718d4f0c1b67d7183b3d9f670b5782459464c61c96ec6fd7f",
+    "rows": 38853,
+    "fields_present": {
+      "caseReference": 38853,
+      "caseURL": 38853,
+      "caseDate": 38853,
+      "decisionDate": 36549,
+      "decision": 36504,
+      "decisionType": 36549,
+      "decisionNoticeDate": 36549,
+      "appealDecision": 930,
+      "publicConsultationStart_Date": 38853,
+      "publicConsultationEnd_Date": 38853
+    },
+    "unique_nonblank_case_references": 38853,
+    "repeated_nonblank_case_references": 0,
+    "distinct_status_values": 5,
+    "observed_date_ranges": {
+      "caseDate": [
+        "2021-11-01",
+        "2026-10-29"
+      ],
+      "decisionDate": [
+        "2021-11-04",
+        "2026-10-29"
+      ],
+      "decisionNoticeDate": [
+        "2021-11-04",
+        "2026-10-29"
+      ],
+      "publicConsultationStart_Date": [
+        "2021-11-01",
+        "2026-10-29"
+      ],
+      "publicConsultationEnd_Date": [
+        "2006-03-20",
+        "2026-11-27"
+      ],
+      "extractDate": [
+        "2026-11-01",
+        "2026-11-01"
+      ]
+    },
+    "catalogue": "https://datamillnorth.org/dataset/planning-applications-exkkr",
+    "date_handling": "UK day/month/two-digit-year dates parsed using the modern extract context. The observed range is diagnostic, not a contractual date constraint.",
+    "contains_uprn_geometry_or_conditions": false
+  },
+  "publisher_worked_examples": {
+    "pinned_revision": "3b1dacd63c489abf6b0ee8cc394214711e2b77fd",
+    "read_only_projection_check": {
+      "inputs": [
+        {
+          "url": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/specification/example/planning-application-data/householder-application.json",
+          "sha256": "44f838ccbc435c5a15710815ce0a8c1dda4bc7d5c2b675c6f83ad782e4ce4596"
+        },
+        {
+          "url": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/specification/national-public-view.schema.md",
+          "sha256": "be1c16c191c6fbc727acd335acc454403d02f8e750649c3c53c8eb7948aaa043"
+        },
+        {
+          "url": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/data/usage/permission-process-event-usage.csv",
+          "sha256": "6ee2d5122e0edfbd541f776dd41da9918bc23d53f422cfc67b28ad239ae2fffa"
+        }
+      ],
+      "counts_in_example": {
+        "site": 1,
+        "planning-application": 1,
+        "planning-application-data": 1,
+        "planning-application-document": 4,
+        "planning-permission-timeline": 6,
+        "decision-notice": 1,
+        "planning-condition": 2,
+        "decision-condition": 2
+      },
+      "counts_after_projection": {
+        "planning-application": 1,
+        "site": 1,
+        "decision-notice": 1,
+        "planning-condition": 2,
+        "decision-condition": 2,
+        "section-106": 0,
+        "planning-application-document": 3,
+        "planning-permission-timeline": 6
+      },
+      "excluded_submission_dataset": true,
+      "excluded_officer_name": true,
+      "excluded_withheld_document": true,
+      "timeline_rows_selected_by_usage_profile": 6,
+      "verified_projection_scope": "Draft field and record inclusion rules only. This is a worked example, not a current authority export or conformance certification."
+    },
+    "combined_listed_building_consent_example": {
+      "url": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/specification/example/dataset/planning-application/combined-full-and-listed-building-consent.json",
+      "sha256": "5516bdd8fbfcad0fed36dd5a81bf43de562f2e8a2a752b398ac58f0ae3c1373e",
+      "application_types": [
+        "full",
+        "lbc"
+      ]
+    },
+    "repository_analysis_sample": {
+      "url": "https://github.com/digital-land/planning-application-data-specification/tree/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/data/analysis/applications",
+      "counts_by_dataset": {
+        "decision-condition": 294,
+        "decision-notice": 20,
+        "planning-application-data": 1,
+        "planning-application-document": 1288,
+        "planning-application": 21,
+        "planning-condition": 294,
+        "planning-permission-timeline": 55,
+        "section-106": 6,
+        "site": 21
+      },
+      "planning_authority_counts": {
+        "(missing)": 1,
+        "local-authority:CMD": 1,
+        "local-authority:DAC": 3,
+        "local-authority:HCK": 4,
+        "local-authority:LBH": 5,
+        "local-authority:LEW": 3,
+        "local-authority:MAN": 3,
+        "local-authority:WYR": 1
+      },
+      "publisher_hosts_by_authority": {
+        "local-authority:MAN": [
+          "arcusbe.manchester.gov.uk"
+        ],
+        "local-authority:LBH": [
+          "planning.lambeth.gov.uk"
+        ],
+        "(missing)": [
+          "developmentandhousing.hackney.gov.uk"
+        ],
+        "local-authority:HCK": [
+          "developmentandhousing.hackney.gov.uk"
+        ],
+        "local-authority:CMD": [
+          "planningrecords.camden.gov.uk"
+        ],
+        "local-authority:WYR": [
+          "publicaccess.wyre.gov.uk"
+        ],
+        "local-authority:DAC": [
+          "planning.dacorum.gov.uk"
+        ],
+        "local-authority:LEW": [
+          "planning.lewisham.gov.uk"
+        ]
+      },
+      "submission_folders": [
+        "CMD",
+        "DAC",
+        "HCK",
+        "LBH",
+        "LEW",
+        "MAN"
+      ],
+      "uprns_column_in_site_table": false
+    }
+  },
+  "candidate_warwickshire_mapping": [
+    {
+      "target": "planning-application.reference + planning-authority",
+      "available_evidence": "Native reference from authority record and verified issuing/receiving authority",
+      "reuse": "Use a composite authority-scoped key. Leeds caseReference verified only as a source-native reference."
+    },
+    {
+      "target": "site.reference, geometry and uprns",
+      "available_evidence": "WCC asset register points and UPRNs; planning boundary still to verify",
+      "reuse": "Use UPRN only where confirmed on both sides; assess footprint overlap with an attributable site geometry independently."
+    },
+    {
+      "target": "decision-notice + planning-condition + decision-condition",
+      "available_evidence": "Authority notice and associated conditions, where published",
+      "reuse": "Retain notice/date, condition wording and reason separately. Use an authoritative, dated register link."
+    },
+    {
+      "target": "planning-application-document",
+      "available_evidence": "Explicitly approved public document record",
+      "reuse": "Apply public-register-status inclusion rule and field allowlist."
+    }
+  ]
+}

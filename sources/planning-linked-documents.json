@@ -1,0 +1,3080 @@
+{
+  "observed_on": "2026-11-18",
+  "scope": "Substantive document links from the MHCLG announcement and consultation, the four discussion opening posts, the technical repository and selected pilot resources. Further community links are indexed as references.",
+  "snapshots": [
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/baseline-validation.html",
+      "url": "https://mhclgdigital.blog.gov.uk/2025/04/17/digital-planning-get-involved-validating-the-baseline-planning-application-data-specifications/",
+      "canonical_source": "https://mhclgdigital.blog.gov.uk/2025/04/17/digital-planning-get-involved-validating-the-baseline-planning-application-data-specifications/",
+      "resolved_url": "https://mhclgdigital.blog.gov.uk/2025/04/17/digital-planning-get-involved-validating-the-baseline-planning-application-data-specifications/",
+      "bytes": 67032,
+      "sha256": "dbf22e4983aa2b3ab875b1a4392ca52cd8145b7ca8d0c4101a451946c7203a2c"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/building-a-decision-model.html",
+      "url": "https://mhclgdigital.blog.gov.uk/2026/01/08/building-a-data-model-for-planning-decisions/",
+      "canonical_source": "https://mhclgdigital.blog.gov.uk/2026/01/08/building-a-data-model-for-planning-decisions/",
+      "resolved_url": "https://mhclgdigital.blog.gov.uk/2026/01/08/building-a-data-model-for-planning-decisions/",
+      "bytes": 66279,
+      "sha256": "2c730e73dcf97ccc2a4b17c7c8f6a265659a82a4ef49c7cbb82cc869086b85b3"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/citizen-space.html",
+      "url": "https://consult.communities.gov.uk/planning/planning-application-data-standard-consultation-on/",
+      "canonical_source": "https://consult.communities.gov.uk/planning/planning-application-data-standard-consultation-on/",
+      "resolved_url": "https://consult.communities.gov.uk/planning/planning-application-data-standard-consultation-on/",
+      "bytes": 26542,
+      "sha256": "5f2451cec6c569d91dc5348903347bf5bfc48fd1ca47a7bd39efa30dca70fa41"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/co-design.html",
+      "url": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "canonical_source": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "resolved_url": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "bytes": 61697,
+      "sha256": "6b5df49a13f87f90a6a5185007a014a3ef3dbbbdf35e2869c25282c73fc10de0"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/consultation-complaints.html",
+      "url": "https://www.gov.uk/government/organisations/ministry-of-housing-communities-local-government/about/complaints-procedure",
+      "canonical_source": "https://www.gov.uk/government/organisations/ministry-of-housing-communities-local-government/about/complaints-procedure",
+      "resolved_url": "https://www.gov.uk/government/organisations/ministry-of-housing-communities-local-government/about/complaints-procedure",
+      "bytes": 72430,
+      "sha256": "22cc2c4b9f5f6a73398b67c577fa661a62ebd64c2ddc5d06a2d8181a08e78075"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/decisions-consideration.html",
+      "url": "https://design.planning.data.gov.uk/consideration/planning-applications-decisions",
+      "canonical_source": "https://design.planning.data.gov.uk/consideration/planning-applications-decisions",
+      "resolved_url": "https://design.planning.data.gov.uk/consideration/planning-applications-decisions",
+      "bytes": 14132,
+      "sha256": "5aa647343f704665693cf8698b824302f40b15e33ba1c5229cd9dac0157e31db"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/decisions-kick-off.html",
+      "url": "https://mhclgdigital.blog.gov.uk/2025/08/05/standardising-the-planning-application-process-kicking-off-work-on-decisions/",
+      "canonical_source": "https://mhclgdigital.blog.gov.uk/2025/08/05/standardising-the-planning-application-process-kicking-off-work-on-decisions/",
+      "resolved_url": "https://mhclgdigital.blog.gov.uk/2025/08/05/standardising-the-planning-application-process-kicking-off-work-on-decisions/",
+      "bytes": 65500,
+      "sha256": "5025af200192e715a12e9fd10e7fa57350a58914d98b6688d58c9bb62812c493"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/decisions-user-research.html",
+      "url": "https://mhclgdigital.blog.gov.uk/2025/10/20/diving-into-planning-decisions-what-we-learned-from-our-latest-user-research/",
+      "canonical_source": "https://mhclgdigital.blog.gov.uk/2025/10/20/diving-into-planning-decisions-what-we-learned-from-our-latest-user-research/",
+      "resolved_url": "https://mhclgdigital.blog.gov.uk/2025/10/20/diving-into-planning-decisions-what-we-learned-from-our-latest-user-research/",
+      "bytes": 67505,
+      "sha256": "836b88c616629a1a96fa728d976ef746933d6a5f258ffab3cebc75beea23b80e"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/digital-planning-reform.html",
+      "url": "https://mhclgdigital.blog.gov.uk/2022/06/28/digital-planning-reform-an-overview/",
+      "canonical_source": "https://mhclgdigital.blog.gov.uk/2022/06/28/digital-planning-reform-an-overview/",
+      "resolved_url": "https://mhclgdigital.blog.gov.uk/2022/06/28/digital-planning-reform-an-overview/",
+      "bytes": 59423,
+      "sha256": "8ca1656a512504286a3f8c8bd5fee7c0e0bca4dadb31b0aec524af751e0ce8fe"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-25-opening-post.json",
+      "url": "https://github.com/digital-land/data-standards-backlog/discussions/25",
+      "canonical_source": "https://github.com/digital-land/data-standards-backlog/discussions/25",
+      "resolved_url": "https://github.com/digital-land/data-standards-backlog/discussions/25",
+      "bytes": 2602,
+      "sha256": "c59dcd13f91722a84337ffa56cc3c77a5439ab755d25230398cea0004c8aed69",
+      "derivation": "Opening post extraction"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-40-opening-post.json",
+      "url": "https://github.com/digital-land/data-standards-backlog/discussions/40",
+      "canonical_source": "https://github.com/digital-land/data-standards-backlog/discussions/40",
+      "resolved_url": "https://github.com/digital-land/data-standards-backlog/discussions/40",
+      "bytes": 1515,
+      "sha256": "7cf10a1d3b7124e9cabd9de0eb2044f7006889ad72a9d51fb98fe9ff93e39ab7",
+      "derivation": "Opening post extraction"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-94-opening-post.json",
+      "url": "https://github.com/digital-land/data-standards-backlog/discussions/94",
+      "canonical_source": "https://github.com/digital-land/data-standards-backlog/discussions/94",
+      "resolved_url": "https://github.com/digital-land/data-standards-backlog/discussions/94",
+      "bytes": 2119,
+      "sha256": "85d5abb96373eac8209d10f519ca089fe3b8a46b46d597e82bd1de2fd412e339",
+      "derivation": "Opening post extraction"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-98-opening-post.json",
+      "url": "https://github.com/digital-land/data-standards-backlog/discussions/98",
+      "canonical_source": "https://github.com/digital-land/data-standards-backlog/discussions/98",
+      "resolved_url": "https://github.com/digital-land/data-standards-backlog/discussions/98",
+      "bytes": 1115,
+      "sha256": "ad3e1b47cc85d0648e1ccee0986df099a33cd4d6b0da8031fa7ed589e0722135",
+      "derivation": "Opening post extraction"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/dmpo-register-article-40.xml",
+      "url": "https://www.legislation.gov.uk/uksi/2015/595/article/40/data.xml",
+      "canonical_source": "https://www.legislation.gov.uk/uksi/2015/595/article/40",
+      "resolved_url": "https://www.legislation.gov.uk/uksi/2015/595/article/40/data.xml",
+      "bytes": 56651,
+      "sha256": "89d3c20617d31502a91eee3fc138a3f42f3a5dcdc57b1cd71a0485503f855b3e"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/01-App_Form_-_01_-_Householder_Development.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/65c612f09c5b7f0012951be4/App_Form_-_01_-_Householder_Development.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/65c612f09c5b7f0012951be4/App_Form_-_01_-_Householder_Development.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/65c612f09c5b7f0012951be4/App_Form_-_01_-_Householder_Development.pdf",
+      "bytes": 557697,
+      "sha256": "164aea8f0cad84e13f69965ebe8693a32eff7e72d516ffd9754c45bd7e20d16e",
+      "title": "Householder application for planning permission for works or extension to a dwelling: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/02-App_Form_-_02_-_Householder_Development_and_Demolition_of_Unlisted_Building_in_Conservation_Area.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/65c6131a14b83c000ea715e6/App_Form_-_02_-_Householder_Development_and_Demolition_of_Unlisted_Building_in_Conservation_Area.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/65c6131a14b83c000ea715e6/App_Form_-_02_-_Householder_Development_and_Demolition_of_Unlisted_Building_in_Conservation_Area.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/65c6131a14b83c000ea715e6/App_Form_-_02_-_Householder_Development_and_Demolition_of_Unlisted_Building_in_Conservation_Area.pdf",
+      "bytes": 558964,
+      "sha256": "43d29cf7fba511dba06bfa55bb7f32d834878942944735841a1c94e219027a9a",
+      "title": "Householder application for planning permission for works or extension to a dwelling and for relevant demolition of an unlisted building in a conservation area: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/03-App_Form_-_03_-_Householder_Development_and_Listed_Building_Consent.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/65c6132b14b83c000ca715fe/App_Form_-_03_-_Householder_Development_and_Listed_Building_Consent.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/65c6132b14b83c000ca715fe/App_Form_-_03_-_Householder_Development_and_Listed_Building_Consent.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/65c6132b14b83c000ca715fe/App_Form_-_03_-_Householder_Development_and_Listed_Building_Consent.pdf",
+      "bytes": 573682,
+      "sha256": "ddf0e3b7fd7713a2ae69a3535f98592f53e160e2f776145db2b896a2965a9706",
+      "title": "Householder application for planning permission for works or extension to a dwelling and listed building consent: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/04-App_Form_-_04_-_Application_for_Planning_Permission.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/65c6133a14b83c000ea715e8/App_Form_-_04_-_Application_for_Planning_Permission.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/65c6133a14b83c000ea715e8/App_Form_-_04_-_Application_for_Planning_Permission.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/65c6133a14b83c000ea715e8/App_Form_-_04_-_Application_for_Planning_Permission.pdf",
+      "bytes": 836560,
+      "sha256": "e1f6cafcfde81396872851dd502c3a38a7912b726f65c3dc808074031b81daac",
+      "title": "Application for planning permission: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/05-App_Form_-_05_-_Application_for_Outline_Planning_Permission_with_Some_Matters_Reserved.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/65c6134914b83c000ea715e9/App_Form_-_05_-_Application_for_Outline_Planning_Permission_with_Some_Matters_Reserved.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/65c6134914b83c000ea715e9/App_Form_-_05_-_Application_for_Outline_Planning_Permission_with_Some_Matters_Reserved.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/65c6134914b83c000ea715e9/App_Form_-_05_-_Application_for_Outline_Planning_Permission_with_Some_Matters_Reserved.pdf",
+      "bytes": 847924,
+      "sha256": "7f53d64bd3494a0f9087d0ac186b845884e2dc96f5ced9b6c8de2ee2ccbb20ee",
+      "title": "Application for outline planning permission with some matters reserved: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/06-App_Form_-_06_-_Application_for_Outline_Planning_Permission_with_All_Matters_Reserved.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/65c6135714b83c000ea715ea/App_Form_-_06_-_Application_for_Outline_Planning_Permission_with_All_Matters_Reserved.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/65c6135714b83c000ea715ea/App_Form_-_06_-_Application_for_Outline_Planning_Permission_with_All_Matters_Reserved.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/65c6135714b83c000ea715ea/App_Form_-_06_-_Application_for_Outline_Planning_Permission_with_All_Matters_Reserved.pdf",
+      "bytes": 710962,
+      "sha256": "add677a96744e9c995ce0453b65964a2514d257b698e893665324c3f9c448c22",
+      "title": "Application for outline planning permission with all matters reserved: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/07-App_Form_-_07_-_Application_for_Planning_Permission_and_Demo_of_Unlisted_Building_in_Con_Area.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/65c6136c9c5b7f000c951bfa/App_Form_-_07_-_Application_for_Planning_Permission_and_Demo_of_Unlisted_Building_in_Con_Area.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/65c6136c9c5b7f000c951bfa/App_Form_-_07_-_Application_for_Planning_Permission_and_Demo_of_Unlisted_Building_in_Con_Area.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/65c6136c9c5b7f000c951bfa/App_Form_-_07_-_Application_for_Planning_Permission_and_Demo_of_Unlisted_Building_in_Con_Area.pdf",
+      "bytes": 836345,
+      "sha256": "53cca1e76b40f8fc405b5634d4a702aa16fd6b34b09e4d36e5047ffa68c43396",
+      "title": "Application for planning permission and for relevant demolition of an unlisted building in a conservation area: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/08-App_Form_-_08_-_Application_for_Planning_Permission_and_Listed_Building_Consent.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/65c6137b9c5b7f0012951be7/App_Form_-_08_-_Application_for_Planning_Permission_and_Listed_Building_Consent.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/65c6137b9c5b7f0012951be7/App_Form_-_08_-_Application_for_Planning_Permission_and_Listed_Building_Consent.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/65c6137b9c5b7f0012951be7/App_Form_-_08_-_Application_for_Planning_Permission_and_Listed_Building_Consent.pdf",
+      "bytes": 852505,
+      "sha256": "051c13e295ee2eb953afee090c2f7f0099bf73dfd1c54c4ffc6d2bc0711fd682",
+      "title": "Application for planning permission and listed building consent for alterations, extension or demolition of a listed building: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/09-App_Form_-_09_-_Application_for_Planning_Permission_and_Advertisement_Consent.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/65c61388cc433b0011a90b25/App_Form_-_09_-_Application_for_Planning_Permission_and_Advertisement_Consent.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/65c61388cc433b0011a90b25/App_Form_-_09_-_Application_for_Planning_Permission_and_Advertisement_Consent.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/65c61388cc433b0011a90b25/App_Form_-_09_-_Application_for_Planning_Permission_and_Advertisement_Consent.pdf",
+      "bytes": 853619,
+      "sha256": "be33f873778210e0ace5bc76d7612372f5f64da8b937178b50c90e5f47a1b1e5",
+      "title": "Application for planning permission and consent to display advertisement(s): template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/10-App_Form_-_10_-_Application_for_Demolition_in_Conservation_Area.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/65c613959c5b7f000c951bfb/App_Form_-_10_-_Application_for_Demolition_in_Conservation_Area.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/65c613959c5b7f000c951bfb/App_Form_-_10_-_Application_for_Demolition_in_Conservation_Area.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/65c613959c5b7f000c951bfb/App_Form_-_10_-_Application_for_Demolition_in_Conservation_Area.pdf",
+      "bytes": 574144,
+      "sha256": "35daac30202650b3b00afb9a9cbdf3a9e03620d53a0463ee55237c62988240db",
+      "title": "Application for planning permission for relevant demolition in a conservation area: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/11-Form011_england_en__2_.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/5b06c785e5274a2d7670ac42/Form011_england_en__2_.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/5b06c785e5274a2d7670ac42/Form011_england_en__2_.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/5b06c785e5274a2d7670ac42/Form011_england_en__2_.pdf",
+      "bytes": 1516387,
+      "sha256": "beb034fca0fc58ea07d7853d2dae74497df97de2d53423591ef2bac461ae03c2",
+      "title": "Application for listed building consent for alterations, extension or demolition of a listed building: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/12-Form012_england_en__2_.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/5b06c7aded915d46713b205f/Form012_england_en__2_.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/5b06c7aded915d46713b205f/Form012_england_en__2_.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/5b06c7aded915d46713b205f/Form012_england_en__2_.pdf",
+      "bytes": 1338295,
+      "sha256": "4c9cdaf320f20b221a1a646589fefd6d4940f6f06113827ca732c7d18f6488f7",
+      "title": "Application for consent to display an advertisement(s): template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/13-LDC_application_template.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/67dbf586cb8c6838d74b4f7f/LDC_application_template.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/67dbf586cb8c6838d74b4f7f/LDC_application_template.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/67dbf586cb8c6838d74b4f7f/LDC_application_template.pdf",
+      "bytes": 1204507,
+      "sha256": "29cb027f4b8e634a4d8c8c9198fbda58b3cfdf476b10a1dc95644837184aa8ce",
+      "title": "Application for a lawful development certificate for an existing use or operation or activity including those in breach of a planning condition: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/14-Form015_england_en__2_.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/5b06c801ed915d6a2001cebc/Form015_england_en__2_.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/5b06c801ed915d6a2001cebc/Form015_england_en__2_.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/5b06c801ed915d6a2001cebc/Form015_england_en__2_.pdf",
+      "bytes": 1004925,
+      "sha256": "1ec68a7dbbbf665d8a513e296c283657bb0bbe31174f79f27e9e1f104c8d9c3e",
+      "title": "Application for a lawful development certificate for a proposed use or development: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/15-Form025_england_en.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/5a806889e5274a2e87db9a44/Form025_england_en.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/5a806889e5274a2e87db9a44/Form025_england_en.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/5a806889e5274a2e87db9a44/Form025_england_en.pdf",
+      "bytes": 163817,
+      "sha256": "8af98b3ae64db1f0baabee16b07523a63e359e24605c94764f0bb8bbe3144a8f",
+      "title": "Application for removal or variation of a condition following grant of planning permission: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/16-Form031_england_en_revised__2_.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/5b06c81de5274a1c5490ce6f/Form031_england_en_revised__2_.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/5b06c81de5274a1c5490ce6f/Form031_england_en_revised__2_.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/5b06c81de5274a1c5490ce6f/Form031_england_en_revised__2_.pdf",
+      "bytes": 1021616,
+      "sha256": "94bf3b01b7fd24a179523c8f3b7bf4f6bc1c29a117104289d84aef0897b421cf",
+      "title": "Application for tree works - works to trees subject to a tree preservation order and/or notification of proposed works to trees in a conservation area: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/17-Form035_england_en__2_.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/5b06c840e5274a2d7670ac43/Form035_england_en__2_.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/5b06c840e5274a2d7670ac43/Form035_england_en__2_.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/5b06c840e5274a2d7670ac43/Form035_england_en__2_.pdf",
+      "bytes": 702176,
+      "sha256": "99bf77902b89370f2d6644daf3261be7970059166116c532b8cc1e673821d66c",
+      "title": "Planning application for development relating to the onshore extraction of oil and gas: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/18-Form036_england_en__2_.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/5b06c860ed915d134a85802c/Form036_england_en__2_.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/5b06c860ed915d134a85802c/Form036_england_en__2_.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/5b06c860ed915d134a85802c/Form036_england_en__2_.pdf",
+      "bytes": 1332592,
+      "sha256": "32a5241c334d29a30d3f0cfc976d7e016dc11ff5c197feb711073ff3bba4236e",
+      "title": "Application for a certificate of lawfulness of proposed works to a listed building: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/19-Form037_england_en.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/5b06d04440f0b67320446b6a/Form037_england_en.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/5b06d04440f0b67320446b6a/Form037_england_en.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/5b06d04440f0b67320446b6a/Form037_england_en.pdf",
+      "bytes": 220030,
+      "sha256": "54d7f03d028b171f7ebc3f1a24adfd1b5ae25d5ad5b3b0cc20ad89a1678ab215",
+      "title": "Application for permission in principle: template"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/20-Fire_statement_form_-_dynamic.docx",
+      "url": "https://assets.publishing.service.gov.uk/media/60d455528fa8f57cf29cdb62/Fire_statement_form_-_dynamic.docx",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/60d455528fa8f57cf29cdb62/Fire_statement_form_-_dynamic.docx",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/60d455528fa8f57cf29cdb62/Fire_statement_form_-_dynamic.docx",
+      "bytes": 45514,
+      "sha256": "e0c91b3731927671ebca778d7f7ca0ffdc914cee47546f5bd4e4d1c6ec12342f",
+      "title": "Fire statement form (for applications made on or after 1 August 2021)"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/21-Fire_statement_form_-_static.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/60d4545b8fa8f57cf3f0b41d/Fire_statement_form_-_static.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/60d4545b8fa8f57cf3f0b41d/Fire_statement_form_-_static.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/60d4545b8fa8f57cf3f0b41d/Fire_statement_form_-_static.pdf",
+      "bytes": 358681,
+      "sha256": "3f29db49a5ff767089290d72d5cfb697abe221398fc5abc97166ceb2365babcc",
+      "title": "Fire statement form (for applications made on or after 1 August 2021) - print version"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/22-Fire_statement_form_-_guidance.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/60db274bd3bf7f7c2ed84b6b/Fire_statement_form_-_guidance.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/60db274bd3bf7f7c2ed84b6b/Fire_statement_form_-_guidance.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/60db274bd3bf7f7c2ed84b6b/Fire_statement_form_-_guidance.pdf",
+      "bytes": 313145,
+      "sha256": "049a2e625e67b4c703906c5234ffdaacdb2303b2b8c08db32d8f82d17432298d",
+      "title": "Fire statement form: guidance"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/23-250416_App_Form_-_01_-_CDR_-_Application_for_Planning_Permission.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/6808b9063bdfd1243078e73e/250416_App_Form_-_01_-_CDR_-_Application_for_Planning_Permission.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/6808b9063bdfd1243078e73e/250416_App_Form_-_01_-_CDR_-_Application_for_Planning_Permission.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/6808b9063bdfd1243078e73e/250416_App_Form_-_01_-_CDR_-_Application_for_Planning_Permission.pdf",
+      "bytes": 599946,
+      "sha256": "85b0e7bfbb9c9707e390aee27a3dff3b316fc92b7da2f1f1ff035f64196cd517",
+      "title": "Application for planning permission for Crown Development"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/24-250416_App_Form_-_02_-_CDR_-_Application_for_Outline_Planning_Permission_with_Some_Matters_Reserved.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/6808b9770324470d6a394ed4/250416_App_Form_-_02_-_CDR_-_Application_for_Outline_Planning_Permission_with_Some_Matters_Reserved.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/6808b9770324470d6a394ed4/250416_App_Form_-_02_-_CDR_-_Application_for_Outline_Planning_Permission_with_Some_Matters_Reserved.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/6808b9770324470d6a394ed4/250416_App_Form_-_02_-_CDR_-_Application_for_Outline_Planning_Permission_with_Some_Matters_Reserved.pdf",
+      "bytes": 620352,
+      "sha256": "0ce6f8faac6ea842507cbce0878828161a62b24cb591d48d7aaf239ecd29e214",
+      "title": "Application for outline planning permission for Crown Development with some matters reserved"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/25-250416_App_Form_-_03_-_CDR_-_Application_for_Outline_Planning_Permission_with_All_Matters_Reserved.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/6808b9c43bdfd1243078e742/250416_App_Form_-_03_-_CDR_-_Application_for_Outline_Planning_Permission_with_All_Matters_Reserved.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/6808b9c43bdfd1243078e742/250416_App_Form_-_03_-_CDR_-_Application_for_Outline_Planning_Permission_with_All_Matters_Reserved.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/6808b9c43bdfd1243078e742/250416_App_Form_-_03_-_CDR_-_Application_for_Outline_Planning_Permission_with_All_Matters_Reserved.pdf",
+      "bytes": 470664,
+      "sha256": "db5f71628e3d33d68f417bb279e4a4d1767145f9b30ef199a31006bedd56ddf4",
+      "title": "Application for outline planning permission for Crown Development with all matters reserved"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/26-250416_App_Form_-_04_-_CDR_-_Application_for_Planning_Permission_and_Listed_Building_Consent.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/6808ba263bdfd1243078e745/250416_App_Form_-_04_-_CDR_-_Application_for_Planning_Permission_and_Listed_Building_Consent.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/6808ba263bdfd1243078e745/250416_App_Form_-_04_-_CDR_-_Application_for_Planning_Permission_and_Listed_Building_Consent.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/6808ba263bdfd1243078e745/250416_App_Form_-_04_-_CDR_-_Application_for_Planning_Permission_and_Listed_Building_Consent.pdf",
+      "bytes": 626401,
+      "sha256": "715396c2ae912a37195685d330c0d49640e5d9cd4d4d296c4918e46af28e8e51",
+      "title": "Application for planning permission for Crown Development and listed building consent"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/27-250416_App_Form_-_05_-_CDR_-_Application_for_Planning_Permission_and_Demo_in_Con_Area.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/6808ba8a148a9969d2394eda/250416_App_Form_-_05_-_CDR_-_Application_for_Planning_Permission_and_Demo_in_Con_Area.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/6808ba8a148a9969d2394eda/250416_App_Form_-_05_-_CDR_-_Application_for_Planning_Permission_and_Demo_in_Con_Area.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/6808ba8a148a9969d2394eda/250416_App_Form_-_05_-_CDR_-_Application_for_Planning_Permission_and_Demo_in_Con_Area.pdf",
+      "bytes": 602403,
+      "sha256": "f448ff6e8a2c9b8eea32c6d67f92c0dd3eeba90d613a280b6ae0bca512c0a3aa",
+      "title": "Application for planning permission for Crown Development and for demolition in a conservation area"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/28-Application_for_planning_permission_for_Urgent_Crown_Development.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/6a16b84e1eb143220d8d28ce/Application_for_planning_permission_for_Urgent_Crown_Development.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/6a16b84e1eb143220d8d28ce/Application_for_planning_permission_for_Urgent_Crown_Development.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/6a16b84e1eb143220d8d28ce/Application_for_planning_permission_for_Urgent_Crown_Development.pdf",
+      "bytes": 561657,
+      "sha256": "cfb99c26e7baf65bb1f55404b6600c0668b276f8e1fc720dedb8ca053a658060",
+      "title": "Application for planning permission for Urgent Crown Development"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/29-Application_for_Outline_Planning_Permission_for_Urgent_Crown_Development_with_All_Matters_Reserved.pdf",
+      "url": "https://assets.publishing.service.gov.uk/media/6a16b8a79819be865f421d7b/Application_for_Outline_Planning_Permission_for_Urgent_Crown_Development_with_All_Matters_Reserved.pdf",
+      "canonical_source": "https://assets.publishing.service.gov.uk/media/6a16b8a79819be865f421d7b/Application_for_Outline_Planning_Permission_for_Urgent_Crown_Development_with_All_Matters_Reserved.pdf",
+      "resolved_url": "https://assets.publishing.service.gov.uk/media/6a16b8a79819be865f421d7b/Application_for_Outline_Planning_Permission_for_Urgent_Crown_Development_with_All_Matters_Reserved.pdf",
+      "bytes": 372998,
+      "sha256": "286228f590d579f19a1ed9b91a8209bed0da2aed37d3fe18d6a89b8d39bc33a6",
+      "title": "Application for outline planning permission for Urgent Crown Development with all matters reserved"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/government-design-principles.html",
+      "url": "https://www.gov.uk/guidance/government-design-principles",
+      "canonical_source": "https://www.gov.uk/guidance/government-design-principles",
+      "resolved_url": "https://www.gov.uk/guidance/government-design-principles",
+      "bytes": 94805,
+      "sha256": "0d77baa7b363f0d2a3446b993704c4fab6e23648b15a2df11b33f9bfa7aefd19"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/historical-condition-specification.html",
+      "url": "https://digital-land.github.io/specification/specification/planning-condition/",
+      "canonical_source": "https://digital-land.github.io/specification/specification/planning-condition/",
+      "resolved_url": "https://digital-land.github.io/specification/specification/planning-condition/",
+      "bytes": 67662,
+      "sha256": "c0972aa131292658ea388f8a2051b62344948d76d252b32fb0b3aca651bbddc2"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/historical-decision-specification.html",
+      "url": "https://digital-land.github.io/specification/specification/planning-application-decision/",
+      "canonical_source": "https://digital-land.github.io/specification/specification/planning-application-decision/",
+      "resolved_url": "https://digital-land.github.io/specification/specification/planning-application-decision/",
+      "bytes": 90141,
+      "sha256": "62f71b2822516e054ea4a6ff8503b324ace5ba800078b8e93fe64e618a890808"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/implementation-community-february-notes.pdf",
+      "url": "https://design.planning.data.gov.uk/static/docs/20260225-odsc-session-summary-NOTES.pdf",
+      "canonical_source": "https://design.planning.data.gov.uk/static/docs/20260225-odsc-session-summary-NOTES.pdf",
+      "resolved_url": "https://design.planning.data.gov.uk/static/docs/20260225-odsc-session-summary-NOTES.pdf",
+      "bytes": 109729,
+      "sha256": "c76dee85995e2430331b5bef4a5c446d3eb8f1cf880d1eab8a5f3b3b80f3a1b7"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/implementation-community-march-notes.pdf",
+      "url": "https://design.planning.data.gov.uk/static/docs/20260331-ODSC-Session-Summary.docx.pdf",
+      "canonical_source": "https://design.planning.data.gov.uk/static/docs/20260331-ODSC-Session-Summary.docx.pdf",
+      "resolved_url": "https://design.planning.data.gov.uk/static/docs/20260331-ODSC-Session-Summary.docx.pdf",
+      "bytes": 99698,
+      "sha256": "0d7fb36a2d4b1eb9dcf7bda95716f2b4dd726dcc65aec250d49aee8184e89e59"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/implementation-community-march-questions.pdf",
+      "url": "https://design.planning.data.gov.uk/static/docs/20260331-Community-Questions-and-themes.pdf",
+      "canonical_source": "https://design.planning.data.gov.uk/static/docs/20260331-Community-Questions-and-themes.pdf",
+      "resolved_url": "https://design.planning.data.gov.uk/static/docs/20260331-Community-Questions-and-themes.pdf",
+      "bytes": 89858,
+      "sha256": "0f29021a2fbf52ce090b24b08cdaeae7c499274ce1103fd2fa9474a83d84c691"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/implementation-community-may-notes.pdf",
+      "url": "https://design.planning.data.gov.uk/static/docs/20260520-ODSC-Summary.pdf",
+      "canonical_source": "https://design.planning.data.gov.uk/static/docs/20260520-ODSC-Summary.pdf",
+      "resolved_url": "https://design.planning.data.gov.uk/static/docs/20260520-ODSC-Summary.pdf",
+      "bytes": 94712,
+      "sha256": "fe60a59aadb1d04c2418d8bd9f24508122033126872f2a74b103bd0eb46f6a87"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/implementation-transition-deep-dive.pdf",
+      "url": "https://design.planning.data.gov.uk/static/docs/20260203-Data_Standards_Transition_Deep_Dive.pdf",
+      "canonical_source": "https://design.planning.data.gov.uk/static/docs/20260203-Data_Standards_Transition_Deep_Dive.pdf",
+      "resolved_url": "https://design.planning.data.gov.uk/static/docs/20260203-Data_Standards_Transition_Deep_Dive.pdf",
+      "bytes": 90615,
+      "sha256": "643400a0a5cedd7f33ea20c4580d2b3951b38e53a7336d22b930afe3bdb20ef6"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/legacy-specification-index.html",
+      "url": "https://digital-land.github.io/specification/specification/",
+      "canonical_source": "https://digital-land.github.io/specification/specification/",
+      "resolved_url": "https://digital-land.github.io/specification/specification/",
+      "bytes": 15738,
+      "sha256": "a9d9088bab682d8c9e455f24b36adebff71e485e65b6a4e72ccd7ed841196427"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/lura-parliament-publications.json",
+      "url": "https://bills-api.parliament.uk/api/v1/Bills/3155/Publications",
+      "canonical_source": "https://bills.parliament.uk/bills/3155/publications",
+      "resolved_url": "https://bills-api.parliament.uk/api/v1/Bills/3155/Publications",
+      "bytes": 208589,
+      "sha256": "cdda727b9b945717d0b76c5866f48ee4bec776cc21a7d88674d6c00d1a540bb9"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/lura-section-84.xml",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/55/section/84/data.xml",
+      "canonical_source": "https://www.legislation.gov.uk/ukpga/2023/55/section/84",
+      "resolved_url": "https://www.legislation.gov.uk/ukpga/2023/55/section/84/data.xml",
+      "bytes": 60434,
+      "sha256": "b4cf0fac93cea4ed36ced4c1a33848fd78dc80c7c7b964d295be44dd22f6294a"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/lura-section-85.xml",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/55/section/85/data.xml",
+      "canonical_source": "https://www.legislation.gov.uk/ukpga/2023/55/section/85",
+      "resolved_url": "https://www.legislation.gov.uk/ukpga/2023/55/section/85/data.xml",
+      "bytes": 65130,
+      "sha256": "58c0e349906a1119b41b2077c1a2b8953a9e964b9fc989a2d193bb2dd4da6178"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/lura-section-86.xml",
+      "url": "https://www.legislation.gov.uk/ukpga/2023/55/section/86/data.xml",
+      "canonical_source": "https://www.legislation.gov.uk/ukpga/2023/55/section/86",
+      "resolved_url": "https://www.legislation.gov.uk/ukpga/2023/55/section/86/data.xml",
+      "bytes": 58899,
+      "sha256": "def86fe04bec5097d08e5171d74913753173a41a6e847d46dd50c81bc3b544a7"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/national-public-view.html",
+      "url": "https://digital-land.github.io/planning-application-specification-viewer/view/national-public/",
+      "canonical_source": "https://digital-land.github.io/planning-application-specification-viewer/view/national-public/",
+      "resolved_url": "https://digital-land.github.io/planning-application-specification-viewer/view/national-public/",
+      "bytes": 66474,
+      "sha256": "27e036edf5e3c0f89f69d314d17e116f8ba4787e150e50d7574dc4aa646025d4"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/open-digital-planning-products.html",
+      "url": "https://opendigitalplanning.org/products",
+      "canonical_source": "https://opendigitalplanning.org/products",
+      "resolved_url": "https://opendigitalplanning.org/products",
+      "bytes": 18393,
+      "sha256": "52e6bf9eb42b347238159d56a490a48c5c4140838760178814ac403a51c6d6dd"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/phase-one-learning.html",
+      "url": "https://mhclgdigital.blog.gov.uk/2026/01/30/testing-new-planning-data-standards-with-industry-what-we-learned-from-phase-1-and-where-we-go-next/",
+      "canonical_source": "https://mhclgdigital.blog.gov.uk/2026/01/30/testing-new-planning-data-standards-with-industry-what-we-learned-from-phase-1-and-where-we-go-next/",
+      "resolved_url": "https://mhclgdigital.blog.gov.uk/2026/01/30/testing-new-planning-data-standards-with-industry-what-we-learned-from-phase-1-and-where-we-go-next/",
+      "bytes": 65244,
+      "sha256": "41fb5b1f3bc2fc58a41ecf29ac93831050fbe904ecdaf9427d46cea4b2fe0015"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/pilot-funding.html",
+      "url": "https://mhclgdigital.blog.gov.uk/2025/03/18/funding-boost-to-support-digital-planning-innovation/",
+      "canonical_source": "https://mhclgdigital.blog.gov.uk/2025/03/18/funding-boost-to-support-digital-planning-innovation/",
+      "resolved_url": "https://mhclgdigital.blog.gov.uk/2025/03/18/funding-boost-to-support-digital-planning-innovation/",
+      "bytes": 71866,
+      "sha256": "dc6582c3b7f0b930f15da01cf615839de0b688956cd8cb23d4adec39d89720f1"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/pilot-launch.html",
+      "url": "https://mhclgdigital.blog.gov.uk/2025/11/18/testing-new-planning-data-specifications-with-industry-5-pilot-partnerships-paving-the-way/",
+      "canonical_source": "https://mhclgdigital.blog.gov.uk/2025/11/18/testing-new-planning-data-specifications-with-industry-5-pilot-partnerships-paving-the-way/",
+      "resolved_url": "https://mhclgdigital.blog.gov.uk/2025/11/18/testing-new-planning-data-specifications-with-industry-5-pilot-partnerships-paving-the-way/",
+      "bytes": 65705,
+      "sha256": "90fd9b8c8aa754afc519b219ac7ba7672a34c8657d82a5b846e6573f387aa59c"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-data-api-documentation.html",
+      "url": "https://www.planning.data.gov.uk/docs/",
+      "canonical_source": "https://www.planning.data.gov.uk/docs/",
+      "resolved_url": "https://www.planning.data.gov.uk/docs",
+      "bytes": 84575,
+      "sha256": "ec27477861317387efcee4ddba7af231a6e46248a3ce38971d61a00a66cb9401"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-data-decision-catalogue.html",
+      "url": "https://www.planning.data.gov.uk/dataset/planning-decision",
+      "canonical_source": "https://www.planning.data.gov.uk/dataset/planning-decision",
+      "resolved_url": "https://www.planning.data.gov.uk/dataset/planning-decision",
+      "bytes": 34112,
+      "sha256": "a28a15e658b31ae4ac232cc421bb00efe1b67339aada609460ede96ec6163e93"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-data-design-home.html",
+      "url": "https://design.planning.data.gov.uk/",
+      "canonical_source": "https://design.planning.data.gov.uk/",
+      "resolved_url": "https://design.planning.data.gov.uk/",
+      "bytes": 11296,
+      "sha256": "b28fb427679cc16f83ab9e17f6a985b4379fbc09a63f637dec572bf88774da75"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-data-platform.html",
+      "url": "https://www.planning.data.gov.uk/",
+      "canonical_source": "https://www.planning.data.gov.uk/",
+      "resolved_url": "https://www.planning.data.gov.uk/",
+      "bytes": 33390,
+      "sha256": "16ffe6880aa33f79d5dc61da149b86d9cc7563557e434a4423ff9a928cb10bfd"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-form-templates.json",
+      "url": "https://www.gov.uk/api/content/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "canonical_source": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "resolved_url": "https://www.gov.uk/api/content/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "bytes": 38341,
+      "sha256": "220f14c0509251ed29f9a7f6c43b543e094141a4112265a047e7b231f86395d9"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-inspectorate-register-guide.html",
+      "url": "https://www.gov.uk/search-register-planning-decisions",
+      "canonical_source": "https://www.gov.uk/search-register-planning-decisions",
+      "resolved_url": "https://www.gov.uk/search-register-planning-decisions",
+      "bytes": 63575,
+      "sha256": "ddacf37922eec7d5eba1c4a01818d08a35de525a4c42fc4165bedaecc2d7adcf"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-roadmap.html",
+      "url": "https://design.planning.data.gov.uk/roadmap",
+      "canonical_source": "https://design.planning.data.gov.uk/roadmap",
+      "resolved_url": "https://design.planning.data.gov.uk/roadmap",
+      "bytes": 13502,
+      "sha256": "fbec3a480ea8260010e350f765332a90c51780158ef0032db47c41041144c563"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-statistics-2026q2.json",
+      "url": "https://www.gov.uk/api/content/government/statistics/planning-applications-in-england-april-to-june-2026/planning-applications-in-england-april-to-june-2026-statistical-release",
+      "canonical_source": "https://www.gov.uk/government/statistics/planning-applications-in-england-april-to-june-2026/planning-applications-in-england-april-to-june-2026-statistical-release",
+      "resolved_url": "https://www.gov.uk/api/content/government/statistics/planning-applications-in-england-april-to-june-2026/planning-applications-in-england-april-to-june-2026-statistical-release",
+      "bytes": 84540,
+      "sha256": "c7a45d8423de8225a6ca535b6267c0a32cd7acb0402b149c4b0d6f5b54be8daa"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/progress-and-next-steps.html",
+      "url": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "canonical_source": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "resolved_url": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "bytes": 74880,
+      "sha256": "e77df881227553715c0c6133f636348339792e66098d12b13ab51b4818ac5c2f"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/project-community.html",
+      "url": "https://design.planning.data.gov.uk/project/planning-applications",
+      "canonical_source": "https://design.planning.data.gov.uk/project/planning-applications",
+      "resolved_url": "https://design.planning.data.gov.uk/community",
+      "bytes": 68918,
+      "sha256": "b7aaea9529657d6e0d66fad325e67bf012a26447db174f7622e0dbbfc4a4f5c8"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-issue-307-metadata.json",
+      "url": "https://api.github.com/repos/digital-land/planning-application-data-specification/issues/307",
+      "canonical_source": "https://github.com/digital-land/planning-application-data-specification/issues/307",
+      "bytes": 459,
+      "sha256": "3421a0ee4c88ac19210f2e1ee64efe12cd7e7e98227fbc319239e32f3cb17d6b",
+      "derivation": "Selected public issue metadata; identities and discussion text omitted."
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-issue-386-metadata.json",
+      "url": "https://api.github.com/repos/digital-land/planning-application-data-specification/issues/386",
+      "canonical_source": "https://github.com/digital-land/planning-application-data-specification/issues/386",
+      "bytes": 424,
+      "sha256": "982c85b06f2a196e0cb3fa4a9fe8e1fe0278e678527190395ad8233b8070ec51",
+      "derivation": "Selected public issue metadata; identities and discussion text omitted."
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-issue-413-metadata.json",
+      "url": "https://api.github.com/repos/digital-land/planning-application-data-specification/issues/413",
+      "canonical_source": "https://github.com/digital-land/planning-application-data-specification/issues/413",
+      "bytes": 368,
+      "sha256": "fa1de7c9a2ade60edd44c33d49e69dbf4d4e3275611850eed1b2484ac764e7ec",
+      "derivation": "Selected public issue metadata; identities and discussion text omitted."
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-issue-414-metadata.json",
+      "url": "https://api.github.com/repos/digital-land/planning-application-data-specification/issues/414",
+      "canonical_source": "https://github.com/digital-land/planning-application-data-specification/issues/414",
+      "bytes": 366,
+      "sha256": "2f5cba3ca3f449b2df36c8ba8c13b12f9b4130e2c69b66751093ccf8bd2b918d",
+      "derivation": "Selected public issue metadata; identities and discussion text omitted."
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-site.html",
+      "url": "https://digital-land.github.io/planning-application-data-specification/",
+      "canonical_source": "https://digital-land.github.io/planning-application-data-specification/",
+      "resolved_url": "https://digital-land.github.io/planning-application-data-specification/",
+      "bytes": 11127,
+      "sha256": "24fd34fdf9699003b3c07f408173eab29772b4d7e326371d10b9b96c7fd07c3e"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-viewer-application-types.html",
+      "url": "https://digital-land.github.io/planning-application-specification-viewer/application-type/",
+      "canonical_source": "https://digital-land.github.io/planning-application-specification-viewer/application-type/",
+      "resolved_url": "https://digital-land.github.io/planning-application-specification-viewer/application-type/",
+      "bytes": 26511,
+      "sha256": "ffc6e6cb23093546aa822725f2897f7902153d5b680e5003ea9f01e392640814"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-viewer-datasets.html",
+      "url": "https://digital-land.github.io/planning-application-specification-viewer/dataset/",
+      "canonical_source": "https://digital-land.github.io/planning-application-specification-viewer/dataset/",
+      "resolved_url": "https://digital-land.github.io/planning-application-specification-viewer/dataset/",
+      "bytes": 12180,
+      "sha256": "79c9dde72fd9174a108a1e62171308aa0cfc0662e3a7b89d264ea2c773911ca2"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-viewer.html",
+      "url": "https://digital-land.github.io/planning-application-specification-viewer/",
+      "canonical_source": "https://digital-land.github.io/planning-application-specification-viewer/",
+      "resolved_url": "https://digital-land.github.io/planning-application-specification-viewer/",
+      "bytes": 10138,
+      "sha256": "0ad010c9e0b19cd76347f7371372d1ece2869c3d26c7975be5a94d328bb6f3da"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-data-model.html",
+      "url": "https://digital-land.github.io/planning-application-specification-viewer/data-model/",
+      "canonical_source": "https://digital-land.github.io/planning-application-specification-viewer/data-model/",
+      "resolved_url": "https://digital-land.github.io/planning-application-specification-viewer/data-model/",
+      "bytes": 3153633,
+      "sha256": "f868f6aaca7a03836e1ffcd066491499851c4620a3666000afd8b91fe44d7cda"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "url": "https://codeload.github.com/digital-land/planning-application-data-specification/tar.gz/3b1dacd63c489abf6b0ee8cc394214711e2b77fd",
+      "canonical_source": "https://github.com/digital-land/planning-application-data-specification/tree/3b1dacd63c489abf6b0ee8cc394214711e2b77fd",
+      "resolved_url": "https://codeload.github.com/digital-land/planning-application-data-specification/tar.gz/3b1dacd63c489abf6b0ee8cc394214711e2b77fd",
+      "bytes": 2477197,
+      "sha256": "b560757051c33de653cf145d2b3f2eb48a8b99a9092a40b5a097da2e2f6c6af0",
+      "upstream_commit": "3b1dacd63c489abf6b0ee8cc394214711e2b77fd",
+      "files": 518,
+      "derivation": "Selected documentation and generated reference representations; original member bytes preserved."
+    }
+  ],
+  "links": [
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+      "to": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "label": "designed the proposed planning application data standard collaboratively and in the open Using data design to transform the planning application process: get in",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/co-design.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+      "to": "https://github.com/digital-land/data-standards-backlog/discussions/94",
+      "label": "GitHub",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-94-opening-post.json"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+      "to": "https://design.planning.data.gov.uk/project/planning-applications",
+      "label": "design.planning.gov.uk. data standards community homepage",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/project-community.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/11/18/testing-new-planning-data-specifications-with-industry-5-pilot-partnerships-paving-the-way/",
+      "label": "funded 5 pilot projects, through the Development Management Software Fund. These pilots have been working with each of the main back-office planning system prov",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/pilot-launch.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+      "to": "https://www.planning.data.gov.uk/",
+      "label": "Planning Data platform",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-data-platform.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+      "to": "https://consult.communities.gov.uk/planning/planning-application-data-standard-consultation-on/",
+      "label": "we want to hear from everyone affected by these proposals Have your say in the consultation on a planning application data standard.",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/citizen-space.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+      "to": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications",
+      "label": "consultation document",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/consultation-metadata.json"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "label": "Standardising the planning application process: Progress and next steps – MHCLG Digital",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/progress-and-next-steps.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/08/05/standardising-the-planning-application-process-kicking-off-work-on-decisions/",
+      "label": "Standardising the planning application process: Kicking off work on decisions  – MHCLG Digital",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/decisions-kick-off.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/10/20/diving-into-planning-decisions-what-we-learned-from-our-latest-user-research/",
+      "label": "Diving into planning decisions: What we learned from our latest user research  – MHCLG Digital",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/decisions-user-research.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+      "to": "https://mhclgdigital.blog.gov.uk/2026/01/30/testing-new-planning-data-standards-with-industry-what-we-learned-from-phase-1-and-where-we-go-next/",
+      "label": "Testing new planning data standards with industry: what we learned from phase 1 and where we go next – MHCLG Digital",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/phase-one-learning.html"
+    },
+    {
+      "from": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications/data-standard-for-planning-applications",
+      "to": "https://bills.parliament.uk/bills/3155/publications",
+      "label": "Levelling-up and Regeneration Act 2023",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/lura-parliament-publications.json"
+    },
+    {
+      "from": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications/data-standard-for-planning-applications",
+      "to": "https://consult.communities.gov.uk/planning/planning-application-data-standard-consultation-on/",
+      "label": "Start now",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/citizen-space.html"
+    },
+    {
+      "from": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications/data-standard-for-planning-applications",
+      "to": "https://digital-land.github.io/planning-application-data-specification/",
+      "label": "Two linked specifications",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-site.html"
+    },
+    {
+      "from": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications/data-standard-for-planning-applications",
+      "to": "https://www.gov.uk/government/publications/planning-application-forms-templates-for-local-planning-authorities",
+      "label": "existing planning application forms used for England,",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-form-templates.json"
+    },
+    {
+      "from": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications/data-standard-for-planning-applications",
+      "to": "https://www.gov.uk/government/organisations/ministry-of-housing-communities-local-government/about/complaints-procedure",
+      "label": "complaints procedure",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/consultation-complaints.html"
+    },
+    {
+      "from": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications/data-standard-for-planning-applications",
+      "to": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data/#scd1",
+      "label": "special category",
+      "layer": "direct",
+      "status": "retrieval-failed",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "from": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications/data-standard-for-planning-applications",
+      "to": "https://ico.org.uk/",
+      "label": "https://ico.org.uk/",
+      "layer": "direct",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications/data-standard-for-planning-applications",
+      "to": "https://www.gov.uk/government/statistics/planning-applications-in-england-april-to-june-2026/planning-applications-in-england-april-to-june-2026-statistical-release",
+      "label": "Planning applications in England: April to June 2026 - statistical release",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-statistics-2026q2.json"
+    },
+    {
+      "from": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications",
+      "to": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications/data-standard-for-planning-applications",
+      "label": "Data standard for planning applications",
+      "layer": "direct",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/consultation-document.json"
+    },
+    {
+      "from": "https://github.com/digital-land/data-standards-backlog/discussions/94",
+      "to": "https://github.com/digital-land/data-standards-backlog/discussions/98",
+      "label": "planning application submissions",
+      "layer": "discussion",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-98-opening-post.json"
+    },
+    {
+      "from": "https://github.com/digital-land/data-standards-backlog/discussions/94",
+      "to": "https://github.com/digital-land/data-standards-backlog/discussions/25",
+      "label": "planning application decisions",
+      "layer": "discussion",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-25-opening-post.json"
+    },
+    {
+      "from": "https://github.com/digital-land/data-standards-backlog/discussions/94",
+      "to": "https://github.com/digital-land/data-standards-backlog/discussions/40",
+      "label": "planning conditions",
+      "layer": "discussion",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-40-opening-post.json"
+    },
+    {
+      "from": "https://github.com/digital-land/data-standards-backlog/discussions/98",
+      "to": "https://github.com/digital-land/data-standards-backlog/discussions/94",
+      "label": "data specifications for planning applications",
+      "layer": "discussion",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-94-opening-post.json"
+    },
+    {
+      "from": "https://github.com/digital-land/data-standards-backlog/discussions/25",
+      "to": "https://www.gov.uk/search-register-planning-decisions",
+      "label": "Search the register of planning decisions",
+      "layer": "discussion",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-inspectorate-register-guide.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "to": "https://mhclgdigital.blog.gov.uk/2022/06/28/digital-planning-reform-an-overview/",
+      "label": "mission to modernise England's planning system",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/digital-planning-reform.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "to": "https://www.planning.data.gov.uk/",
+      "label": "planning data platform",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-data-platform.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "to": "https://digital-land.github.io/specification/specification/planning-application-decision/",
+      "label": "planning applications and decisions",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/historical-decision-specification.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "to": "https://digital-land.github.io/specification/specification/planning-condition/",
+      "label": "planning conditions",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/historical-condition-specification.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "to": "https://opendigitalplanning.org/products",
+      "label": "a lot of work done already",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/open-digital-planning-products.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "to": "https://github.com/digital-land/data-standards-backlog/discussions/94",
+      "label": "dedicated discussion page on GitHub register your interest to join the working group on the GitHub discussion page for p",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-94-opening-post.json"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "to": "https://design.planning.data.gov.uk/",
+      "label": "design.planning.gov.uk.",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-data-design-home.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "to": "https://www.localdigital.gov.uk/digital-planning/",
+      "label": "Digital Planning programme",
+      "layer": "supporting",
+      "status": "retrieval-failed",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/11/18/testing-new-planning-data-specifications-with-industry-5-pilot-partnerships-paving-the-way/",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "label": "Significant progress has been made on planning application submissions, with draft specifications now at pilot stage",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/progress-and-next-steps.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/11/18/testing-new-planning-data-specifications-with-industry-5-pilot-partnerships-paving-the-way/",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/10/20/diving-into-planning-decisions-what-we-learned-from-our-latest-user-research/",
+      "label": "standardising how decisions are recorded",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/decisions-user-research.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/11/18/testing-new-planning-data-specifications-with-industry-5-pilot-partnerships-paving-the-way/",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/03/18/funding-boost-to-support-digital-planning-innovation/",
+      "label": "we’re funding 5 pilot projects representing the main back-office planning systems used by local planning authorities acr",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/pilot-funding.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/11/18/testing-new-planning-data-specifications-with-industry-5-pilot-partnerships-paving-the-way/",
+      "to": "https://design.planning.data.gov.uk/project/planning-applications",
+      "label": "data standards community You can sign up and find information, updates and relevant links about this work on the plannin",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/project-community.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "to": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "label": "hard at work standardising the planning application process",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/co-design.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "to": "https://www.gov.uk/guidance/government-design-principles#make-things-open-it-makes-things-better",
+      "label": "'Make things open: it makes things better'",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/government-design-principles.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "to": "https://www.gov.uk/government/publications/planning-application-forms-templates-for-local-planning-authorities",
+      "label": "forms found on GOV.UK",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-form-templates.json"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "to": "https://github.com/digital-land/planning-application-data-specification/discussions?discussions_q=is%3Aopen+label%3Acomponent",
+      "label": "made them available as working draft specifications on GitHub",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/04/17/digital-planning-get-involved-validating-the-baseline-planning-application-data-specifications/",
+      "label": "invited everyone to review the baseline specifications",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/baseline-validation.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "to": "https://github.com/digital-land/planning-application-data-specification/discussions?discussions_q=is%3Aopen+label%3Aapplication-type",
+      "label": "current PDF application combined specifications",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "to": "https://www.planning.data.gov.uk/",
+      "label": "Planning Data Platform",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-data-platform.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "to": "https://digital-land.github.io/specification/specification/",
+      "label": "candidate",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/legacy-specification-index.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "to": "https://design.planning.data.gov.uk/project/planning-applications",
+      "label": "Visit our webpage (which we are currently redeveloping based on user research) for information about our work to date an",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/project-community.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/08/05/standardising-the-planning-application-process-kicking-off-work-on-decisions/",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "label": "in our last blog post",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/progress-and-next-steps.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/08/05/standardising-the-planning-application-process-kicking-off-work-on-decisions/",
+      "to": "https://digital-land.github.io/specification/specification/planning-application-decision/",
+      "label": "revisiting an early working draft from 2022",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/historical-decision-specification.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/08/05/standardising-the-planning-application-process-kicking-off-work-on-decisions/",
+      "to": "https://design.planning.data.gov.uk/project/planning-applications",
+      "label": "Please register to receive an invite to this session. find information, updates and relevant links about this work on th",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/project-community.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/10/20/diving-into-planning-decisions-what-we-learned-from-our-latest-user-research/",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "label": "standardise the planning application submission stage",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/progress-and-next-steps.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/10/20/diving-into-planning-decisions-what-we-learned-from-our-latest-user-research/",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/08/05/standardising-the-planning-application-process-kicking-off-work-on-decisions/",
+      "label": "shifted our focus to the other end of the planning permission process: the decision stage.",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/decisions-kick-off.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/10/20/diving-into-planning-decisions-what-we-learned-from-our-latest-user-research/",
+      "to": "https://design.planning.data.gov.uk/project/planning-applications",
+      "label": "join the data standards community",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/project-community.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/10/20/diving-into-planning-decisions-what-we-learned-from-our-latest-user-research/",
+      "to": "https://github.com/digital-land/planning-application-data-specification",
+      "label": "test our pilot submission standards",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "README.md"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2025/10/20/diving-into-planning-decisions-what-we-learned-from-our-latest-user-research/",
+      "to": "https://github.com/orgs/digital-land/projects/36",
+      "label": "public project board",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/01/30/testing-new-planning-data-standards-with-industry-what-we-learned-from-phase-1-and-where-we-go-next/",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/11/18/testing-new-planning-data-specifications-with-industry-5-pilot-partnerships-paving-the-way/",
+      "label": "shared details of 5 pilots testing new data standards for planning applications",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/pilot-launch.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/01/30/testing-new-planning-data-standards-with-industry-what-we-learned-from-phase-1-and-where-we-go-next/",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "label": "We are creating a data standard which can structure planning application information in a consistent way",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/progress-and-next-steps.html"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/01/30/testing-new-planning-data-standards-with-industry-what-we-learned-from-phase-1-and-where-we-go-next/",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues",
+      "label": "They are all captured on an issues log.",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://mhclgdigital.blog.gov.uk/2026/01/30/testing-new-planning-data-standards-with-industry-what-we-learned-from-phase-1-and-where-we-go-next/",
+      "to": "https://design.planning.data.gov.uk/project/planning-applications",
+      "label": "You can sign up and find information, updates and relevant links about this work on the planning applications submission",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/project-community.html"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://digital-land.github.io/planning-application-data-specification/",
+      "label": "Latest specification pecification viewer",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-site.html"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification",
+      "label": "Specification source code a dedicated repository for the Planning application data specification",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "README.md"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues",
+      "label": "Specification issues issues/feedback issues 93 items we've added to github as issues open issues individual issues",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/orgs/digital-land/projects/36/views/1",
+      "label": "Project board public backlog",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/roadmap",
+      "label": "Roadmap updated the roadmap list of the activites",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-roadmap.html"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1vLwo8kunvGEhk26DXA5U0YKm7NK_zU8J/view?usp=drive_link",
+      "label": "October session slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://docs.google.com/document/d/1GCNhjJuwFbn3_9Soco0HNBBMQO4ba0qo/edit?usp=drive_link",
+      "label": "Notes from the session",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1ytRoKWn6TF4e6SotFk5tqCPbuHmrv8bC/view?usp=drive_link",
+      "label": "Lean Coffee questions and output",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "label": "Refining the planning application data specification",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/materials/Refining the planning application data specification.pdf"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/materials/What%20we%20are%20learning%20about%20implementing%20the%20Open%20Data%20Standards.pdf",
+      "label": "Development Management Software Funding (DMSF) update: What we are learning about implementing the Open Data Standards",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/materials/What we are learning about implementing the Open Data Standards.pdf"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1eQG_wmINWLppYknGzqiWx1sqkbqTIziQ/view?usp=drivesdk",
+      "label": "August session slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20260819-ODSC-Session-Notes.pdf",
+      "label": "Notes from the session",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/11oO0Im_WFH2Nui370lThx42Gu9hTaQo4/view?usp=sharing",
+      "label": "July session slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20260722-ODSC-Session%20Notes.pdf",
+      "label": "Notes from the session",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://digital-land.github.io/planning-application-data-specification/view/national-public/",
+      "label": "Planning register national public view",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1WR4-_khJx2Vn-LdvpVWhw_q2ORP5t-vx/view?usp=sharing",
+      "label": "June session slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1YYJsAYftmIjL4u28yGqeNAB8fpvDYlUY/view?usp=sharing",
+      "label": "Slides for Defra's planning advice transformation presentation",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1x5UiMrMrvTZ1WWRDTJS6uLh32WqN-Ds3/view?usp=sharing",
+      "label": "Lean coffee questions from the session",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20260624-ODSC-Community-Session-Summary.pdf",
+      "label": "Notes from the session",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1ZChggxE8r0O9q89L5iwLwBbMTfRrqnt7/view?usp=sharing",
+      "label": "May session slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20260520-ODSC-Summary.pdf",
+      "label": "Notes from the session",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/implementation-community-may-notes.pdf"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/commit/34c269f5b020e6edb650bbd90f98869496380847",
+      "label": "Materials module",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1G78SQv_cfPmfLYkjvCIS7pbpQcKy8JUx/view?usp=sharing",
+      "label": "March session slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20260331-jack-rickett-slides.pdf",
+      "label": "Jack Ricketts' slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20260331-ODSC-Session-Summary.docx.pdf",
+      "label": "Notes from the session",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/implementation-community-march-notes.pdf"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20260331-Community-Questions-and-themes.pdf",
+      "label": "Questions and themes from the session",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/implementation-community-march-questions.pdf"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20260326-ODSC-statcon-subgroup.pdf",
+      "label": "notes here",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1jKsvlnbwn1UtZRPdI6un7CGGNHRSbkiu/view?usp=sharing",
+      "label": "February session slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20260225-odsc-session-summary-NOTES.pdf",
+      "label": "Notes from the session",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/implementation-community-february-notes.pdf"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20260225-lean-coffee-sessionsummary.pdf",
+      "label": "Notes from the lean coffee section",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20260203-Data_Standards_Transition_Deep_Dive.pdf",
+      "label": "summary notes",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/implementation-transition-deep-dive.pdf"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/how_dates_and_timestamps_are_used_in_this_specification.md",
+      "label": "how we plan to capture the expected level of precision for date fields",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/how_dates_and_timestamps_are_used_in_this_specification.md"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/dataset/site.schema.md?plain=1",
+      "label": "Site",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/dataset/section-106.schema.md?plain=1",
+      "label": "Section 106",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1-Zoce5GH8m7plh7DpeqQA4EYIwqqzcy2/view?usp=sharing",
+      "label": "January session slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1J56B-8FGDq7j8dkcuv_sXx38wB2SKKzE/view?usp=sharing",
+      "label": "Notes from the session",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1tlApc19a90d9-Ei2VvvIJktqWjZwqJHW/view?usp=sharing",
+      "label": "Dr Wei Yang's The Systemic Transformation of Spatial Planning presentation",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1T_bGNHVgcQILlEcDjCEnOKdJz5CMNWwe/view?usp=sharing",
+      "label": "Chris Lees' From Planning Standards to Data Infrastructure presentation",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/documents-and-references.md",
+      "label": "how we expect documents to work",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/documents-and-references.md"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/Standards%202025%20Progress%20Report.pdf",
+      "label": "end of the year (2025) community report",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/Standards 2025 Progress Report.pdf"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/user-needs/need",
+      "label": "user needs",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "user-needs/need/"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/user-needs/justification",
+      "label": "justification records",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "user-needs/justification/"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/module/oilgas-permission-type.schema.md?plain=1",
+      "label": "Oil and gas permission types module",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://assets.publishing.service.gov.uk/media/5b06c840e5274a2d7670ac43/Form035_england_en__2_.pdf",
+      "label": "existing form",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/17-Form035_england_en__2_.pdf"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/data/codelist/planning-authority.csv",
+      "label": "planning-authority codelist",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "data/codelist/planning-authority.csv"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1JbtbKtYcpuHoxp35so_ubp1h8Btc6xkm/view?usp=sharing",
+      "label": "slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20251127_ODSC_Notes.pdf",
+      "label": "notes",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues?q=is%3Aissue%20state%3Aclosed",
+      "label": "closed issues",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/application/technical-details-consent.schema.md?plain=1",
+      "label": "technical consent details",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/orgs/digital-land/projects/36/views/1?pane=issue&itemId=137392676&issue=digital-land%7Cplanning-data-design%7C134",
+      "label": "“How to use” documentation",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://docs.google.com/spreadsheets/d/1-BUdqNTZtMQfeqODaKZkBcKCm1LwNKtNIF_HrE_iZqM/edit?usp=sharing",
+      "label": "a spreadsheet to track the payloads submitted by the community",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/generated/spreadsheet/verbose",
+      "label": "generated/spreadsheet/verbose folder",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "generated/spreadsheet/verbose/"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://docs.google.com/presentation/d/1ZBBK214gdWigrtwTNgUjNK2mXaKcGyUFIUTJLYLPS5E/edit?usp=sharing",
+      "label": "slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1gCBltSfP2lPbcUEFkPUP3vg6PfGsa8gt/view?usp=sharing",
+      "label": "decision notices slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/October-Community-session_Planning-Permissions-NOTES.pdf",
+      "label": "notes",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-data-design/issues/69#issuecomment-3386565185",
+      "label": "what an end-to-end test for the submission specification could be",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/10/20/diving-into-planning-decisions-what-we-learned-from-our-latest-user-research/",
+      "label": "blog post",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/decisions-user-research.html"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/data/planning-application-type.csv",
+      "label": "list of application types list original list of application types",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/September-Community-session_Planning-Permissions-SLIDES.pdf",
+      "label": "slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/September-Community-session_Planning-Permissions-NOTES.pdf",
+      "label": "notes",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://json-schema.org/",
+      "label": "JSON schemas",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/generated/json-schema/applications",
+      "label": "One for each application type",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "generated/json-schema/applications/"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/specification/module",
+      "label": "module definitions",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/module/"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/json-schema-generation.md",
+      "label": "work on generating JSON schemas",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/json-schema-generation.md"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/generated/spreadsheet",
+      "label": "spreadsheet versions of the specification for each application type",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "generated/spreadsheet/"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/generated/info_model/application",
+      "label": "generate all information models from the declarative definitions",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "generated/info_model/application/"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://youtu.be/YQHAdtRYHTw",
+      "label": "introduction to github",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20250820_Key_Points_from_Community_session_august.pdf",
+      "label": "notes",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20250820_AUGUST_Data_Standards_Community_%20Planning_Permissions.pdf",
+      "label": "slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/generated/info_model/module",
+      "label": "generated/info_model/module",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "generated/info_model/module/"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/specification/codelist",
+      "label": "35 codelists",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/codelist/"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/specification/application",
+      "label": "23 application types",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/application/"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/codelists.md",
+      "label": "how a codelist definition should be structured",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/codelists.md"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/08/05/standardising-the-planning-application-process-kicking-off-work-on-decisions/",
+      "label": "published a new MHCLG blog about kicking off work on decisions",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/decisions-kick-off.html"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/community",
+      "label": "slides and notes from our first data standards community Updates are being added to the project website removed outdated",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/project-community.html"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20250723.-.ODSC.Summary.Notes.pdf",
+      "label": "notes",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/20250715.-.JULY.-.Data.Standards.Community_.Planning.Permissions.pdf",
+      "label": "slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/07/08/standardising-the-planning-application-process-progress-and-next-steps/",
+      "label": "Blog post",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/progress-and-next-steps.html"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/generated/issue-tracking/open-issues-spreadsheet.csv",
+      "label": "feedback lists the modules with issues we are working on a list of modules with active issues. It’s a live tracker: as i",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://digital-land.github.io/specification/specification/",
+      "label": "updated the definitions of key terms",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/legacy-specification-index.html"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/data-standards-backlog/discussions/25#discussioncomment-13530686.",
+      "label": "update about the planning application and decision specification",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-25-opening-post.json"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/CHANGELOG.md",
+      "label": "change log CHANGELOG",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "CHANGELOG.md"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/application/pip.schema.md?plain=1",
+      "label": "Permission in Principle application",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/294",
+      "label": "issue #294",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/application/hh.schema.md?plain=1",
+      "label": "Householder application",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/data-standards-backlog/discussions/25#discussioncomment-13530686",
+      "label": "improve the planning application and decisions specification(s)",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-25-opening-post.json"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/208",
+      "label": "issue #208",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/specification/example",
+      "label": "data examples",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/generated/issue-tracking/declarative-model-progress.md",
+      "label": "Specifications with delarative model",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/declarative-model.md",
+      "label": "declarative model",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/declarative-model.md"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/module.md",
+      "label": "modules",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/module.md"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/planning-requirements.md",
+      "label": "planning requirements",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/planning-requirements.md"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://docs.google.com/spreadsheets/d/10QprqRCo8Ss_Hpx-XkXpVHmVGewiTzWbVITEz9vXvhw/edit?usp=sharing",
+      "label": "tracker a tracker",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://digital-land.github.io/specification/specification/planning-application-decision/",
+      "label": "planning application and decisions specification",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/historical-decision-specification.html"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/fields.md",
+      "label": "documented how we plan to define fields",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/fields.md"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/data/planning-requirement.csv",
+      "label": "a standardised list of planning requirements a list of planning requirements",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/data/national-planning-requirement.csv",
+      "label": "national-planning-requirements.csv",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/extension-digital-site-notice-module",
+      "label": "demo repository for an extension module",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/234",
+      "label": "issue #234",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://mhclgdigital.blog.gov.uk/2025/04/17/digital-planning-get-involved-validating-the-baseline-planning-application-data-specifications/",
+      "label": "a blog post",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/baseline-validation.html"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification?tab=readme-ov-file#application-types",
+      "label": "draft specifications",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/README.md",
+      "label": "\"index\" specification file index specification",
+      "layer": "supporting",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/README.md"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/229",
+      "label": "issue #229",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/discussions/70#discussioncomment-12170186",
+      "label": "Site details module",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/8",
+      "label": "issue #8",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1Fv5ja_inTPx0Wzepx-Xd97g5nUezoBu3/view?usp=sharing",
+      "label": "slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://www.youtube.com/watch?v=T_ongWZ6Tbs",
+      "label": "video",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1hDtdvtMGVbdJjI4gAQdSf2GPTZFUYjFH/view?usp=sharing",
+      "label": "slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/1Q6OPerWWuodmYNJ03gORTcp1xNXLOsqi/view?usp=sharing",
+      "label": "minutes",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/discussions/categories/application-type?discussions_q=is%3Aopen+label%3Aapplication-type+category%3A%22Application+type%22",
+      "label": "a discussion thread per application type",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/discussions/categories/codelist-enum",
+      "label": "a discussion for each of the codelists",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://www.youtube.com/watch?v=3Nj5Qg99ZLU&feature=youtu.be",
+      "label": "recording",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/discussions?discussions_q=label%3Aapplication-type",
+      "label": "list of modules required for each application type",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://docs.google.com/presentation/d/1UjkxVm1PsRTO0kNNum9tILjhqIt5UZHEdWcbCmbrY98/edit?usp=sharing",
+      "label": "slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://drive.google.com/file/d/18GZkYBThjcTal21R0UP-2it9JVPerMPb/view?usp=sharing",
+      "label": "minutes",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/discussions?discussions_q=is%3Aopen+label%3Acodelist%2Fenum",
+      "label": "a discussion for each one",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/discussions?discussions_q=is%3Aopen+label%3Acomponent",
+      "label": "information models for each component",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/158",
+      "label": "issue #158",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/71",
+      "label": "codelists",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/discussions",
+      "label": "discussions a set of information models",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/126",
+      "label": "an issue",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/2",
+      "label": "Hedgerow removal notices",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/1",
+      "label": "issue #1",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/data/analysis/2025-planning-application-form.csv",
+      "label": "list of the application forms",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/data/analysis/2025-planning-application-module.csv",
+      "label": "list of the modules",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/117",
+      "label": "proposed combining the \"Declaration\" and \"Declaration - trees\" modules",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://docs.google.com/presentation/d/1jmzteOSh--o2w4f-jPzhCUMcMBPXRVnGa9-ePWokQag/edit?usp=sharing",
+      "label": "slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://youtu.be/tOsaFKJWGLo",
+      "label": "video",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues?q=is%3Aissue%20state%3Aopen%20label%3Aapplication-type",
+      "label": "open issues related to application types",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://docs.google.com/presentation/d/1OPKGIuz0AreuznbkU5aNNmYmrmkY1lQeMopzfoLCNMQ/edit?usp=sharing",
+      "label": "slides",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://docs.google.com/document/d/1rAfdlwdzxH0ckVjUrT8aMg2AIYyhW8mmAUM4Xq6EInk/edit?usp=sharing",
+      "label": "minutes",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://docs.google.com/spreadsheets/d/1MfoIIZBU3cSIhk8awT3f8fv7j_AETT7PLslTJaoa_0Y/edit?usp=sharing",
+      "label": "a module tracker spreadsheet",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/data-standards-backlog/discussions/98#discussioncomment-11157740",
+      "label": "discussion thread planning application types",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-98-opening-post.json"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/data-standards-backlog/discussions/98#discussioncomment-11482302",
+      "label": "components and fields activity",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-98-opening-post.json"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/data-standards-backlog/discussions/98",
+      "label": "Planning application submissions discussion thread",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-98-opening-post.json"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://docs.google.com/presentation/d/1WwsV3vNjaXdOYydnrnH3n4UT6iaMCHDxbbyBHZxAUCk/edit?usp=sharing",
+      "label": "slide deck",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://youtu.be/Gc22mzq_L2c",
+      "label": "video of session",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://mhclgdigital.blog.gov.uk/2024/12/06/digital-planning-developing-planning-applications-specifications-in-the-open/",
+      "label": "a blog post about the first 2 events we held",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://docs.google.com/spreadsheets/d/1x9-xinthW3j8G1vFq9i1Re1AJJ0D4yyiT8LpnaINyhA/edit?usp=sharing",
+      "label": "a spreadsheet of components and fields",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://design.planning.data.gov.uk/static/docs/planning-applications-advisory-group-charter.odt",
+      "label": "Advisory group charter (download file)",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://github.com/digital-land/data-standards-backlog/discussions/98#discussioncomment-11189385",
+      "label": "Analysed the existing application forms",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/discussion-98-opening-post.json"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://docs.google.com/document/d/1WqMY1tfH9YhaZ1yUlJPKtTqs_OKw0Nv8yqdHWO4xSg4/edit?usp=sharing",
+      "label": "a charter",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://design.planning.data.gov.uk/community",
+      "to": "https://mhclgdigital.blog.gov.uk/2024/10/18/using-data-design-to-transform-the-planning-application-process-get-involved/",
+      "label": "blog post",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/co-design.html"
+    },
+    {
+      "from": "https://consult.communities.gov.uk/planning/planning-application-data-standard-consultation-on/",
+      "to": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications",
+      "label": "consultation document",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/consultation-metadata.json"
+    },
+    {
+      "from": "https://www.planning.data.gov.uk/",
+      "to": "https://www.planning.data.gov.uk/about",
+      "label": "about the platform",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://www.planning.data.gov.uk/",
+      "to": "https://provide.planning.data.gov.uk/",
+      "label": "Find out which services are affected and view the latest update. Check and provide planning data",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://www.planning.data.gov.uk/",
+      "to": "https://www.planning.data.gov.uk/map/",
+      "label": "Explore the map of planning data for England",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://www.planning.data.gov.uk/",
+      "to": "https://www.planning.data.gov.uk/entity",
+      "label": "Search planning and housing data",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://www.planning.data.gov.uk/",
+      "to": "https://design.planning.data.gov.uk/",
+      "label": "View and contribute to data design",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-data-design-home.html"
+    },
+    {
+      "from": "https://www.planning.data.gov.uk/",
+      "to": "https://www.planning.data.gov.uk/dataset/",
+      "label": "Find planning and housing datasets",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://www.planning.data.gov.uk/",
+      "to": "https://www.planning.data.gov.uk/docs/",
+      "label": "View the API documentation",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-data-api-documentation.html"
+    },
+    {
+      "from": "https://digital-land.github.io/planning-application-data-specification/",
+      "to": "https://digital-land.github.io/planning-application-data-specification/application-type/",
+      "label": "Find an application type",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://digital-land.github.io/planning-application-data-specification/",
+      "to": "https://digital-land.github.io/planning-application-data-specification/dataset/",
+      "label": "Explore the datasets",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://digital-land.github.io/planning-application-data-specification/",
+      "to": "https://digital-land.github.io/planning-application-data-specification/view/national-public/",
+      "label": "View the national public publication requirements",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://digital-land.github.io/planning-application-data-specification/",
+      "to": "https://digital-land.github.io/planning-application-data-specification/data-model/",
+      "label": "Read about the data model",
+      "layer": "supporting",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://digital-land.github.io/planning-application-specification-viewer/",
+      "to": "https://digital-land.github.io/planning-application-specification-viewer/application-type/",
+      "label": "Find an application type",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-viewer-application-types.html"
+    },
+    {
+      "from": "https://digital-land.github.io/planning-application-specification-viewer/",
+      "to": "https://digital-land.github.io/planning-application-specification-viewer/dataset/",
+      "label": "Explore the datasets",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-viewer-datasets.html"
+    },
+    {
+      "from": "https://digital-land.github.io/planning-application-specification-viewer/",
+      "to": "https://digital-land.github.io/planning-application-specification-viewer/view/national-public/",
+      "label": "View the national public publication requirements",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/national-public-view.html"
+    },
+    {
+      "from": "https://digital-land.github.io/planning-application-specification-viewer/",
+      "to": "https://digital-land.github.io/planning-application-specification-viewer/data-model/",
+      "label": "Explore the data model",
+      "layer": "supporting",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-data-model.html"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/65c612f09c5b7f0012951be4/App_Form_-_01_-_Householder_Development.pdf",
+      "label": "Householder application for planning permission for works or extension to a dwelling: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/01-App_Form_-_01_-_Householder_Development.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/65c6131a14b83c000ea715e6/App_Form_-_02_-_Householder_Development_and_Demolition_of_Unlisted_Building_in_Conservation_Area.pdf",
+      "label": "Householder application for planning permission for works or extension to a dwelling and for relevant demolition of an unlisted building in a conservation area:",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/02-App_Form_-_02_-_Householder_Development_and_Demolition_of_Unlisted_Building_in_Conservation_Area.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/65c6132b14b83c000ca715fe/App_Form_-_03_-_Householder_Development_and_Listed_Building_Consent.pdf",
+      "label": "Householder application for planning permission for works or extension to a dwelling and listed building consent: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/03-App_Form_-_03_-_Householder_Development_and_Listed_Building_Consent.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/65c6133a14b83c000ea715e8/App_Form_-_04_-_Application_for_Planning_Permission.pdf",
+      "label": "Application for planning permission: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/04-App_Form_-_04_-_Application_for_Planning_Permission.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/65c6134914b83c000ea715e9/App_Form_-_05_-_Application_for_Outline_Planning_Permission_with_Some_Matters_Reserved.pdf",
+      "label": "Application for outline planning permission with some matters reserved: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/05-App_Form_-_05_-_Application_for_Outline_Planning_Permission_with_Some_Matters_Reserved.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/65c6135714b83c000ea715ea/App_Form_-_06_-_Application_for_Outline_Planning_Permission_with_All_Matters_Reserved.pdf",
+      "label": "Application for outline planning permission with all matters reserved: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/06-App_Form_-_06_-_Application_for_Outline_Planning_Permission_with_All_Matters_Reserved.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/65c6136c9c5b7f000c951bfa/App_Form_-_07_-_Application_for_Planning_Permission_and_Demo_of_Unlisted_Building_in_Con_Area.pdf",
+      "label": "Application for planning permission and for relevant demolition of an unlisted building in a conservation area: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/07-App_Form_-_07_-_Application_for_Planning_Permission_and_Demo_of_Unlisted_Building_in_Con_Area.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/65c6137b9c5b7f0012951be7/App_Form_-_08_-_Application_for_Planning_Permission_and_Listed_Building_Consent.pdf",
+      "label": "Application for planning permission and listed building consent for alterations, extension or demolition of a listed building: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/08-App_Form_-_08_-_Application_for_Planning_Permission_and_Listed_Building_Consent.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/65c61388cc433b0011a90b25/App_Form_-_09_-_Application_for_Planning_Permission_and_Advertisement_Consent.pdf",
+      "label": "Application for planning permission and consent to display advertisement(s): template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/09-App_Form_-_09_-_Application_for_Planning_Permission_and_Advertisement_Consent.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/65c613959c5b7f000c951bfb/App_Form_-_10_-_Application_for_Demolition_in_Conservation_Area.pdf",
+      "label": "Application for planning permission for relevant demolition in a conservation area: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/10-App_Form_-_10_-_Application_for_Demolition_in_Conservation_Area.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/5b06c785e5274a2d7670ac42/Form011_england_en__2_.pdf",
+      "label": "Application for listed building consent for alterations, extension or demolition of a listed building: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/11-Form011_england_en__2_.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/5b06c7aded915d46713b205f/Form012_england_en__2_.pdf",
+      "label": "Application for consent to display an advertisement(s): template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/12-Form012_england_en__2_.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/67dbf586cb8c6838d74b4f7f/LDC_application_template.pdf",
+      "label": "Application for a lawful development certificate for an existing use or operation or activity including those in breach of a planning condition: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/13-LDC_application_template.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/5b06c801ed915d6a2001cebc/Form015_england_en__2_.pdf",
+      "label": "Application for a lawful development certificate for a proposed use or development: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/14-Form015_england_en__2_.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/5a806889e5274a2e87db9a44/Form025_england_en.pdf",
+      "label": "Application for removal or variation of a condition following grant of planning permission: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/15-Form025_england_en.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/5b06c81de5274a1c5490ce6f/Form031_england_en_revised__2_.pdf",
+      "label": "Application for tree works - works to trees subject to a tree preservation order and/or notification of proposed works to trees in a conservation area: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/16-Form031_england_en_revised__2_.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/5b06c840e5274a2d7670ac43/Form035_england_en__2_.pdf",
+      "label": "Planning application for development relating to the onshore extraction of oil and gas: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/17-Form035_england_en__2_.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/5b06c860ed915d134a85802c/Form036_england_en__2_.pdf",
+      "label": "Application for a certificate of lawfulness of proposed works to a listed building: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/18-Form036_england_en__2_.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/5b06d04440f0b67320446b6a/Form037_england_en.pdf",
+      "label": "Application for permission in principle: template",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/19-Form037_england_en.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/60d455528fa8f57cf29cdb62/Fire_statement_form_-_dynamic.docx",
+      "label": "Fire statement form (for applications made on or after 1 August 2021)",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/20-Fire_statement_form_-_dynamic.docx"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/60d4545b8fa8f57cf3f0b41d/Fire_statement_form_-_static.pdf",
+      "label": "Fire statement form (for applications made on or after 1 August 2021) - print version",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/21-Fire_statement_form_-_static.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/60db274bd3bf7f7c2ed84b6b/Fire_statement_form_-_guidance.pdf",
+      "label": "Fire statement form: guidance",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/22-Fire_statement_form_-_guidance.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/6808b9063bdfd1243078e73e/250416_App_Form_-_01_-_CDR_-_Application_for_Planning_Permission.pdf",
+      "label": "Application for planning permission for Crown Development",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/23-250416_App_Form_-_01_-_CDR_-_Application_for_Planning_Permission.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/6808b9770324470d6a394ed4/250416_App_Form_-_02_-_CDR_-_Application_for_Outline_Planning_Permission_with_Some_Matters_Reserved.pdf",
+      "label": "Application for outline planning permission for Crown Development with some matters reserved",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/24-250416_App_Form_-_02_-_CDR_-_Application_for_Outline_Planning_Permission_with_Some_Matters_Reserved.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/6808b9c43bdfd1243078e742/250416_App_Form_-_03_-_CDR_-_Application_for_Outline_Planning_Permission_with_All_Matters_Reserved.pdf",
+      "label": "Application for outline planning permission for Crown Development with all matters reserved",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/25-250416_App_Form_-_03_-_CDR_-_Application_for_Outline_Planning_Permission_with_All_Matters_Reserved.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/6808ba263bdfd1243078e745/250416_App_Form_-_04_-_CDR_-_Application_for_Planning_Permission_and_Listed_Building_Consent.pdf",
+      "label": "Application for planning permission for Crown Development and listed building consent",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/26-250416_App_Form_-_04_-_CDR_-_Application_for_Planning_Permission_and_Listed_Building_Consent.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/6808ba8a148a9969d2394eda/250416_App_Form_-_05_-_CDR_-_Application_for_Planning_Permission_and_Demo_in_Con_Area.pdf",
+      "label": "Application for planning permission for Crown Development and for demolition in a conservation area",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/27-250416_App_Form_-_05_-_CDR_-_Application_for_Planning_Permission_and_Demo_in_Con_Area.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/6a16b84e1eb143220d8d28ce/Application_for_planning_permission_for_Urgent_Crown_Development.pdf",
+      "label": "Application for planning permission for Urgent Crown Development",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/28-Application_for_planning_permission_for_Urgent_Crown_Development.pdf"
+    },
+    {
+      "from": "https://www.gov.uk/government/publications/planning-application-fire-statement-and-crown-development-forms-templates",
+      "to": "https://assets.publishing.service.gov.uk/media/6a16b8a79819be865f421d7b/Application_for_Outline_Planning_Permission_for_Urgent_Crown_Development_with_All_Matters_Reserved.pdf",
+      "label": "Application for outline planning permission for Urgent Crown Development with all matters reserved",
+      "layer": "attachment",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/forms/29-Application_for_Outline_Planning_Permission_for_Urgent_Crown_Development_with_All_Matters_Reserved.pdf"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://digital-land.github.io/planning-application-data-specification/",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-site.html"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://digital-land.github.io/planning-application-data-specification/codelist/",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://digital-land.github.io/planning-application-data-specification/dataset/",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://digital-land.github.io/planning-application-data-specification/dataset/decision-condition/",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://digital-land.github.io/planning-application-data-specification/dataset/decision-notice/",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://digital-land.github.io/planning-application-data-specification/dataset/planning-application-document/",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://digital-land.github.io/planning-application-data-specification/dataset/planning-application/",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://digital-land.github.io/planning-application-data-specification/dataset/planning-application/#combined-full-and-listed-building-consent-table",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://digital-land.github.io/planning-application-data-specification/dataset/planning-condition/",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://digital-land.github.io/planning-application-data-specification/dataset/planning-permission-timeline/",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://digital-land.github.io/planning-application-data-specification/dataset/site/",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://digital-land.github.io/planning-application-data-specification/example/",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://digital-land.github.io/planning-application-data-specification/example/planning-application-data/householder-application/",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only",
+      "detail": "Worked example includes case details. Retain the source link."
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/data/codelist/decision.csv",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "data/codelist/decision.csv"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/data/codelist/permission-process-event.csv",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "data/codelist/permission-process-event.csv"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/design-decisions/0017-do-not-duplicate-dates-across-decision-stage-datasets.md",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/design-decisions/0017-do-not-duplicate-dates-across-decision-stage-datasets.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/design-decisions/0023-use-a-shared-decision-codelist.md",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/design-decisions/0023-use-a-shared-decision-codelist.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/requirement-levels.md",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/requirement-levels.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/field/document-url.md",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/field/document-url.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/field/documentation-url.md",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/field/documentation-url.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/guidance/dataset/planning-application/field/linked-applications.md",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "specification/guidance/dataset/planning-application/field/linked-applications.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/national-public-view.schema.md",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/national-public-view.schema.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/user-needs/justification/just-0037.md",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "user-needs/justification/just-0037.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/307",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-issue-307-metadata.json"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/386",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-issue-386-metadata.json"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/413",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-issue-413-metadata.json"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues/414",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-issue-414-metadata.json"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/user-needs",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "user-needs/"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://raw.githubusercontent.com/digital-land/planning-application-data-specification/refs/heads/main/documentation/materials/references-are-the-glue--resized.jpg",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/materials/references-are-the-glue--resized.jpg"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/Refining%20the%20planning%20application%20data%20specification.pdf",
+      "to": "https://www.planning.data.gov.uk/",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/planning-data-platform.html"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/materials/What%20we%20are%20learning%20about%20implementing%20the%20Open%20Data%20Standards.pdf",
+      "to": "https://design.planning.data.gov.uk/project/planning-applications/weeknotes",
+      "label": "Link in implementation report",
+      "layer": "pilot-report",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://design.planning.data.gov.uk/project/planning-applications",
+      "label": "project page",
+      "layer": "technical-repository",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/project-community.html"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/application-scope.md",
+      "label": "which application types are currently in scope",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/application-scope.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/specification",
+      "label": "specification",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "specification/"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/specification/application",
+      "label": "applications",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/application/"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/application/hh.schema.md",
+      "label": "householder",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/application/hh.schema.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/application-scope.md",
+      "label": "which application types are in scope",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/application-scope.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/specification/module",
+      "label": "modules",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/module/"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/module/agent-details.schema.md",
+      "label": "agent details",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/module/agent-details.schema.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/specification/component",
+      "label": "components",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/component/"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/component/supporting-document.md",
+      "label": "supporting documents",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/component/supporting-document.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/specification/field",
+      "label": "fields",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/field/"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/field/decision-date.md",
+      "label": "decision date",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/field/decision-date.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/specification/codelist",
+      "label": "codelists",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/codelist/"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/codelist/parking-space-type.schema.md",
+      "label": "parking space type",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/codelist/parking-space-type.schema.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/specification/dataset",
+      "label": "datasets",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/dataset/"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/specification/dataset/site.schema.md",
+      "label": "site",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "specification/dataset/site.schema.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation",
+      "label": "/documentation folder",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://digital-land.github.io/planning-application-specification-viewer/",
+      "label": "replacement viewer",
+      "layer": "technical-repository",
+      "status": "captured",
+      "file": "sources/snapshots/2026-11-18/planning/linked/specification-viewer.html"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/generated/info_model/application",
+      "label": "compiled markdown representations of each application type",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "generated/info_model/application/"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/generated/spreadsheet",
+      "label": "spreadsheets for each application type",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "generated/spreadsheet/"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/tree/main/generated/json-schema/applications",
+      "label": "JSON schemas",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "member": "generated/json-schema/applications/"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/main/documentation/how-the-specification-fits-together.md",
+      "label": "how the specification fits together",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/how-the-specification-fits-together.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/spec-cli.md",
+      "label": "spec CLI",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/spec-cli.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/issues",
+      "label": "issues",
+      "layer": "technical-repository",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/discussions",
+      "label": "discussions",
+      "layer": "technical-repository",
+      "status": "reference-only"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/CHANGELOG.md",
+      "label": "CHANGELOG",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "CHANGELOG.md"
+    },
+    {
+      "from": "https://github.com/digital-land/planning-application-data-specification",
+      "to": "https://github.com/digital-land/planning-application-data-specification/blob/3b1dacd63c489abf6b0ee8cc394214711e2b77fd/documentation/releasing-specification-package.md",
+      "label": "package release instructions",
+      "layer": "technical-repository",
+      "status": "archive-member",
+      "file": "sources/snapshots/2026-11-18/planning/linked/technical-repository-linked-documents.zip",
+      "member": "documentation/releasing-specification-package.md"
+    }
+  ],
+  "unretrieved_documents": [
+    {
+      "url": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/lawful-basis/a-guide-to-lawful-basis/special-category-data/",
+      "status": "retrieval-failed",
+      "detail": "HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.localdigital.gov.uk/digital-planning/",
+      "status": "retrieval-failed",
+      "detail": "HTTP Error 403: Forbidden"
+    }
+  ]
+}

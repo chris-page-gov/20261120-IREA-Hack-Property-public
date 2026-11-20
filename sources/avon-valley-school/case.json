@@ -1,0 +1,1304 @@
+{
+  "example": "Avon Valley School planning and estate evidence",
+  "observed_at": "2026-11-18T16:23:37+00:00",
+  "scope": "Local public-source worked example. Terms are specific to this profile.",
+  "working_draft_revision": "3b1dacd63c489abf6b0ee8cc394214711e2b77fd",
+  "confidence_scale": "The candidate link value 0.5 is a documentary review category. The spatial check measures point position against the derived red line independently.",
+  "sources": {
+    "estate-workbook": {
+      "url": "https://www.warwickshire.gov.uk/directory-record/8957/property-and-asset-list-february-2026",
+      "original_url": "https://api.warwickshire.gov.uk/documents/WCCC-2082928926-182",
+      "local_file": "sources/snapshots/2026-11-17/ndl/wcc-property-asset-list-feb-2026.xlsx",
+      "sha256": "99496d24456b2c3671c6f86278a205640879014fb6dc3307244f19ca0424f678",
+      "locator": "Template_2026_Correct, row 630",
+      "publication_date": "2026-02",
+      "evidence_access": "Checked local snapshot on 18 November 2026",
+      "rights": "Review publisher terms for reuse beyond local evidence."
+    },
+    "os-open-uprn": {
+      "url": "https://www.ordnancesurvey.co.uk/products/os-open-uprn",
+      "original_url": "https://api.os.uk/downloads/v1/products/OpenUPRN/downloads?area=GB&format=CSV&redirect",
+      "local_file": "sources/snapshots/2026-11-17/ndl/osopenuprn_202610_csv.zip",
+      "sha256": "d353528c91032b693e42cb84d8b7c359d87f625b43dc044b2f85d02dffb7904b",
+      "locator": "osopenuprn_202610.csv, UPRN 100071399702",
+      "publication_date": "2026-10",
+      "evidence_access": "Checked local snapshot on 18 November 2026",
+      "rights": "OS OpenData terms and attribution apply."
+    },
+    "wcc-case-register": {
+      "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WPHAPPDETAIL.DisplayUrl?theApnID=RBC%2F26CC001",
+      "locator": "Application and decision metadata",
+      "rights": "Store factual observations and a source link.",
+      "sha256": "594c589ef2be3515d0d4b420d1845eb8fc4f0278b60bcf4c7b7acb76b9d2b17e",
+      "bytes": 273319,
+      "observed_at": "2026-11-18T16:18:28+00:00"
+    },
+    "issued-notice": {
+      "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+      "resolved": "https://planning.warwickshire.gov.uk/swiftlg/apas/MediaTemp/8411-29034.pdf",
+      "bytes": 1631284,
+      "sha256": "8f359754458f98aafbd3d4a65e243a3dbcfa3350b117a604f0071afc4b94338f",
+      "observed_at": "2026-11-18T16:19:27+00:00",
+      "locator": "Pages 1\u20134 and 7",
+      "retained": "Source link and retrieval receipt",
+      "rights": "Publisher and drawing rights retained. Local facts and paraphrases only."
+    },
+    "approved-site-plan": {
+      "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=27604&theApnkey=8411&theModule=1",
+      "resolved": "https://planning.warwickshire.gov.uk/swiftlg/apas/MediaTemp/8411-27604.pdf",
+      "bytes": 1311075,
+      "sha256": "493dfb5826bdc1afd132cfe557fec054dd7057d321c5a21ed1f06bd0790666d7",
+      "observed_at": "2026-11-18T16:21:09+00:00",
+      "locator": "Drawing XXXX-CWA-ZZ-00-D-A-0101 P08, page 1",
+      "retained": "Source link and retrieval receipt",
+      "rights": "Publisher and drawing rights retained. Local facts and paraphrases only."
+    },
+    "biodiversity-letter": {
+      "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29154&theApnkey=8411&theModule=1",
+      "resolved": "https://planning.warwickshire.gov.uk/swiftlg/apas/MediaTemp/8411-29154.pdf",
+      "bytes": 249475,
+      "sha256": "b429558407cffdf4ff10fa2fa5c29f2550d7664f84e73fe783d88bd9ca76379f",
+      "observed_at": "2026-11-18T16:19:27+00:00",
+      "locator": "Pages 1\u20132",
+      "retained": "Source link and retrieval receipt",
+      "rights": "Publisher and drawing rights retained. Local facts and paraphrases only."
+    },
+    "os-openmap-local-sp": {
+      "url": "https://www.ordnancesurvey.co.uk/products/os-open-map-local",
+      "original_url": "https://api.os.uk/downloads/v1/products/OpenMapLocal/downloads?area=SP&format=ESRI%C2%AE+Shapefile&redirect",
+      "local_file": "sources/snapshots/2026-11-17/ndl/opmplc_essh_sp.zip",
+      "sha256": "9e58bba71fe03e87cafac3cd9486b20e3813f460dc3c0a8ad4450a1cf6beb9d4",
+      "publisher_last_modified": "Wed, 28 Oct 2026 14:57:00 GMT",
+      "locator": "SP_Building, ID 157054EC-FAD2-4B18-9670-DFEE01FB175F",
+      "rights": "OS OpenData. Contains OS data \u00a9 Crown copyright and database rights 2026."
+    }
+  },
+  "nodes": [
+    {
+      "@id": "urn:okf:irea-property:avon-valley:asset-3051",
+      "type": "Estate Asset",
+      "route": "asset.md",
+      "asset_id": "3051",
+      "name": "The Avon Valley School and Performing Arts College",
+      "postcode": "CV21 1EH",
+      "source_tenure": "External",
+      "point": {
+        "coordinates": [
+          449490,
+          276550
+        ],
+        "crs": "EPSG:27700",
+        "source_crs_label": "OSGB36",
+        "role": "estate-asset reference point"
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:uprn-100071399702",
+      "type": "Addressable Object",
+      "route": "uprn.md",
+      "uprn": "100071399702",
+      "point": {
+        "coordinates": [
+          449485.0,
+          276539.0
+        ],
+        "crs": "EPSG:27700",
+        "role": "OS UPRN reference point"
+      },
+      "distance_from_estate_point_metres": 12.1
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:planning-site",
+      "type": "Planning Site",
+      "route": "site.md",
+      "native_site_reference": null,
+      "address_text": "Avon Valley School, Newbold Road, Rugby, Warwickshire, CV21 1EH",
+      "geometry": null,
+      "geometry_status": "Approved P08 vector path georeferenced for local review. Source GIS polygon unverified.",
+      "area": {
+        "value": 8573,
+        "unit": "m\u00b2",
+        "qualifier": "approximate label on approved drawing P08"
+      },
+      "planning_register_uprn_status": "Not stated in consulted case metadata or notice",
+      "geometry_note": "The geometry field is reserved for a source GIS polygon. See spatial_check for the plan-derived polygon."
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:application-rbc-26cc001",
+      "type": "Planning Application",
+      "route": "application.md",
+      "reference": "RBC/26CC001",
+      "planning_authority": "Warwickshire County Council",
+      "native_type": "Reg3 Major",
+      "registered_on": "2026-01-21",
+      "publicity_start": "2026-02-05",
+      "publicity_end": "2026-02-26"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "type": "Planning Decision",
+      "route": "decision.md",
+      "application_reference": "RBC/26CC001",
+      "register_document_sequence": "29034",
+      "native_outcome": "Granted",
+      "draft_outcome": "grant",
+      "notice_dated": "2026-07-03",
+      "register_decision_date": "2026-07-08",
+      "register_extension_of_time_to": "2026-07-09",
+      "draft_issue_date": null,
+      "issue_date_status": "Unresolved"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:biodiversity-approval",
+      "type": "Planning Condition Approval",
+      "route": "biodiversity.md",
+      "reference": "RBC/26CC001/BNG",
+      "date": "2026-08-12",
+      "scope": "Statutory biodiversity gain condition only",
+      "result": "Biodiversity Gain Plan approved"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:condition-01",
+      "type": "Planning Condition",
+      "route": "conditions.md#condition-1",
+      "reference": "RBC/26CC001 condition 1",
+      "native_condition_number": 1,
+      "title": "Start of development",
+      "summary": "Begin the permitted works within three years of the permission.",
+      "reason_summary": "Set the statutory commencement limit under section 91.",
+      "trigger_label": "commencement-limit",
+      "notice_pages": "1",
+      "language": "en-GB",
+      "content_kind": "paraphrase",
+      "discharge_status": "Unverified"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:condition-02",
+      "type": "Planning Condition",
+      "route": "conditions.md#condition-2",
+      "reference": "RBC/26CC001 condition 2",
+      "native_condition_number": 2,
+      "title": "Approved drawings and documents",
+      "summary": "Carry out the development in line with the listed drawings and documents, including site plan P08, subject to written approvals under other conditions.",
+      "reason_summary": "Define the permitted works and secure an acceptable standard.",
+      "trigger_label": "throughout-development",
+      "notice_pages": "1\u20132",
+      "language": "en-GB",
+      "content_kind": "paraphrase",
+      "discharge_status": "Unverified"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:condition-03",
+      "type": "Planning Condition",
+      "route": "conditions.md#condition-3",
+      "reference": "RBC/26CC001 condition 3",
+      "native_condition_number": 3,
+      "title": "Planting and replacement",
+      "summary": "Implement the approved planting before occupation, to the authority\u2019s written satisfaction. Replace qualifying plant losses or damage within five years of planting.",
+      "reason_summary": "Secure green infrastructure and biodiversity gain.",
+      "trigger_label": "before-occupation-and-after-planting",
+      "notice_pages": "2",
+      "language": "en-GB",
+      "content_kind": "paraphrase",
+      "discharge_status": "Unverified"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:condition-04",
+      "type": "Planning Condition",
+      "route": "conditions.md#condition-4",
+      "reference": "RBC/26CC001 condition 4",
+      "native_condition_number": 4,
+      "title": "Unexpected contamination",
+      "summary": "Report any contamination immediately. When found, obtain approval of investigation, any necessary remediation and verification before occupation.",
+      "reason_summary": "Reduce risks from contamination and protect users and the environment.",
+      "trigger_label": "on-discovery-and-before-occupation",
+      "notice_pages": "3",
+      "language": "en-GB",
+      "content_kind": "paraphrase",
+      "discharge_status": "Unverified"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:condition-05",
+      "type": "Planning Condition",
+      "route": "conditions.md#condition-5",
+      "reference": "RBC/26CC001 condition 5",
+      "native_condition_number": 5,
+      "title": "Highway improvement arrangements",
+      "summary": "Obtain written approval of arrangements for the highway improvement works before occupation.",
+      "reason_summary": "Protect safe highway access.",
+      "trigger_label": "before-occupation",
+      "notice_pages": "3",
+      "language": "en-GB",
+      "content_kind": "paraphrase",
+      "discharge_status": "Unverified"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:condition-06",
+      "type": "Planning Condition",
+      "route": "conditions.md#condition-6",
+      "reference": "RBC/26CC001 condition 6",
+      "native_condition_number": 6,
+      "title": "Travel plan",
+      "summary": "Implement the approved travel plan in full before occupation and maintain it.",
+      "reason_summary": "Protect safe access to and from the site.",
+      "trigger_label": "before-occupation-and-ongoing",
+      "notice_pages": "3",
+      "language": "en-GB",
+      "content_kind": "paraphrase",
+      "discharge_status": "Unverified"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:condition-07",
+      "type": "Planning Condition",
+      "route": "conditions.md#condition-7",
+      "reference": "RBC/26CC001 condition 7",
+      "native_condition_number": 7,
+      "title": "Pedestrian and cycle crossing",
+      "summary": "Complete the crossing before occupation, following the approved drawing and highway authority specifications.",
+      "reason_summary": "Protect highway safety and access.",
+      "trigger_label": "before-occupation",
+      "notice_pages": "3",
+      "language": "en-GB",
+      "content_kind": "paraphrase",
+      "discharge_status": "Unverified"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:condition-08",
+      "type": "Planning Condition",
+      "route": "conditions.md#condition-8",
+      "reference": "RBC/26CC001 condition 8",
+      "native_condition_number": 8,
+      "title": "Car and cycle parking",
+      "summary": "Provide the additional car and cycle parking before occupation in line with the approved masterplan.",
+      "reason_summary": "Protect highway safety and access.",
+      "trigger_label": "before-occupation",
+      "notice_pages": "3",
+      "language": "en-GB",
+      "content_kind": "paraphrase",
+      "discharge_status": "Unverified"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:condition-09",
+      "type": "Planning Condition",
+      "route": "conditions.md#condition-9",
+      "reference": "RBC/26CC001 condition 9",
+      "native_condition_number": 9,
+      "title": "Drainage design and maintenance",
+      "summary": "Develop the site in line with the flood risk and drainage strategy and the drainage operation and maintenance plan.",
+      "reason_summary": "Secure satisfactory drainage.",
+      "trigger_label": "throughout-development",
+      "notice_pages": "4",
+      "language": "en-GB",
+      "content_kind": "paraphrase",
+      "discharge_status": "Unverified"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:condition-10",
+      "type": "Planning Condition",
+      "route": "conditions.md#condition-10",
+      "reference": "RBC/26CC001 condition 10",
+      "native_condition_number": 10,
+      "title": "Drainage verification",
+      "summary": "Before occupation, obtain written approval of an independent engineer\u2019s verification of the installed surface-water drainage and the existing system it joins.",
+      "reason_summary": "Verify a satisfactory drainage installation and connection.",
+      "trigger_label": "before-occupation",
+      "notice_pages": "4",
+      "language": "en-GB",
+      "content_kind": "paraphrase",
+      "discharge_status": "Unverified"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:condition-11",
+      "type": "Planning Condition",
+      "route": "conditions.md#condition-11",
+      "reference": "RBC/26CC001 condition 11",
+      "native_condition_number": 11,
+      "title": "Community sports use",
+      "summary": "Agree community access arrangements with the authority before occupation, after consulting Sport England. Operate the facilities in line with the approved agreement.",
+      "reason_summary": "Provide safe, managed community access to sports facilities.",
+      "trigger_label": "before-occupation-and-ongoing",
+      "notice_pages": "4",
+      "language": "en-GB",
+      "content_kind": "paraphrase",
+      "discharge_status": "Unverified"
+    }
+  ],
+  "assertions": [
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:estate-uprn",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:asset-3051",
+      "target": "urn:okf:irea-property:avon-valley:uprn-100071399702",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:hasAddressableObject",
+      "kind": "hasAddressableObject",
+      "label": "has published UPRN",
+      "inverse_label": "identifies addressable object recorded for",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://www.warwickshire.gov.uk/directory-record/8957/property-and-asset-list-february-2026"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:estate-workbook:5fd2304a6826",
+          "type": "publisher-source",
+          "url": "https://www.warwickshire.gov.uk/directory-record/8957/property-and-asset-list-february-2026",
+          "source_field": "unique_property_reference_number",
+          "source_value": "100071399702",
+          "source_value_sha256": "363fc6762c5c85f38564268549e700d537b6faa63763ee912f1756e2afe59c34",
+          "source_sha256": "99496d24456b2c3671c6f86278a205640879014fb6dc3307244f19ca0424f678",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Template_2026_Correct, row 630",
+          "retrieved_at": "2026-11-18T16:23:37+00:00"
+        },
+        {
+          "@id": "urn:okf:irea-property:source:os-open-uprn:d271906ca6d5",
+          "type": "publisher-source",
+          "url": "https://www.ordnancesurvey.co.uk/products/os-open-uprn",
+          "source_field": "UPRN",
+          "source_value": "100071399702",
+          "source_value_sha256": "363fc6762c5c85f38564268549e700d537b6faa63763ee912f1756e2afe59c34",
+          "source_sha256": "d353528c91032b693e42cb84d8b7c359d87f625b43dc044b2f85d02dffb7904b",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "osopenuprn_202610.csv, UPRN 100071399702",
+          "retrieved_at": "2026-11-18T16:23:37+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://www.warwickshire.gov.uk/directory-record/8957/property-and-asset-list-february-2026",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:application-site",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:application-rbc-26cc001",
+      "target": "urn:okf:irea-property:avon-valley:planning-site",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:relatesToPlanningSite",
+      "kind": "relatesToPlanningSite",
+      "label": "identifies the planning site",
+      "inverse_label": "is named in application",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WPHAPPDETAIL.DisplayUrl?theApnID=RBC%2F26CC001"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:wcc-case-register:756c5307fad8",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WPHAPPDETAIL.DisplayUrl?theApnID=RBC%2F26CC001",
+          "source_field": "site_address",
+          "source_value": "Avon Valley School, Newbold Road, Rugby, Warwickshire, CV21 1EH",
+          "source_value_sha256": "94c448cbafd87c941c601074f65c0d7cf1d3bd4a921bb580eea03cbec5f4d42b",
+          "source_sha256": "594c589ef2be3515d0d4b420d1845eb8fc4f0278b60bcf4c7b7acb76b9d2b17e",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Application and decision metadata",
+          "retrieved_at": "2026-11-18T16:18:28+00:00"
+        },
+        {
+          "@id": "urn:okf:irea-property:source:approved-site-plan:5573d78777ae",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=27604&theApnkey=8411&theModule=1",
+          "source_field": "drawing_reference",
+          "source_value": "XXXX-CWA-ZZ-00-D-A-0101 P08",
+          "source_value_sha256": "788f6d90d4ba0af1cfd7463db33ee258f6bad7564a33c66ea9a61802d7076a3a",
+          "source_sha256": "493dfb5826bdc1afd132cfe557fec054dd7057d321c5a21ed1f06bd0790666d7",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Drawing XXXX-CWA-ZZ-00-D-A-0101 P08, page 1",
+          "retrieved_at": "2026-11-18T16:21:09+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WPHAPPDETAIL.DisplayUrl?theApnID=RBC%2F26CC001",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:uprn-outside-plan-red-line",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:uprn-100071399702",
+      "target": "urn:okf:irea-property:avon-valley:planning-site",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:referencePointOutsideDerivedRedLine",
+      "kind": "referencePointOutsideDerivedRedLine",
+      "label": "UPRN reference point falls outside the plan-derived red line",
+      "inverse_label": "plan-derived red line excludes the UPRN reference point",
+      "assertion_scope": "real-world",
+      "assertion_status": "normalized",
+      "authority": {
+        "class": "derived",
+        "label": "Local point-in-polygon calculation on the plan-derived geometry",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=27604&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:georeferenced-pdf-point-in-polygon",
+      "derivation_activity": "urn:okf:irea-property:avon-valley:activity:plan-p08-overlay",
+      "supporting_assertions": [
+        "urn:okf:irea-property:avon-valley:assertion:estate-uprn",
+        "urn:okf:irea-property:avon-valley:assertion:application-site"
+      ],
+      "observed_at": "2026-11-18T16:48:37+00:00",
+      "review_status": "Indicative result checked for Thursday\u2019s Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:approved-site-plan:788f6d90d4ba",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=27604&theApnkey=8411&theModule=1",
+          "source_field": "drawing_reference",
+          "source_value": "XXXX-CWA-ZZ-00-D-A-0101 P08",
+          "source_value_sha256": "788f6d90d4ba0af1cfd7463db33ee258f6bad7564a33c66ea9a61802d7076a3a",
+          "source_sha256": "493dfb5826bdc1afd132cfe557fec054dd7057d321c5a21ed1f06bd0790666d7",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Drawing XXXX-CWA-ZZ-00-D-A-0101 P08, page 1",
+          "retrieved_at": "2026-11-18T16:21:09+00:00",
+          "rationale": "Vector stroke for the application red line on page 1."
+        },
+        {
+          "@id": "urn:okf:irea-property:source:os-openmap-local-sp:059358347a2e",
+          "type": "publisher-source",
+          "url": "https://www.ordnancesurvey.co.uk/products/os-open-map-local",
+          "source_field": "ID",
+          "source_value": "157054EC-FAD2-4B18-9670-DFEE01FB175F",
+          "source_value_sha256": "059358347a2e71bbcc001b88ef2e6a4474449648ed6b8ba488c6b794aac9dbde",
+          "source_sha256": "9e58bba71fe03e87cafac3cd9486b20e3813f460dc3c0a8ad4450a1cf6beb9d4",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "SP_Building, ID 157054EC-FAD2-4B18-9670-DFEE01FB175F",
+          "retrieved_at": "2026-11-18T16:48:37+00:00",
+          "rationale": "Provides the building corner controls for British National Grid alignment."
+        },
+        {
+          "@id": "urn:okf:irea-property:source:os-open-uprn:c1a8ec7afa51",
+          "type": "publisher-source",
+          "url": "https://www.ordnancesurvey.co.uk/products/os-open-uprn",
+          "source_field": "EASTING,NORTHING",
+          "source_value": [
+            449485.0,
+            276539.0
+          ],
+          "source_value_sha256": "c1a8ec7afa5189d66e475577c923b217f63a0b95657be58e1850f3a3bbb4bf4c",
+          "source_sha256": "d353528c91032b693e42cb84d8b7c359d87f625b43dc044b2f85d02dffb7904b",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "osopenuprn_202610.csv, UPRN 100071399702",
+          "retrieved_at": "2026-11-18T16:48:37+00:00",
+          "rationale": "Reference point for UPRN 100071399702 in EPSG:27700."
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=27604&theApnkey=8411&theModule=1",
+        "assertion": "Factual local review result. Check drawing rights before sharing the derived polygon."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:application-decision",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:application-rbc-26cc001",
+      "target": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:hasDecisionNotice",
+      "kind": "hasDecisionNotice",
+      "label": "has issued notice",
+      "inverse_label": "determines application",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:issued-notice:21eda14f448a",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+          "source_field": "permission_reference",
+          "source_value": "RBC/26CC001",
+          "source_value_sha256": "c6cee948646debe6e7e00ef2aaa4a4886d365e2b4bb02ed04dece81427ada160",
+          "source_sha256": "8f359754458f98aafbd3d4a65e243a3dbcfa3350b117a604f0071afc4b94338f",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Page 1",
+          "retrieved_at": "2026-11-18T16:19:27+00:00"
+        },
+        {
+          "@id": "urn:okf:irea-property:source:wcc-case-register:86ae35d58a6a",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WPHAPPDETAIL.DisplayUrl?theApnID=RBC%2F26CC001",
+          "source_field": "decision",
+          "source_value": "Granted",
+          "source_value_sha256": "d6609a12f5c0e515174a0e0c46dbfb60724db648519c1c45c45ec7dac562a30d",
+          "source_sha256": "594c589ef2be3515d0d4b420d1845eb8fc4f0278b60bcf4c7b7acb76b9d2b17e",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Application and decision metadata",
+          "retrieved_at": "2026-11-18T16:18:28+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:decision-biodiversity",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "target": "urn:okf:irea-property:avon-valley:biodiversity-approval",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:hasBiodiversityApproval",
+      "kind": "hasBiodiversityApproval",
+      "label": "has separate biodiversity approval",
+      "inverse_label": "approves Biodiversity Gain Plan for",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29154&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:biodiversity-letter:019c2b5ddcd4",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29154&theApnkey=8411&theModule=1",
+          "source_field": "approval_reference",
+          "source_value": "RBC/26CC001/BNG",
+          "source_value_sha256": "20639227c9c72e988de055299bdff7f8508b2652ef8bc974318a2362db464547",
+          "source_sha256": "b429558407cffdf4ff10fa2fa5c29f2550d7664f84e73fe783d88bd9ca76379f",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Pages 1\u20132",
+          "retrieved_at": "2026-11-18T16:19:27+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29154&theApnkey=8411&theModule=1",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:estate-site-candidate",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:asset-3051",
+      "target": "urn:okf:irea-property:avon-valley:planning-site",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:candidatePlanningSiteAssociation",
+      "kind": "candidatePlanningSiteAssociation",
+      "label": "candidate association with the planning site",
+      "inverse_label": "candidate association with estate asset",
+      "assertion_scope": "real-world",
+      "assertion_status": "inferred",
+      "authority": {
+        "class": "derived",
+        "label": "Local evidence interpretation",
+        "source": "https://www.warwickshire.gov.uk/directory-record/8957/property-and-asset-list-february-2026"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:documentary-match",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:estate-workbook:55a706e7491e",
+          "type": "publisher-source",
+          "url": "https://www.warwickshire.gov.uk/directory-record/8957/property-and-asset-list-february-2026",
+          "source_field": "name_of_building_land_or_both",
+          "source_value": "The Avon Valley School & Performing Arts College",
+          "source_value_sha256": "d23ae558acc07db3ab15443d40e5fda3e4ffe7fe2aa056b75b542896b0e9fa8d",
+          "source_sha256": "99496d24456b2c3671c6f86278a205640879014fb6dc3307244f19ca0424f678",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Template_2026_Correct, row 630",
+          "retrieved_at": "2026-11-18T16:23:37+00:00"
+        },
+        {
+          "@id": "urn:okf:irea-property:source:estate-workbook:a75c1b6ceb1e",
+          "type": "publisher-source",
+          "url": "https://www.warwickshire.gov.uk/directory-record/8957/property-and-asset-list-february-2026",
+          "source_field": "street_number",
+          "source_value": "Newbold Road",
+          "source_value_sha256": "4cda5d02b58e28e197fd5d7d736506db70196e832d62d4d61838cbd70fbeb966",
+          "source_sha256": "99496d24456b2c3671c6f86278a205640879014fb6dc3307244f19ca0424f678",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Template_2026_Correct, row 630",
+          "retrieved_at": "2026-11-18T16:23:37+00:00"
+        },
+        {
+          "@id": "urn:okf:irea-property:source:estate-workbook:7fe0d9a7c888",
+          "type": "publisher-source",
+          "url": "https://www.warwickshire.gov.uk/directory-record/8957/property-and-asset-list-february-2026",
+          "source_field": "uk_postcode",
+          "source_value": "CV21 1EH",
+          "source_value_sha256": "63022c834943646b1feac008f6b9ce4d337db779f5b3b221acda4440388f8a0b",
+          "source_sha256": "99496d24456b2c3671c6f86278a205640879014fb6dc3307244f19ca0424f678",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Template_2026_Correct, row 630",
+          "retrieved_at": "2026-11-18T16:23:37+00:00"
+        },
+        {
+          "@id": "urn:okf:irea-property:source:wcc-case-register:756c5307fad8",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WPHAPPDETAIL.DisplayUrl?theApnID=RBC%2F26CC001",
+          "source_field": "site_address",
+          "source_value": "Avon Valley School, Newbold Road, Rugby, Warwickshire, CV21 1EH",
+          "source_value_sha256": "94c448cbafd87c941c601074f65c0d7cf1d3bd4a921bb580eea03cbec5f4d42b",
+          "source_sha256": "594c589ef2be3515d0d4b420d1845eb8fc4f0278b60bcf4c7b7acb76b9d2b17e",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Application and decision metadata",
+          "retrieved_at": "2026-11-18T16:18:28+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://www.warwickshire.gov.uk/directory-record/8957/property-and-asset-list-february-2026",
+        "assertion": "Local review example with source attribution."
+      },
+      "rule": "urn:okf:irea-property:avon-valley:rule:matching-school-street-postcode",
+      "supporting_assertions": [
+        "urn:okf:irea-property:avon-valley:assertion:estate-uprn",
+        "urn:okf:irea-property:avon-valley:assertion:application-site"
+      ],
+      "confidence_score": 0.5,
+      "derivation_activity": "urn:okf:irea-property:avon-valley:activity:documentary-link-review"
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:decision-condition-01",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "target": "urn:okf:irea-property:avon-valley:condition-01",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:setsOutCondition",
+      "kind": "setsOutCondition",
+      "label": "sets out planning condition",
+      "inverse_label": "is stated in decision notice",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:issued-notice:a089a29b47fa",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+          "source_field": "condition_1_number",
+          "source_value": 1,
+          "source_value_sha256": "6b86b273ff34fce19d6b804eff5a3f5747ada4eaa22f1d49c01e52ddb7875b4b",
+          "source_sha256": "8f359754458f98aafbd3d4a65e243a3dbcfa3350b117a604f0071afc4b94338f",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Notice page(s) 1, condition 1",
+          "retrieved_at": "2026-11-18T16:19:27+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:decision-condition-02",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "target": "urn:okf:irea-property:avon-valley:condition-02",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:setsOutCondition",
+      "kind": "setsOutCondition",
+      "label": "sets out planning condition",
+      "inverse_label": "is stated in decision notice",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:issued-notice:95d74507aa2b",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+          "source_field": "condition_2_number",
+          "source_value": 2,
+          "source_value_sha256": "d4735e3a265e16eee03f59718b9b5d03019c07d8b6c51f90da3a666eec13ab35",
+          "source_sha256": "8f359754458f98aafbd3d4a65e243a3dbcfa3350b117a604f0071afc4b94338f",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Notice page(s) 1\u20132, condition 2",
+          "retrieved_at": "2026-11-18T16:19:27+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:decision-condition-03",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "target": "urn:okf:irea-property:avon-valley:condition-03",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:setsOutCondition",
+      "kind": "setsOutCondition",
+      "label": "sets out planning condition",
+      "inverse_label": "is stated in decision notice",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:issued-notice:8761b8d3385e",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+          "source_field": "condition_3_number",
+          "source_value": 3,
+          "source_value_sha256": "4e07408562bedb8b60ce05c1decfe3ad16b72230967de01f640b7e4729b49fce",
+          "source_sha256": "8f359754458f98aafbd3d4a65e243a3dbcfa3350b117a604f0071afc4b94338f",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Notice page(s) 2, condition 3",
+          "retrieved_at": "2026-11-18T16:19:27+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:decision-condition-04",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "target": "urn:okf:irea-property:avon-valley:condition-04",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:setsOutCondition",
+      "kind": "setsOutCondition",
+      "label": "sets out planning condition",
+      "inverse_label": "is stated in decision notice",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:issued-notice:c3a7b26aecdb",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+          "source_field": "condition_4_number",
+          "source_value": 4,
+          "source_value_sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
+          "source_sha256": "8f359754458f98aafbd3d4a65e243a3dbcfa3350b117a604f0071afc4b94338f",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Notice page(s) 3, condition 4",
+          "retrieved_at": "2026-11-18T16:19:27+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:decision-condition-05",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "target": "urn:okf:irea-property:avon-valley:condition-05",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:setsOutCondition",
+      "kind": "setsOutCondition",
+      "label": "sets out planning condition",
+      "inverse_label": "is stated in decision notice",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:issued-notice:c5f1a0c21e5e",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+          "source_field": "condition_5_number",
+          "source_value": 5,
+          "source_value_sha256": "ef2d127de37b942baad06145e54b0c619a1f22327b2ebbcfbec78f5564afe39d",
+          "source_sha256": "8f359754458f98aafbd3d4a65e243a3dbcfa3350b117a604f0071afc4b94338f",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Notice page(s) 3, condition 5",
+          "retrieved_at": "2026-11-18T16:19:27+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:decision-condition-06",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "target": "urn:okf:irea-property:avon-valley:condition-06",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:setsOutCondition",
+      "kind": "setsOutCondition",
+      "label": "sets out planning condition",
+      "inverse_label": "is stated in decision notice",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:issued-notice:ee3fae955b0b",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+          "source_field": "condition_6_number",
+          "source_value": 6,
+          "source_value_sha256": "e7f6c011776e8db7cd330b54174fd76f7d0216b612387a5ffcfb81e6f0919683",
+          "source_sha256": "8f359754458f98aafbd3d4a65e243a3dbcfa3350b117a604f0071afc4b94338f",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Notice page(s) 3, condition 6",
+          "retrieved_at": "2026-11-18T16:19:27+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:decision-condition-07",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "target": "urn:okf:irea-property:avon-valley:condition-07",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:setsOutCondition",
+      "kind": "setsOutCondition",
+      "label": "sets out planning condition",
+      "inverse_label": "is stated in decision notice",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:issued-notice:afb518f76276",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+          "source_field": "condition_7_number",
+          "source_value": 7,
+          "source_value_sha256": "7902699be42c8a8e46fbbb4501726517e86b22c56a189f7625a6da49081b2451",
+          "source_sha256": "8f359754458f98aafbd3d4a65e243a3dbcfa3350b117a604f0071afc4b94338f",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Notice page(s) 3, condition 7",
+          "retrieved_at": "2026-11-18T16:19:27+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:decision-condition-08",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "target": "urn:okf:irea-property:avon-valley:condition-08",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:setsOutCondition",
+      "kind": "setsOutCondition",
+      "label": "sets out planning condition",
+      "inverse_label": "is stated in decision notice",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:issued-notice:9a16b51bcf24",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+          "source_field": "condition_8_number",
+          "source_value": 8,
+          "source_value_sha256": "2c624232cdd221771294dfbb310aca000a0df6ac8b66b696d90ef06fdefb64a3",
+          "source_sha256": "8f359754458f98aafbd3d4a65e243a3dbcfa3350b117a604f0071afc4b94338f",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Notice page(s) 3, condition 8",
+          "retrieved_at": "2026-11-18T16:19:27+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:decision-condition-09",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "target": "urn:okf:irea-property:avon-valley:condition-09",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:setsOutCondition",
+      "kind": "setsOutCondition",
+      "label": "sets out planning condition",
+      "inverse_label": "is stated in decision notice",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:issued-notice:cb236474e9fb",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+          "source_field": "condition_9_number",
+          "source_value": 9,
+          "source_value_sha256": "19581e27de7ced00ff1ce50b2047e7a567c76b1cbaebabe5ef03f7c3017bb5b7",
+          "source_sha256": "8f359754458f98aafbd3d4a65e243a3dbcfa3350b117a604f0071afc4b94338f",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Notice page(s) 4, condition 9",
+          "retrieved_at": "2026-11-18T16:19:27+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:decision-condition-10",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "target": "urn:okf:irea-property:avon-valley:condition-10",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:setsOutCondition",
+      "kind": "setsOutCondition",
+      "label": "sets out planning condition",
+      "inverse_label": "is stated in decision notice",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:issued-notice:34d9da2967c8",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+          "source_field": "condition_10_number",
+          "source_value": 10,
+          "source_value_sha256": "4a44dc15364204a80fe80e9039455cc1608281820fe2b24f1e5233ade6af1dd5",
+          "source_sha256": "8f359754458f98aafbd3d4a65e243a3dbcfa3350b117a604f0071afc4b94338f",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Notice page(s) 4, condition 10",
+          "retrieved_at": "2026-11-18T16:19:27+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+        "assertion": "Local review example with source attribution."
+      }
+    },
+    {
+      "@id": "urn:okf:irea-property:avon-valley:assertion:decision-condition-11",
+      "@type": "https://chris-page-gov.github.io/okf-explorer/ns#RelationshipAssertion",
+      "source": "urn:okf:irea-property:avon-valley:decision-notice-29034",
+      "target": "urn:okf:irea-property:avon-valley:condition-11",
+      "predicate": "urn:okf:irea-property:avon-valley:predicate:setsOutCondition",
+      "kind": "setsOutCondition",
+      "label": "sets out planning condition",
+      "inverse_label": "is stated in decision notice",
+      "assertion_scope": "real-world",
+      "assertion_status": "official",
+      "authority": {
+        "class": "official",
+        "label": "Source authority assertion",
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1"
+      },
+      "derivation": "urn:okf:irea-property:avon-valley:method:source-field",
+      "observed_at": "2026-11-18T16:23:37+00:00",
+      "review_status": "Case evidence checked; awaiting Domesday review",
+      "evidence": [
+        {
+          "@id": "urn:okf:irea-property:source:issued-notice:fb55ccdea44e",
+          "type": "publisher-source",
+          "url": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+          "source_field": "condition_11_number",
+          "source_value": 11,
+          "source_value_sha256": "4fc82b26aecb47d2868c4efbe3581732a3e7cbcc6c2efb32062c08170a05eeb8",
+          "source_sha256": "8f359754458f98aafbd3d4a65e243a3dbcfa3350b117a604f0071afc4b94338f",
+          "source_value_hash_canonicalization": "UTF-8 compact JSON of source_value",
+          "locator": "Notice page(s) 4, condition 11",
+          "retrieved_at": "2026-11-18T16:19:27+00:00"
+        }
+      ],
+      "rights": {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WCHDISPLAYMEDIA.showImage?theSeqNo=29034&theApnkey=8411&theModule=1",
+        "assertion": "Local review example with source attribution."
+      }
+    }
+  ],
+  "public_view_gaps": [
+    {
+      "field": "site.geometry",
+      "status": "Source GIS polygon unverified",
+      "basis": "A local vector derived from approved drawing P08 supports an indicative check. The source GIS geometry and its sharing rights still require confirmation."
+    },
+    {
+      "field": "site.reference",
+      "status": "Unverified source-native reference",
+      "basis": "Use a local example IRI until the authority supplies the native identifier."
+    },
+    {
+      "field": "site.uprns",
+      "status": "Not stated in planning source",
+      "basis": "The UPRN is published by the estate workbook and matched to OS Open UPRN."
+    },
+    {
+      "field": "decision-notice.decision-date",
+      "status": "Unresolved issue date",
+      "basis": "Notice printed date and register decision date differ."
+    },
+    {
+      "field": "decision-condition.discharged-by",
+      "status": "Numbered-condition status unverified",
+      "basis": "The separately scoped Schedule 7A approval is recorded independently."
+    }
+  ],
+  "spatial_check": {
+    "application_reference": "RBC/26CC001",
+    "observed_at": "2026-11-18T16:48:37+00:00",
+    "source_gis_polygon_status": "No matching publisher-supplied GIS polygon found through the checked public routes.",
+    "gis_ai_go": {
+      "tool": "sites_os_open_product",
+      "product": "OpenUPRN",
+      "release": "2026-10",
+      "retrieved_at": "2026-11-18T16:43:32.246Z",
+      "source": "https://api.os.uk/downloads/v1/products/OpenUPRN",
+      "source_body_sha256": "7027f9690c51b39c83e013899d0d7c96881f31f715e9312787b7b373b1df5cc6",
+      "receipt_id": "sites-pilot:sha256:501f7c5948a742dbf239a7eeec33927ed2bc91612b0884f7d36d1982ae158034",
+      "scope": "Experimental WebMCP Explorer returned live OS release metadata. Its callable tools lack a planning polygon lookup or spatial overlay.",
+      "catalogue_search_status": "The v0.2 interoperability catalogue returned a tunnel connection error."
+    },
+    "public_boundary_checks": [
+      {
+        "source": "https://planning.warwickshire.gov.uk/swiftlg/apas/run/WPHAPPDETAIL.DisplayUrl?theApnID=RBC%2F26CC001",
+        "result": "The case document list exposed no GIS-format attachment or GIS layer link. The approved PDF has a vector path in page coordinates."
+      },
+      {
+        "source": "https://maps.warwickshire.gov.uk/inspire/layers.json",
+        "response_sha256": "b243b8444712d3b9568d948f58d2a21f26a3d35a16febd8bf92645bb70fe019a",
+        "result": "The public Compass INSPIRE layer list did not identify a planning application boundary layer."
+      },
+      {
+        "source": "https://maps.warwickshire.gov.uk/gs/ows?service=WFS&request=GetCapabilities&version=1.1.0",
+        "http_status": 404,
+        "result": "The published OGC endpoint did not return WFS capabilities on this request."
+      },
+      {
+        "source": "https://www.planning.data.gov.uk/entity.json?dataset=planning-application&reference=RBC%2F26CC001&limit=1",
+        "response_sha256": "1d1a2b306eea5618cc10669c3b56dc5f76007c6abeaa364afe96fcc68236e29e",
+        "result_count": 0,
+        "result": "The exact reference search returned zero entities."
+      },
+      {
+        "source": "https://www.planning.data.gov.uk/entity.json?dataset=site&reference=RBC%2F26CC001&limit=1",
+        "response_sha256": "1d1a2b306eea5618cc10669c3b56dc5f76007c6abeaa364afe96fcc68236e29e",
+        "result_count": 0,
+        "result": "The exact reference search returned zero entities."
+      }
+    ],
+    "derived_geometry": {
+      "local_file": "sources/snapshots/2026-11-18/avon-valley-school/rbc-26cc001-review.gpkg",
+      "format": "GeoPackage",
+      "bytes": 131072,
+      "sha256": "9abfce9b7b6e35f3194101259e4bc388ba45f06da315d8f4d015e13ab1e5426c",
+      "crs": "EPSG:27700",
+      "layers": [
+        "plan_p08_red_line",
+        "reference_points"
+      ],
+      "rights": "Local Domesday review. The underlying drawing retains its copyright. OS OpenData attribution applies."
+    },
+    "input_sources": [
+      "approved-site-plan",
+      "os-openmap-local-sp",
+      "os-open-uprn",
+      "estate-workbook"
+    ],
+    "method": {
+      "pdf_extraction": "Page 1, 273 contiguous pure red vector line segments at stroke width 2.76 pt. Join in displayed page coordinates rounded to 0.01 pt.",
+      "georeferencing": "Two-dimensional least-squares similarity transform from eight visually paired building corners to EPSG:27700 using OS OpenMap Local.",
+      "transform_convention": "For the displayed PDF, convert x and y from 54 dpi pixels to points by dividing by 0.75 and negate y. E = origin_e + a*x - b*y. N = origin_n + a*y + b*x.",
+      "spatial_predicate": "Point.within and nearest distance to polygon boundary in metres. Rechecked against the GeoPackage with GDAL SQLite ST_Within and ST_Distance.",
+      "software": {
+        "pymupdf": "2.1",
+        "shapely": "2.2.0",
+        "gdal": "3.13.2"
+      },
+      "limit": "Controls lie on mapped parts of one school complex. Fit checks show internal consistency and do not establish survey accuracy."
+    },
+    "fit_checks": {
+      "boundary_geometry": "Polygon",
+      "ring_count": 1,
+      "line_segments": 273,
+      "valid_polygon": true,
+      "drawing_scale": "1:500",
+      "area_at_drawing_scale_m2": 8573.3,
+      "transformed_area_m2": 8597.6,
+      "control_rmse_m": 0.84,
+      "controls": [
+        {
+          "pdf_display_px_at_54_dpi": [
+            1820,
+            708
+          ],
+          "bng_e_n_m": [
+            449505.69,
+            276582.89
+          ]
+        },
+        {
+          "pdf_display_px_at_54_dpi": [
+            1859,
+            776
+          ],
+          "bng_e_n_m": [
+            449516.21,
+            276567.61
+          ]
+        },
+        {
+          "pdf_display_px_at_54_dpi": [
+            1796,
+            813
+          ],
+          "bng_e_n_m": [
+            449501.94,
+            276557.78
+          ]
+        },
+        {
+          "pdf_display_px_at_54_dpi": [
+            1957,
+            854
+          ],
+          "bng_e_n_m": [
+            449540.61,
+            276550.96
+          ]
+        },
+        {
+          "pdf_display_px_at_54_dpi": [
+            2028,
+            877
+          ],
+          "bng_e_n_m": [
+            449557.77,
+            276546.97
+          ]
+        },
+        {
+          "pdf_display_px_at_54_dpi": [
+            1909,
+            1085
+          ],
+          "bng_e_n_m": [
+            449533.65,
+            276496.1
+          ]
+        },
+        {
+          "pdf_display_px_at_54_dpi": [
+            1588,
+            936
+          ],
+          "bng_e_n_m": [
+            449454.26,
+            276523.95
+          ]
+        },
+        {
+          "pdf_display_px_at_54_dpi": [
+            1627,
+            1005
+          ],
+          "bng_e_n_m": [
+            449467.85,
+            276509.59
+          ]
+        }
+      ],
+      "transform": {
+        "origin_e_m": 449064.2866321656,
+        "origin_n_m": 276712.3721795259,
+        "a_m_per_pt": 0.17599880512904253,
+        "b_m_per_pt": 0.015026741232392962
+      },
+      "leave_one_control_out_uprn_distance_range_m": [
+        58.1,
+        59.8
+      ],
+      "leave_one_control_out_all_uprn_outside": true
+    },
+    "results": [
+      {
+        "node": "urn:okf:irea-property:avon-valley:uprn-100071399702",
+        "within": false,
+        "nearest_edge_m": 59.0
+      },
+      {
+        "node": "urn:okf:irea-property:avon-valley:asset-3051",
+        "within": false,
+        "nearest_edge_m": 55.9
+      }
+    ]
+  }
+}

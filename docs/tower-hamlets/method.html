@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="en-GB">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Screening method | Tower Hamlets retrofit notebook</title>
+<meta name="description" content="Explore evidence and open questions for public estate retrofit in Tower Hamlets.">
+<link rel="stylesheet" href="./notebook.css"><script src="./notebook.js" defer></script><link rel="stylesheet" href="../assets/terms.css"><script src="../assets/terms.js" defer></script></head>
+<body class="document">
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="site-width"><a class="brand" href="./">Tower Hamlets retrofit notebook</a>
+<nav aria-label="Notebook"><a href="./">Overview</a><a href="./explore.html">Estate map</a><a href="./guide.html">Quick guide</a><a href="./tracker.html">Tracker</a><a href="./evidence.html">Evidence</a><a href="./gaps.html">Evidence gaps</a><a href="./method.html" aria-current="page">Tower Hamlets method</a><a href="./uk-method.html">UK-wide method</a><a href="./energy.html">Energy data</a><a href="./visualisation.html">Visualisation guide</a><a href="./access.html">Data requests</a><a href="./personas.html">Personas</a><a href="./walkthrough.html">Walkthrough</a><a href="./runbook.html">Runbook</a></nav></div></header>
+<main id="main" class="site-width"><article class="prose"><h1 id="tower-hamlets-public-estate-screening-and-validation-method">Tower Hamlets public estate screening and validation method</h1>
+<p><strong>Status on 20 November 2026:</strong> draft method for validation in Tower Hamlets. The hypothesis about missing energy evidence is pending the user's verbatim confirmation. Leave its direction, outcome, comparison groups and success criteria blank until confirmed. Reproduction and evidence collection can be planned independently. The <a href="./gaps.html">gap assessment</a> shows what evidence each decision needs. A separate <a href="./uk-method.html">UK draft method</a> defines investment queues and evaluation across the four nations.</p>
+<nav aria-label="On this page"><ul><li><a href="#1-freeze-the-decision-and-study-population">1. Freeze the decision and study population</a></li><li><a href="#2-inventory-inputs-and-preserve-identifiers">2. Inventory inputs and preserve identifiers</a></li><li><a href="#3-reproduce-the-geography-before-adding-site-evidence">3. Reproduce the geography before adding site evidence</a></li><li><a href="#4-record-distinct-outcomes-and-reasons-for-missing-evidence">4. Record distinct outcomes and reasons for missing evidence</a></li><li><a href="#5-compare-coverage-and-test-sensitivity">5. Compare coverage and test sensitivity</a></li><li><a href="#6-establish-energy-area-and-emissions-at-the-same-scope">6. Establish energy, area and emissions at the same scope</a></li><li><a href="#7-move-from-evidence-priority-to-a-shortlist">7. Move from evidence priority to a shortlist</a></li><li><a href="#8-save-versioned-outputs-and-confirm-ownership">8. Save versioned outputs and confirm ownership</a></li><li><a href="#9-repeat-checklist-and-stop-or-go-decision">9. Repeat checklist and stop or go decision</a></li></ul></nav><h2 id="1-freeze-the-decision-and-study-population">1. Freeze the decision and study population</h2>
+<p>Create a dated protocol with a run ID and a named reviewer. Maintain two populations throughout the run.</p>
+<div class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Population</th>
+<th>Inclusion and exclusion</th>
+<th>Use</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Frozen workbook discovery frame</td>
+<td>Every row in the pinned Building sheet whose British National Grid point falls within or on the selected full clipped Tower Hamlets borough polygon. Retain the raw local authority field for reconciliation. Exclude normalised <code>Usage = dwelling</code> for the 62-row non-domestic discovery cut.</td>
+<td>Reproduce the hackathon map and raw workbook coverage.</td>
+</tr>
+<tr>
+<td>Verified public-facing service cohort</td>
+<td>Current operating premises in Tower Hamlets used to deliver a public-facing health, community, justice or cultural function. Record evidence of the operating address, function, occupancy and relevant dates. Include mixed-use premises only where the eligible occupied portion can be identified.</td>
+<td>Decide which evidence to request and, after further checks, compare or shortlist.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Keep ambiguous use, addresses, relocations, closures and duplicate-looking records in an exclusions or exceptions table. A former facility may remain in the frozen frame. Assign its current service separately when supported. Back offices, dwelling-only holdings, generic property references and records with unconfirmed public access stay outside the verified cohort until evidence supports inclusion. A public-facing service can be an appointment-based facility. Record the evidence for each inclusion.</p>
+<p>Before any outcome comparison, freeze the verbatim hypothesis, main indicator and threshold, analysis dates, comparison groups, target population, inclusion rules, unit, duplicate handling, minimum cell sizes or suppression rules, comparability constraints, planned sensitivity runs and decision criteria. Set the primary and secondary outcomes and the minimum evidence that qualifies. These choices are a draft validation gate. <a href="./gaps.html#what-the-pilot-actually-observed">Known coverage counts</a></p>
+<h2 id="2-inventory-inputs-and-preserve-identifiers">2. Inventory inputs and preserve identifiers</h2>
+<div class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Input</th>
+<th>Pinned edition and checks</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Government Property Estate workbook</td>
+<td><code>sources/snapshots/2026-11-17/Building.xlsx</code>, sheet <code>Building</code>, header row 1, 45 fields and 53,009 source rows. Check SHA-256 against the manifest before use. Read values with a spreadsheet reader, keeping Excel row index and identifiers as text. Record schema drift, date parsing and blanks. <a href="./evidence.html#estate-and-geography">Workbook manifest</a></td>
+</tr>
+<tr>
+<td>Borough and ward</td>
+<td>ONS May 2026 full clipped boundaries, Tower Hamlets <code>E09000030</code> and Poplar <code>E05009328</code>. The captured ESRI rings and codes in <code>analysis.json</code> pin the actual geometries. Clip status matters at the river edge. Record exact source service, layer, query, CRS and geometry hash when recapturing. <a href="./evidence.html#estate-and-geography">Estate and geography</a></td>
+</tr>
+<tr>
+<td>Statistical geography and indicators</td>
+<td>ONS 2021 LSOA BFE v10 and OA BFE v9 as captured, English indices of deprivation 2025 File 7 and Nomis Census 2021 TS007a and TS011. <code>tower-hamlets-neighbourhoods.json</code> records official endpoints and source-byte hashes for the indices and Census ZIP files. <a href="./evidence.html#neighbourhood-context">Neighbourhood source URLs</a></td>
+</tr>
+<tr>
+<td>Scope and certificate checks</td>
+<td>Dated provider and ODS references, approved address or NGD evidence, the current MHCLG register entry, occupier meter and lease records or site survey. Join only when purpose, access and scope permit. A source search and evidential match are distinct events. <a href="./gaps.html#priority-1-establish-which-premises-and-which-evidence-apply">Gap routes</a></td>
+</tr>
+<tr>
+<td>Peer and area context</td>
+<td>Pin ND-NEED release, use and size segment, DESNZ 2024 stacked energy CSVs, ECUK 2026 End Uses Table U6 or any additional sources. Retain their native units and geography and the file or version hash. <a href="./evidence.html#non-domestic-energy-consumption">Energy sources</a> · <a href="./evidence.html#uk-modelled-end-uses-for-community-buildings">National end uses</a></td>
+</tr>
+</tbody>
+</table></div>
+<p>For every input record the publisher, direct resource URL or secure reference, observation timestamp, data period, version, licence and access conditions, SHA-256 or a documented reason it cannot be pinned, field definitions and any filters. Capture pagination and feature counts for services. Keep originals immutable under their approved storage location. Preserve the workbook fields <code>Insite Property Reference</code>, <code>Insite Building Reference</code>, <code>Property Name</code>, <code>Organisation</code>, <code>Parent Organisation</code>, <code>Usage</code>, <code>Local Authority</code>, <code>Easting</code>, <code>Northing</code>, <code>Floor Area</code>, <code>Floor Area Measurement</code> and EPC and DEC band, reference, issue, expiry, score and out-of-scope fields. Keep source and normalised values separately.</p>
+<div class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Unit</th>
+<th>Key and handling</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Workbook row</td>
+<td>Workbook hash, sheet and 1-based Excel row. Keep both Insite identifiers and report null, repeated or conflicting keys.</td>
+</tr>
+<tr>
+<td>Map location</td>
+<td>Exact numeric easting and northing from the workbook in EPSG:27700. Retain all row links. A single map marker may represent several holdings or services.</td>
+</tr>
+<tr>
+<td>Physical building or part</td>
+<td>Dated source building or part ID and geometry scope. Record an address match separately, including parent and child address links.</td>
+</tr>
+<tr>
+<td>Legal property or holding</td>
+<td>Estate or lease reference and valid dates. A holding can span property references or use part of a building.</td>
+</tr>
+<tr>
+<td>Occupied premises or service site</td>
+<td>Controlled pilot ID linked to dated occupier, verified address or UPRN, demised floors and service or ODS site ID where held. Split relocated premises into dated records and record succession separately.</td>
+</tr>
+<tr>
+<td>Certificate and meter</td>
+<td>Unique report reference or protected meter key linked to the covered space and period. A shared report or supply counts once for its actual scope.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Write crosswalk links as explicit records with both keys, relation type such as <code>parent-of</code>, <code>same-premises</code> or <code>candidate</code>, effective dates, source, matching method, confidence, reviewer and reason. Accept an exact identifier only when address, dates and evidence scope agree. Use normalised address, postcode or nearby geometry to propose matches for review. Keep one-to-many and many-to-many links, avoid joining on a name alone, and audit the number of records before and after each join. Aggregate the right unit before joining a table with multiple certificates, meters or services. Keep unmatched and conflicting records for review.</p>
+<h2 id="3-reproduce-the-geography-before-adding-site-evidence">3. Reproduce the geography before adding site evidence</h2>
+<ol type="1">
+<li>Check that required columns are present and unique. Verify the workbook hash and record source row count. Parse finite BNG eastings and northings. Flag missing, non-numeric, out-of-range and placeholder values. Report discarded rows and retain source IDs. Preserve the raw values to audit axis order, truncation and point precision. Use workbook latitude and longitude only as a cross-check where available.</li>
+<li>Select the pinned borough and ward features by code. Confirm the full clipped edition and BNG CRS. Decode ESRI rings with their shells and holes intact. Validate and preserve the original geometry. Use a bounding-box prefilter if needed and apply polygon coverage in EPSG:27700. In the reproducibility check, <code>covers</code> includes points exactly on a polygon boundary. Mark any exact boundary match for review and retain its result separately. Cross-check, rather than filter by, the workbook <code>Local Authority</code> label. The row labelled <code>TOWER MILLENIUM PIER</code> falls outside the full clipped polygon. Retain it as a named exception. Keep the dwelling in the borough reconciliation and exclude it only for the non-domestic cut. Use the Poplar ward for map context, including the London Import Building point.</li>
+<li>Group the retained non-domestic rows by exact numeric BNG coordinates. Transform the distinct points with PROJ from EPSG:27700 to OGC:CRS84 (longitude, latitude). Set <code>always_xy=True</code> where supported and log library, PROJ and GEOS versions, transform definition, grid availability, and the CRS and precision of both inputs. Keep the BNG values for checking borderline points. Check that transformed points are plausible for Tower Hamlets and that untransformed inputs could not pass the join.</li>
+<li>Join the points to the ONS 2021 LSOA polygons with point-in-polygon. Retain each point key, candidate areas and the resolved LSOA code, method, boundary status and confidence. Inspect holes, multiparts, invalid geometries, exact edges, nearby clipped boundaries, overlaps and no-hit cases. Prefer a full-precision official geometry for ambiguous or invalid features. Log any repair and compare classifications before and after. If multiple areas cover a point or results disagree across valid methods, leave it ambiguous until reviewed. Flag mismatches between a workbook point and a verified service address.</li>
+<li>Join MHCLG 2025 File 7 to <code>LSOA21CD</code>. Check unique area codes, complete coverage for the retained borough LSOAs and integer deciles in 1 to 10. Keep IMD, IDACI and IDAOPI separate. Decile 1 is the most deprived nationally. Retain ranks, scores and deciles with their metric names and reporting edition. Use published LSOA statistics at LSOA level.</li>
+<li>Join Census 2021 TS007a and TS011 by <code>OA21CD</code>. Use ONS <code>OA21CD → LSOA21CD</code> nesting, keeping both identifiers at display time. Sum under 5 and age 60 and above from age bands and households deprived in at least two dimensions from the relevant categories. Divide age counts by eligible Census residents and household counts by households. Return unknown for a zero or missing denominator. Require one join per code and reconcile counts of <strong>169 LSOAs and 913 OAs</strong>. A map point links a site to neighbourhood context. It establishes neither a catchment nor the characteristics of individual households or service users.</li>
+</ol>
+<h2 id="4-record-distinct-outcomes-and-reasons-for-missing-evidence">4. Record distinct outcomes and reasons for missing evidence</h2>
+<div class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Outcome</th>
+<th>Operational definition and denominator</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Workbook band recorded</td>
+<td>Non-blank trimmed value in <code>EPC Property Rating</code> or <code>DEC Building Rating</code>. Record EPC only, DEC only, both and neither among eligible workbook rows, with any invalid value or conflict flagged. Count a row once in the union. Preserve recorded issue and expiry fields without inferring validity.</td>
+</tr>
+<tr>
+<td>Workbook location coverage</td>
+<td>At least one linked row with a band per exact coordinate group. Present this alongside row coverage and flag groups whose linked rows disagree.</td>
+</tr>
+<tr>
+<td>Certificate search and match</td>
+<td>Among verified occupied premises, report successful searches, unavailable searches, address matches and scope-verified current matches separately for EPC and DEC. Count confirmed out-of-scope and unresolved cases separately.</td>
+</tr>
+<tr>
+<td>Current certificate</td>
+<td>Report reference independently resolved, source issue and status checked against the declared as-of date, unexpired where applicable, and scope verified to the premises and period of interest. Track EPC and DEC separately. Report the DEC activity or measurement period separately from expiry.</td>
+</tr>
+<tr>
+<td>Comparable operational baseline</td>
+<td>Complete, verified energy period with matched occupied and meter boundaries, fuel coverage and a suitable area denominator where needed. Record eligible premises with any evidence, verified full baseline and comparable peer evidence as separate counts.</td>
+</tr>
+<tr>
+<td>Retrofit evidence</td>
+<td>Dated acts of inspection, feasibility evidence, measure quantities, cost assumptions and model or verified savings for the same scope. Report unknown costs, savings and permission explicitly.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Use a reason for each outcome and field, rather than a generic blank. A raw missing field can coexist with a verified register match for another outcome. Use <code>missing</code> for expected information absent from a searched source, <code>out of scope</code> for positive applicability evidence, <code>unmatched</code> when a crosswalk fails, <code>stale</code> for superseded or expired evidence, <code>ambiguous</code> for a conflict or uncertain coverage, <code>not published</code> or <code>suppressed</code> for source disclosure limitations, and <code>awaiting</code> for an outstanding check. Record evidence date, reviewer and follow-up. Use an explicit measured zero only when source, period and scope support it. Preserve certificate conflicts such as The White Chapel Building’s raw DEC B and operating rating 100.</p>
+<h3 id="certificate-lookup-procedure">Certificate lookup procedure</h3>
+<ol type="1">
+<li>Confirm the current service address from a dated occupier, provider or regulator source. Search the MHCLG public non-domestic register by postcode, street and town or known report reference. Record the query, direct results link, observation date, source and certificate types searched. Retrieve each candidate's individual record. Postcodes can contain unrelated addresses.</li>
+<li>Check building name, street number, postcode, unit or floor, and UPRN where available and permitted. Record a candidate, confirmed site address, or scope-verified premises match. Capture the basis, confidence, any competing matches, reviewer and evidence needed. A site-address match can cover more or less than a workbook row or occupied unit.</li>
+<li>Record certificate type and report reference, individual URL, band and score, assessment, issue, nominated and expiry dates as applicable, register status on the observation date, area with its definition, covered space, and any available DEC measurement period, fuel labels, values and units. Keep asset EPC and operational DEC distinct. Retain links and decision-relevant fields and omit assessor personal details.</li>
+<li>Record lookup outcome and certificate status separately. Use <code>public match not found</code> when the completed public search returns no matching record and <code>unavailable</code> when access or a service failure prevents a check. Use <code>expired</code> or <code>superseded</code> when evidenced and <code>unresolved</code> for ambiguous address, scope or status. Record a verified address match within the stated validity dates even where scope is unresolved. Confirm applicability separately. A public search outcome does not establish whether a certificate exists outside that search.</li>
+<li>Link the observation to the site and to workbook rows only at the match confidence actually established. Keep the raw workbook fields and band-coverage denominator fixed. Confirm the DEC period, supply map and measured area with estates before treating it as a verified premises baseline. For bulk repeat work, check licensing, access and publication fields first. <a href="./evidence.html#finding-energy-certificates">Access routes and Gill Street evidence</a></li>
+</ol>
+<h3 id="eric-site-and-certificate-candidate-join">ERIC site and certificate candidate join</h3>
+<p>Use this offline step for the Tower Hamlets pilot. It links individual ERIC sites to certificate records by exact normalised Unique Property Reference Number (UPRN) for review. The ERIC local authority is the reported field. This population is separate from the spatial estate workbook cohort. The tool leaves the raw workbook and the public register example unchanged.</p>
+<p><strong>Public ERIC check on 20 November 2026.</strong> The 2025/26 site CSV v3 has 17 rows with “Tower Hamlets” in <code>Local Authority</code>. Fifteen rows have a usable UPRN and two have none. There are 12 distinct usable UPRNs before excluding the single Other Reportable Sites aggregate, leaving <strong>14 eligible rows with 11 distinct UPRNs</strong>, three shared. The quality key was available for all 17 rows, including the two marked as having no UPRN. Gill Street has no standalone ERIC site row in this cut. The public Gill Street certificates remain a separate address match. An authorised MHCLG API query later returned certificate candidates for Mile End. Review their scope and period separately. A report reference appearing in a public DEC UPRN field is excluded from the exact join. <a href="./evidence.html#mile-end-hospital-costs-and-estate-condition">Mile End evidence</a> <a href="https://digital.nhs.uk/data-and-information/publications/statistical/estates-returns-information-collection/summary-page-and-dataset-for-eric-2025-26">ERIC release</a> · <a href="https://files.digital.nhs.uk/75/EEA227/ERIC%20-%202025_26%20-%20Site%20data%20-%20v3.csv">Site CSV v3</a> · <a href="https://digital.nhs.uk/data-and-information/publications/statistical/estates-returns-information-collection/summary-page-and-dataset-for-eric-2025-26/dq-report-coherence-and-comparability">ERIC UPRN method and quality notes</a></p>
+<p><strong>Inputs.</strong> Use the unedited CP1252 ERIC CSV, with the field-number row above the column headings. Use the current MHCLG non-domestic EPC and display certificate CSVs from an authorised download. Both contain <code>CERTIFICATE_NUMBER</code>, <code>UPRN</code> and <code>UPRN_SOURCE</code>. The developer API supports a 12-digit zero-padded UPRN filter. This tool takes CSV, with the current dictionary headers, and requires a separately reviewed mapping for API responses. The optional quality CSV has the three columns <code>Site Code</code>, <code>UPRN</code> and <code>UPRN Quality Key</code> from the report's <strong>Data quality</strong> sheet. Keep the source edition and use the site code and UPRN together. Review alternative or unknown matches and any repeated or conflicting quality keys before accepting scope. <a href="https://get-energy-performance-data.communities.gov.uk/guidance/data-dictionary">MHCLG CSV dictionaries</a> · <a href="https://get-energy-performance-data.communities.gov.uk/guidance/energy-certificate-data-apis">API guidance</a> · <a href="https://files.digital.nhs.uk/17/F2F9D3/ERIC%20-%202025_26%20-%20Report%20-%20v2.xlsx">ERIC report v2</a></p>
+<p>On this checkout the ignored input folder already contains the public ERIC site CSV and Tower Hamlets quality CSV. From the repository root, use Python 3.11 or later and supply the extracted certificate CSV files once available. Choose a fresh output file for each run.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">pilot_dir</span><span class="op">=</span>sources/snapshots/2026-11-20/tower-hamlets-eric</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">python3</span> analysis/join_tower_hamlets_eric_certificates.py <span class="dt">\</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="at">--eric</span> <span class="st">&quot;</span><span class="va">$pilot_dir</span><span class="st">/eric-2025-26-site-v3.csv&quot;</span> <span class="dt">\</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">--quality</span> <span class="st">&quot;</span><span class="va">$pilot_dir</span><span class="st">/eric-2025-26-tower-hamlets-uprn-quality.csv&quot;</span> <span class="dt">\</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">--epc</span> <span class="st">&quot;</span><span class="va">$pilot_dir</span><span class="st">/mhclg-non-domestic.csv&quot;</span> <span class="dt">\</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">--dec</span> <span class="st">&quot;</span><span class="va">$pilot_dir</span><span class="st">/mhclg-display.csv&quot;</span> <span class="dt">\</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">--output</span> <span class="st">&quot;</span><span class="va">$pilot_dir</span><span class="st">/candidate-links-01.json&quot;</span></span></code></pre></div>
+<p>Omit an unavailable extract flag to record that type as unavailable. <code>eric-profile.json</code> in the same folder records the public-only run. The local ERIC site CSV SHA-256 is <code>b77cf6956854a08f96f9669e9d8d78c245873f7e643b9ca7fc99dafa233844fd</code>. The report v2 used in memory for the quality projection has SHA-256 <code>d604dd57b02c28f0db5f708828e657067a10cfa6b9371650ee5ad15363e5e15c</code>. Keep the selected extracts and results in ignored or approved local storage and retain the source links, retrieval date and hashes.</p>
+<p><strong>Review.</strong> The JSON keeps site and certificate records at their separate grains, preserves raw UPRNs, provenance and published certificate dates, and reports missing, excluded, unmatched and ambiguous cases. Exact matches accept only non-zero numeric UPRNs of up to 12 digits and pad short values on the left. Postcode is never a join key. Retain unmatched ERIC rows and unlinked certificates reported in Tower Hamlets in their respective tables. Where the certificate extract lacks an authority field, only records sharing an eligible ERIC UPRN can be scoped to this pilot. A missing match means no exact candidate in the supplied extract. Review all shared UPRNs, multiple certificates, authority differences, alternative quality keys, dates, building or campus extent, occupancy, energy period and meter boundary by hand. One UPRN can describe an address with several occupants, site codes or certificate scopes. A synthetic smoke test exercised the matching logic. Real certificate CSV matching remains pending authorised extracts.</p>
+<h2 id="5-compare-coverage-and-test-sensitivity">5. Compare coverage and test sensitivity</h2>
+<ul>
+<li>Start with counts and denominators with an observed date. Report <code>eligible</code>, <code>searched</code>, <code>matched</code>, <code>verified current</code>, <code>out of scope</code>, <code>unresolved</code> and <code>verified baseline</code> as appropriate. Calculate rates only for defined populations with a non-zero denominator. Show unmapped and unknown cases. Do not silently drop them after a join.</li>
+<li>Reproduce descriptive band coverage for rows and show whether a coordinate has any banded row. For a verified-premises analysis deduplicate linked certificates, group shared supplies by their actual extent, and count eligible premises once per endpoint. Compare facility function, submitting organisation or estate family, area band, lease and date mix before aggregate comparisons. Record where subgroup comparisons fail the pre-agreed minimum or have little overlap. If future data justify formal intervals, preregister the unit, strata and clustering or resampling by premises or location and account for shared LSOAs and submitters as the structure warrants. Skip inferential claims where the design or clusters cannot support them.</li>
+<li>Prespecify sensitivity to national decile 1 versus deciles 1 to 2, keeping IMD, IDACI and IDAOPI results distinct. Check rows versus coordinate groups versus verified premises, reused or duplicate reports, NHS versus other submissions, and facility-use mix. Repeat with disputed points excluded or separately classified, and with a validated alternative boundary vintage or full-precision source only if the geographic question warrants it. Track changes in membership and denominator. Report each run against the frozen primary definition.</li>
+<li>The present frame is a small convenience snapshot. Workbook field availability, occupier or organisation mix, scope and colocation can create apparent differences. The existing counts support triage and coverage description only. Wait for the confirmed hypothesis and review before treating any contrast as a hypothesis test. <a href="./gaps.html#what-the-pilot-actually-observed">Observed breakdown</a></li>
+</ul>
+<h2 id="6-establish-energy-area-and-emissions-at-the-same-scope">6. Establish energy, area and emissions at the same scope</h2>
+<ol type="1">
+<li>Obtain at least 12 successive months by fuel from the estate team, bill-payer or landlord and prefer 24 to 36 months for assessing changing conditions or fitting a seasonal baseline. Freeze inclusive start and exclusive end dates for each period and record the read basis, meter, building scope, fuel, source unit, import, export, generation, self-consumption where measured, estimates and completeness. If using half-hourly intervals, handle time zone and daylight saving explicitly, check duplicate intervals and gaps, and aggregate from kWh intervals.</li>
+<li>Reconcile unique meter periods, bill corrections and rollovers. Where cumulative readings are used, subtract opening from closing after checking units, reset or rollover and multipliers. For gas volume use the supplier's billed kWh or document the appropriate volume, calorific-value and correction factors. Convert other fuels with recorded factors and meter basis. Sum energy across disjoint intervals and primary supplies by fuel. Reconcile downstream submeter totals against their parent and avoid summing the same supply at both levels. Keep imports, exports and on-site use separate under the chosen boundary.</li>
+<li>Record observed energy and gap coverage before considering a top-up. Prefer a corrected bill or actual meter read. For pilot exploration, represent any approved top-up separately as <code>observed kWh + estimated uncovered kWh</code> by fuel and period. Estimate only missing intervals using a documented applicable model, for example a validated weather and hours model using enough actual reads. Report range, share estimated and method. No unadjusted multiplication of a partial period by a calendar fraction for a seasonal fuel. Label extrapolated, shared or incomplete values. Keep them out of a ranking claiming verified full-year consumption unless separately approved criteria explicitly cover the treatment.</li>
+<li>Match the energy boundary to surveyed floor area. Record standard (including NIA, GIA or useful floor area), measured or estimated status, common and conditioned areas and floors, site and survey dates. Keep whole-building and service-space measurements distinct. Calculate annual fuel intensity as annual kWh for the verified scope divided by matched m² under the same area convention as the comparator. Keep NIA and any estimated gross area separate. Raw footprint times storeys is an estimate for a clearly defined extent, never a substitute for an occupied survey. For complex geometry review parts and heights for any indicative volume calculation.</li>
+<li>Choose a measured ND-NEED cohort, relevant DEC reference comparison where its methodology fits, or verified peer group with compatible premises use, size range, fuel mix, year, area convention, service hours and meter boundary. Keep the benchmark type, sample size and definition with the result. Record weather station and baseline period and apply justified weather adjustments for weather-sensitive loads when sufficiently supported. Review hours, occupancy, ventilation, HVAC, plant condition, IT or clinical loads and service changes. Show raw and adjusted estimates separately with method and uncertainty. Withhold comparison where no defensible peer or adjustment exists.</li>
+<li>Calculate <code>tCO2e = Σ (activity × matched kgCO2e conversion factor) / 1000</code> for each reporting period, using compatible units and a pinned period- appropriate DESNZ factors file. Document reporting year, factor version, row or factor ID, source, unit, fuel, scope and conversion alignment. For a calculator using kWh, use factors in kgCO2e/kWh. Preserve direct fuel combustion and purchased electricity emissions separately where the organisation's boundary warrants Scope 1 and Scope 2. Declare the electricity accounting basis and any separate supply-chain, generation, export or transmission treatment. Avoid mixing operational inventory, lifecycle factors and carbon savings estimates. Report no combined premises emissions if material fuels or coverage are unknown. <a href="https://www.gov.uk/government/publications/public-sector-emissions-measurement-and-reporting-guidance">Government reporting guidance</a> · <a href="https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2026">DESNZ 2026 factors</a></li>
+</ol>
+<h2 id="7-move-from-evidence-priority-to-a-shortlist">7. Move from evidence priority to a shortlist</h2>
+<div class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Evidence available</th>
+<th>Permitted judgement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Discovery</td>
+<td>Workbook and public neighbourhood context, with candidate address and rating leads.</td>
+<td>Identify sites and evidence gaps for investigation.</td>
+</tr>
+<tr>
+<td>Verified scope</td>
+<td>Current service, premises and occupier or landlord confirmed, with dated matches and certificate or meter status recorded.</td>
+<td>Prioritise a specific evidence request or survey.</td>
+</tr>
+<tr>
+<td>Comparable baseline</td>
+<td>Meter boundaries, 12 months by fuel, scope-matched measured area, operation and comparable peer evidence checked.</td>
+<td>Quantify baseline and comparable excess where defensible.</td>
+</tr>
+<tr>
+<td>Measure-level appraisal</td>
+<td>Survey supports feasible measures, likely costs, carbon savings and uncertainty, with service continuity, tenure and permissions considered.</td>
+<td>Apply a documented shortlist method after review and only to eligible, comparable cases.</td>
+</tr>
+</tbody>
+</table></div>
+<p>For each measure record system or floor scope, existing condition, feasibility, design dependency, enabling works, planned period and disruption. Retain measured quantities or labelled estimates, rate source and date, capital and operating cost boundary, contingency and sensitivity range. Compare baseline with the measure scenario using the same weather, period, service and premises boundary unless the proposal explicitly changes these. Calculate avoided tCO2e as baseline minus scenario emissions with a documented factor basis. Include any significant fuel switching, interactions between measures, overlap and rebound assumptions. Keep measured post-installation outcomes distinct from design estimates, with a defined monitoring period. When records are inadequate, assign an investigation action and retain missing cost or savings. <a href="./gaps.html#priority-3-compare-fairly-and-scope-measures">Feasibility and access gaps</a></p>
+<p>Before shortlisting validate the scoring or decision rule in writing. Define how energy use, carbon opportunity, deliverability, uncertainty and the chosen equity objective each affect priority. Use declared units and weights or thresholds, publish the rationale internally and test ranking stability, ties and missing information. Keep evidence priority separate from quantified need. Missing ratings or high deprivation alone do not quantify poor site performance or carbon savings. For excluded or incomparable premises show the reason and next evidence action.</p>
+<h2 id="8-save-versioned-outputs-and-confirm-ownership">8. Save versioned outputs and confirm ownership</h2>
+<p>Save a run manifest, schema and row counts, deduplication and exclusions log, geography review, premises crosswalk, outcomes table, descriptive counts, sensitivity results and signed decision log under a run ID. For meter work save a controlled consumption, denominator and emissions ledger, including each formula, version and flags. Make changes reproducible with script or query version, arguments, environment and hashes. Keep the as-run snapshot and a reviewed publication-safe projection separately identifiable.</p>
+<div class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Responsibility</th>
+<th>Proposed owner and review</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Identity, lease, access and records</td>
+<td>Estate lead obtains evidence. Occupier or service lead confirms current operation. Landlord or lease lead confirms holding and rights.</td>
+</tr>
+<tr>
+<td>Source and geometry joins</td>
+<td>Analyst prepares joins and checks. An independent reviewer reproduces the run and samples exceptions.</td>
+</tr>
+<tr>
+<td>Meter, area, standards and retrofit</td>
+<td>Estate energy analyst reconciles the baseline. Surveyor or assessor verifies scope, quantities and feasibility.</td>
+</tr>
+<tr>
+<td>Rights and disclosure</td>
+<td>Data steward reviews each source and allowed fields before any release. Keep controlled identifiers, credentials, bills, leases and licensed geometry in the approved environment.</td>
+</tr>
+<tr>
+<td>Interpretation and next geography</td>
+<td>Programme owner and reviewer approve the protocol, evidence limits and go or stop decision.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Keep open statistics, permitted internal evidence and any publishable projection traceable to licence and attribution. Here the public static companion uses the cleared open-data subset. Local OS enrichment and controlled records require separate terms and review. <a href="./evidence.html#building-identity-and-quantities">Repository licensing decisions</a> · <a href="./access.html">Draft access requests</a></p>
+<h2 id="9-repeat-checklist-and-stop-or-go-decision">9. Repeat checklist and stop or go decision</h2>
+<ul class="task-list">
+<li><label><input type="checkbox" />Confirm and freeze the user's exact hypothesis, then agree its outcome, denominators, comparisons and decision criteria before further comparison.</label></li>
+<li><label><input type="checkbox" />Freeze inputs, licences, editions and hashes. Resolve invalid geometry and clipping edge policy, including changes in boundary precision.</label></li>
+<li><label><input type="checkbox" />Independently reproduce the Tower Hamlets flow from the frozen workbook and geometry. Match the source row keys, 63 borough rows, 41 property references, 62 non-domestic rows, 38 coordinate groups and all retained LSOA joins. Reconcile Census and index counts and report exclusions.</label></li>
+<li><label><input type="checkbox" />Review at least a positive address match and a scoped parent case (Gill Street or Young V&amp;A and the tribunal), the historical and unresolved cases (Aberfeldy and Community Paediatrics), and the rating conflict (White Chapel). Include unbanded, out-of-scope or uncertain cases and confirm that absence of a workbook band is handled independently of register coverage. Record matched, rejected and unresolved outcomes.</label></li>
+<li><label><input type="checkbox" />Review comparison and sensitivity outputs on agreed units. Verify any meter, area, period and benchmark checks underpinning a quantified judgement. Keep a decision and exception log with owners and next actions.</label></li>
+<li><label><input type="checkbox" />Record reviewer and programme owner sign-off with date, artefact hashes, deviations, any unresolved risks and the scope the review supports. <strong>Stop before running a second area</strong> until this validation is complete. A later area requires a separately recorded scope and decision. <a href="./tracker.html">Question tracker</a></label></li>
+</ul>
+<h3 id="verification-status-for-this-draft">Verification status for this draft</h3>
+<div class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Status</th>
+<th>Evidence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Existing reviewed findings</td>
+<td>The pilot workbook join, cohort counts, mapped neighbourhood totals and case notes were already captured. The previous review matched all 38 locations to an ONS 2021 LSOA. <a href="./evidence.html#assessment-against-the-hackathon-brief">Pilot evidence</a></td>
+</tr>
+<tr>
+<td>New checks</td>
+<td>Re-hashed the original workbook. A fresh run with pyproj 3.8.0 (PROJ 9.8.1) and Shapely 2.2.0 (GEOS 3.14.1) reproduced all 63 selected worksheet row IDs, the 38 group-to-LSOA assignments and the decile 1 counts. It found four EPC-only, three DEC-only, two both and 53 neither rows. Census code counts, nesting keys and valid decile ranges reconciled.</td>
+</tr>
+<tr>
+<td>Still required</td>
+<td>Confirm the hypothesis verbatim, review geometry precision and record outcomes, verify current evidence with the relevant holders where approved, and obtain independent reviewer and programme sign-off. The draft threshold for another area remains closed.</td>
+</tr>
+</tbody>
+</table></div>
+<p>Geometry quality check on the captured service responses found 10 invalid LSOA geometries and 42 invalid OA geometries. Shapely <code>make_valid</code> left the matched LSOA unchanged for all 38 grouped coordinates. The OA check validated codes and nesting attributes and did not establish repaired boundary topology. Obtain and compare full-precision official geometry before using borderline locations, changing editions or reusing the method. The local count check is evidence for the gate and awaits separate reviewer sign-off.</p>
+<p>PROJ used “Inverse of British National Grid + OSGB36 to WGS 84 (6) + axis order change (2D)” for all 38 coordinates. Its stated accuracy is 2 m. The OSTN15 grid was unavailable in the verification runtime. The result describes agreement at the recorded workbook points. Coordinate accuracy and proximity to boundaries warrant separate checks for decision use.</p>
+<p>On the demo Mac, the temporary verification script can be run from the repository root if the original workbook, scratch inputs and environment still exist. Its SHA-256 is <code>a8d5766ed69331bfd7f002b48026075444f60cfda4382c71b086ad41ced2e39a</code>.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/private/tmp/irea-geo-venv/bin/python</span> /private/tmp/irea-verify-tower-hamlets-pilot.py</span></code></pre></div>
+<p>The saved inputs for the checks were observed on 20 November 2026 in <code>/private/tmp/tower-hamlets-estate-k3tuzffp/</code>. The temporary artefacts are governed by the <a href="./runbook.html#local-inputs-and-rebuild">runbook</a> and their contents are outside Git.</p>
+<div class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Captured input</th>
+<th>SHA-256</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>analysis.json</code></td>
+<td><code>24fad9fc90d3e7782099a19ecb684adcd1f23ffb3012e358c70aad06950f3deb</code></td>
+</tr>
+<tr>
+<td><code>tower-hamlets-neighbourhoods.json</code></td>
+<td><code>b0f3b62c3a2bb2ffe4861b18f7f022db41f067f8db8cd3dbdcdd160587ead690</code></td>
+</tr>
+<tr>
+<td><code>brief-review-lsoa-evidence.json</code></td>
+<td><code>86ee8abe0932eb39828a87ab111f6f3c7bcbd5200eb40514ed0897ddeb60ef9d</code></td>
+</tr>
+</tbody>
+</table></div>
+<p class="download"><a href="./markdown/tower-hamlets-screening-method.md" download>Download screening method as Markdown</a></p></article></main>
+<footer><div class="site-width"><span>Property data, AI and sustainability hackathon · 20 November 2026</span>
+<a href="../national/">National estate dashboard</a></div></footer>
+</body></html>

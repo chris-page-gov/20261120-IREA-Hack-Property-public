@@ -1,0 +1,111 @@
+{
+  "observed_on": "2026-11-20",
+  "threshold": "Overall deciles 1 to 5, calculated independently within each UK nation",
+  "nations": {
+    "England": {
+      "index": "English Indices of Deprivation 2025",
+      "geography": "2021 Lower-layer Super Output Area",
+      "overall_area_count": 33755,
+      "overall_deciles_1_to_5": 16877,
+      "decile_basis": "Published overall decile",
+      "overall_counts_by_decile": {
+        "1": 3375,
+        "2": 3376,
+        "3": 3375,
+        "4": 3376,
+        "5": 3375,
+        "6": 3376,
+        "7": 3375,
+        "8": 3376,
+        "9": 3375,
+        "10": 3376
+      },
+      "children_deciles_1_to_5": 16877,
+      "older_people_deciles_1_to_5": 16877,
+      "source": "https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025",
+      "source_download": "https://assets.publishing.service.gov.uk/media/691ded56d140bbbaa59a2a7d/File_7_IoD2025_All_Ranks_Scores_Deciles_Population_Denominators.csv",
+      "source_sha256": "b1b716aa2e476449f987b9de3e08255b4794eabfd270626de5de18b2f5eff3ef"
+    },
+    "Wales": {
+      "index": "Welsh Index of Multiple Deprivation 2025",
+      "geography": "2021 Lower layer Super Output Area",
+      "overall_area_count": 1917,
+      "overall_deciles_1_to_5": 958,
+      "decile_basis": "Published overall decile",
+      "overall_counts_by_decile": {
+        "1": 191,
+        "2": 191,
+        "3": 192,
+        "4": 192,
+        "5": 192,
+        "6": 191,
+        "7": 192,
+        "8": 192,
+        "9": 191,
+        "10": 193
+      },
+      "children_deciles_1_to_5": null,
+      "older_people_deciles_1_to_5": null,
+      "source": "https://www.gov.wales/welsh-index-multiple-deprivation-2025",
+      "source_download": "https://www.gov.wales/sites/default/files/statistics-and-research/2025-11/wimd-2025-index-and-domain-ranks-by-small-area.ods",
+      "source_sha256": "755870f8a82f463c2d6cbd079ace00620f299714dc830aef67583145396613dc"
+    },
+    "Scotland": {
+      "index": "Scottish Index of Multiple Deprivation 2020v2",
+      "geography": "2011 Data Zone",
+      "overall_area_count": 6976,
+      "overall_deciles_1_to_5": 3488,
+      "decile_basis": "Published overall decile",
+      "overall_counts_by_decile": {
+        "1": 697,
+        "2": 698,
+        "3": 697,
+        "4": 698,
+        "5": 698,
+        "6": 697,
+        "7": 698,
+        "8": 697,
+        "9": 698,
+        "10": 698
+      },
+      "children_deciles_1_to_5": null,
+      "older_people_deciles_1_to_5": null,
+      "source": "https://www.gov.scot/publications/scottish-index-of-multiple-deprivation-2020v2-data-zone-look-up/",
+      "source_download": "https://www.gov.scot/binaries/content/documents/govscot/publications/statistics/2020/01/scottish-index-of-multiple-deprivation-2020-data-zone-look-up-file/documents/scottish-index-of-multiple-deprivation-data-zone-look-up/scottish-index-of-multiple-deprivation-data-zone-look-up/govscot%3Adocument/SIMD%2B2020v2%2B-%2Bdatazone%2Blookup%2B-%2Bupdated%2B2025.xlsx",
+      "source_sha256": "0a64937af60fb339a1be85cd2f65b6a3d410a38dc5b6c7f25a72ba2d7060a03e"
+    },
+    "Northern Ireland": {
+      "index": "Northern Ireland Multiple Deprivation Measure 2017",
+      "geography": "Super Output Area (source code field SOA2001)",
+      "overall_area_count": 890,
+      "overall_deciles_1_to_5": 445,
+      "decile_basis": "Decile derived from published rank in 10 equal groups of 89 areas",
+      "overall_counts_by_decile": {
+        "1": 89,
+        "2": 89,
+        "3": 89,
+        "4": 89,
+        "5": 89,
+        "6": 89,
+        "7": 89,
+        "8": 89,
+        "9": 89,
+        "10": 89
+      },
+      "children_deciles_1_to_5": 445,
+      "older_people_deciles_1_to_5": 445,
+      "source": "https://www.nisra.gov.uk/publications/nimdm17-soa-level-results",
+      "source_download": "https://www.nisra.gov.uk/files/nisra/publications/NIMDM17_SOAresults.xls",
+      "source_sha256": "3738edf2d264491301b41cc7b64967373d49b09a6f5719225a0e4f7d789af9d3"
+    }
+  },
+  "all_areas": 43538,
+  "total_meeting_nation_thresholds": 21768,
+  "attribution": "Sources: MHCLG, Welsh Government, Scottish Government and NISRA. Contains public sector information licensed under the Open Government Licence v3.0.",
+  "licence": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
+  "use": "National relative bands across four source editions. No premises, certificate, investment or boundary data are included.",
+  "visualisation": {
+    "dataset_id": "uk-deprivation-area-reference",
+    "catalogue": "visualisation-specifications.json"
+  }
+}

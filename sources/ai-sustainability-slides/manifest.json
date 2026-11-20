@@ -1,0 +1,42 @@
+{
+  "schema": "irea-slide-image-manifest.v1",
+  "observed_on": "2026-11-20",
+  "conversation_date": "2026-07-22",
+  "capture_method": "Downloaded the three user attachments from the account-linked ChatGPT conversation; repository copies are byte-identical to the downloads.",
+  "rights_and_handling": "© Chris Page 2026. The photographer confirmed ownership and expressly approved public publication on 20 November 2026. The slide claims have not been verified by the photographs. No blanket reuse licence is granted.",
+  "images": [
+    {
+      "path": "sources/ai-sustainability-slides/energy.jpg",
+      "attachment_order": 1,
+      "title_on_slide": "Energy",
+      "download_name": "ChatGPT Image Nov 20, 2026, 09_14_39 AM.jpg",
+      "media_type": "image/jpeg",
+      "bytes": 203332,
+      "pixel_width": 1536,
+      "pixel_height": 1157,
+      "sha256": "031f7da59e796a429eb9cda12e06e850d0034f5939617feed0852bf822267c3e"
+    },
+    {
+      "path": "sources/ai-sustainability-slides/water.jpg",
+      "attachment_order": 2,
+      "title_on_slide": "Water",
+      "download_name": "ChatGPT Image Nov 20, 2026, 08_58_44 AM.jpg",
+      "media_type": "image/jpeg",
+      "bytes": 201668,
+      "pixel_width": 1536,
+      "pixel_height": 1157,
+      "sha256": "8410d2f628679e2dc0e77f59318561a6ec81392ef9cf8b2f20bc5efaac750cf3"
+    },
+    {
+      "path": "sources/ai-sustainability-slides/supply-chain.jpg",
+      "attachment_order": 3,
+      "title_on_slide": "Supply Chain",
+      "download_name": "ChatGPT Image Nov 20, 2026, 09_16_40 AM.jpg",
+      "media_type": "image/jpeg",
+      "bytes": 191536,
+      "pixel_width": 1536,
+      "pixel_height": 1157,
+      "sha256": "878e53e80984aff35ea40bd445b1fbe916e8fe31f2fb56c6d41162da1f57927a"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en-GB">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Question tracker | Tower Hamlets retrofit notebook</title>
+<meta name="description" content="Explore evidence and open questions for public estate retrofit in Tower Hamlets.">
+<link rel="stylesheet" href="./notebook.css"><script src="./notebook.js" defer></script><link rel="stylesheet" href="../assets/terms.css"><script src="../assets/terms.js" defer></script></head>
+<body class="document">
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="site-width"><a class="brand" href="./">Tower Hamlets retrofit notebook</a>
+<nav aria-label="Notebook"><a href="./">Overview</a><a href="./explore.html">Estate map</a><a href="./guide.html">Quick guide</a><a href="./tracker.html" aria-current="page">Tracker</a><a href="./evidence.html">Evidence</a><a href="./gaps.html">Evidence gaps</a><a href="./method.html">Tower Hamlets method</a><a href="./uk-method.html">UK-wide method</a><a href="./energy.html">Energy data</a><a href="./visualisation.html">Visualisation guide</a><a href="./access.html">Data requests</a><a href="./personas.html">Personas</a><a href="./walkthrough.html">Walkthrough</a><a href="./runbook.html">Runbook</a></nav></div></header>
+<main id="main" class="site-width"><article class="prose"><h1 id="tower-hamlets-estate-map-question-tracker">Tower Hamlets estate map question tracker</h1>
+<p>Updated 20 November 2026. Update the status and linked evidence together when the prototype or the underlying evidence changes.</p>
+<div class="filters"><div><label for="question-filter">Find a question or source</label><input id="question-filter" type="search" placeholder="Search the tracker" autocomplete="off" data-filter="questions"></div><div><label for="status-filter">Status</label><select id="status-filter" data-filter-status="questions"><option value="">All statuses</option></select></div></div><p class="results" id="questions-result" aria-live="polite"></p><div class="table-scroll" tabindex="0" role="region" aria-label="Question tracker"><table id="questions">
+<thead>
+<tr>
+<th>Question</th>
+<th>Status</th>
+<th>Finding or next check</th>
+<th>Documentation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>What are we screening today?</td>
+<td>Agreed</td>
+<td>Public-facing non-domestic health, community, justice and cultural facilities that warrant an energy investigation.</td>
+<td><a href="./guide.html">Quick guide</a></td>
+</tr>
+<tr>
+<td>Which geography and records?</td>
+<td>Checked</td>
+<td>Tower Hamlets full clipped May 2026 boundary, with Poplar highlighted. 63 rows at 41 property references before filtering, 62 non-domestic rows at 38 coordinates on the map.</td>
+<td><a href="./evidence.html#estate-and-geography">Estate and geography</a></td>
+</tr>
+<tr>
+<td>How do we open, restart and check it?</td>
+<td>Documented</td>
+<td>Edge loopback preview on port 4175. Check page, OS tile and interactive controls.</td>
+<td><a href="./guide.html">Quick guide</a> · <a href="./runbook.html">Runbook</a></td>
+</tr>
+<tr>
+<td>What can we reuse or share?</td>
+<td>Local only</td>
+<td>Workbook edition is recorded. Keep temporary HTML, OS-derived data and credentials out of Git and any public share pending rights review.</td>
+<td><a href="./runbook.html#local-inputs-and-rebuild">Local inputs and rebuild</a> · <a href="./evidence.html#building-identity-and-quantities">Licensing decisions</a></td>
+</tr>
+<tr>
+<td>Which shortlist addresses and holdings are current?</td>
+<td>Partly checked</td>
+<td>Gill Street and Young V&amp;A have spatially checked matches. The tribunal match covers the parent building. Aberfeldy moved and Community Paediatrics needs confirmation. Check current service and holding before progressing a candidate.</td>
+<td><a href="./evidence.html#building-identity-and-quantities">Building identity and quantities</a></td>
+</tr>
+<tr>
+<td>Which neighbourhood indicators can we show?</td>
+<td>In preview</td>
+<td>169 LSOAs shaded by IMD, IDACI or IDAOPI, plus 913 nested Census OAs for age and household deprivation counts and shares. Parent indices keep their own label and geography.</td>
+<td><a href="./evidence.html#neighbourhood-context">Neighbourhood context</a></td>
+</tr>
+<tr>
+<td>Can UPRNs tell us which floors an occupier uses?</td>
+<td>Reply pending</td>
+<td>OS Data Hub Support enquiry sent 20 November. Built Address floor levels are nullable and the extract is outstanding. NGD Building floor count describes the whole building.</td>
+<td><a href="./evidence.html#building-identity-and-quantities">Building identity and quantities</a></td>
+</tr>
+<tr>
+<td>Can we estimate area, volume, storeys and cost?</td>
+<td>Method scoped</td>
+<td>Use measured area and verified storeys first. Use part-level geometry where appropriate and label estimates and confidence. Quotes need measure-specific scope, quantities and rates.</td>
+<td><a href="./evidence.html#building-identity-and-quantities">Building identity and quantities</a></td>
+</tr>
+<tr>
+<td>Is non-domestic electricity and gas available by LSOA?</td>
+<td>MSOA limit confirmed</td>
+<td>34 named MSOAs for gas and 34 for non-half-hourly electricity. Keep the sole half-hourly electricity row at borough level. An MSOA context layer is proposed and is absent from the current map.</td>
+<td><a href="./evidence.html#non-domestic-energy-consumption">Non-domestic energy consumption</a> · <a href="./runbook.html#local-inputs-and-rebuild">Local DESNZ extract</a></td>
+</tr>
+<tr>
+<td>What can we use for a specific facility's energy evidence?</td>
+<td>Individual lookup verified</td>
+<td>Nine workbook rows have bands, with none among 48 NHS rows. Use the MHCLG register for individual evidence and confirm scope and period. Use ND-NEED for comparable benchmarks.</td>
+<td><a href="./evidence.html#finding-energy-certificates">Certificate access routes</a> · <a href="./evidence.html#non-domestic-energy-consumption">Non-domestic energy consumption</a></td>
+</tr>
+<tr>
+<td>What evidence should the estates officer request for Gill Street?</td>
+<td>Address matched, scope pending</td>
+<td>The register shows an EPC and a DEC at the site address. Confirm the different certificate area and meter boundaries and request 12 months of site meter data through the occupier before costing.</td>
+<td><a href="./evidence.html#gill-street-health-centre-public-register-check">Gill Street register check</a> · <a href="./walkthrough.html#4-check-the-next-action-in-the-tracker">Walkthrough</a></td>
+</tr>
+<tr>
+<td>Can we link ERIC sites to EPC and DEC records by UPRN?</td>
+<td>ERIC profiled, extracts pending</td>
+<td>The eligible Tower Hamlets cut has 14 rows across 11 usable UPRNs. Exact CSV linkage is ready for review after extracts arrive. A separate authorised API lookup found certificate candidates for Mile End.</td>
+<td><a href="./method.html#eric-site-and-certificate-candidate-join">Local ERIC join</a></td>
+</tr>
+<tr>
+<td>Do Mile End’s utility bills and backlog show where to investigate?</td>
+<td>Site evidence reviewed</td>
+<td>Compare billed costs and metered demand separately. Reconcile area, measurement periods and meter scope. Keep backlog risk, annual maintenance and project costs separate.</td>
+<td><a href="./evidence.html#mile-end-hospital-costs-and-estate-condition">Mile End Hospital costs and estate condition</a></td>
+</tr>
+<tr>
+<td>What energy data should we request from DESNZ, Salix and occupiers?</td>
+<td>Drafted, unsent</td>
+<td>Seek controlled site evidence, the finest releasable area statistics, comparable retrofit outcomes and occupier records. Keep domestic access as a later enquiry.</td>
+<td><a href="./access.html">Data access requests</a></td>
+</tr>
+<tr>
+<td>What do national statistics say about community building energy use?</td>
+<td>Context available</td>
+<td>ECUK models national 2025 end uses for clubs and community centres and six comparable categories. The totals support national context only.</td>
+<td><a href="./evidence.html#uk-modelled-end-uses-for-community-buildings">UK modelled end uses</a></td>
+</tr>
+<tr>
+<td>Does the prototype meet the discovery brief and identify the buildings most in need?</td>
+<td>Discovery and triage demonstrated</td>
+<td>All 38 locations matched an LSOA. IMD decile 1 covers 6 locations and 11 rows, with just one workbook band. A ranking needs verified building performance, feasibility and an explicit equity method.</td>
+<td><a href="./evidence.html#assessment-against-the-hackathon-brief">Assessment against the hackathon brief</a></td>
+</tr>
+<tr>
+<td>How should we screen for gaps in investment and later evaluate funded work?</td>
+<td>UK method v0.2 drafted</td>
+<td>Screen nation-relative overall deciles 1–5 and comparable D–G EPC and DEC outcomes separately from investment status. Validate in Tower Hamlets first.</td>
+<td><a href="./uk-method.html#deprivation-and-energy-rating-filters">UK screening criteria</a></td>
+</tr>
+<tr>
+<td>Which small areas qualify under the four national thresholds?</td>
+<td>Area reference checked</td>
+<td>21,768 of 43,538 published areas pass their own nation’s overall decile 1–5 rule. Resolve geography vintages before joining premises.</td>
+<td><a href="./uk-method.html#national-small-area-reference">National small-area reference</a></td>
+</tr>
+<tr>
+<td>How should later views present the evidence?</td>
+<td>Metadata recorded</td>
+<td>Dataset IDs link to preferred views, field encodings, denominators, evidence status and map or evaluation prerequisites.</td>
+<td><a href="./visualisation.html">Visualisation guide</a> · <a href="./data/visualisation-specifications.json">Catalogue</a></td>
+</tr>
+<tr>
+<td>How do the new thresholds behave in the Tower Hamlets snapshot?</td>
+<td>Dry run reproduced</td>
+<td>IMD 1–5 covers 51 rows at 30 locations. One workbook D–G DEC is expired and scope remains unresolved. IDACI and IDAOPI results are reported separately.</td>
+<td><a href="./uk-method.html#tower-hamlets-threshold-dry-run">Tower Hamlets threshold dry run</a></td>
+</tr>
+<tr>
+<td>Which evidence gaps should we close first?</td>
+<td>Routes researched</td>
+<td>Confirm current premises and applicable evidence, then verify energy, floor area and feasible retrofit measures.</td>
+<td><a href="./gaps.html">Evidence gaps</a></td>
+</tr>
+<tr>
+<td>What needs to pass before applying the method to another area?</td>
+<td>Validation pending</td>
+<td>Confirm the interrupted hypothesis verbatim, freeze the protocol, reproduce the Tower Hamlets counts and case decisions, and record review sign-off.</td>
+<td><a href="./method.html#9-repeat-checklist-and-stop-or-go-decision">Screening method and validation gate</a></td>
+</tr>
+<tr>
+<td>What can we learn about domestic grants and performance?</td>
+<td>Sources identified</td>
+<td>Use the public before-and-after EPC tables and measured consumption impact analyses. Per-UPRN installation checks require approved EEIC access.</td>
+<td><a href="./evidence.html#domestic-grants-and-performance">Domestic grants and performance</a></td>
+</tr>
+</tbody>
+</table></div>
+<p class="download"><a href="./markdown/tower-hamlets-estate-tracker.md" download>Download question tracker as Markdown</a></p></article></main>
+<footer><div class="site-width"><span>Property data, AI and sustainability hackathon · 20 November 2026</span>
+<a href="../national/">National estate dashboard</a></div></footer>
+</body></html>

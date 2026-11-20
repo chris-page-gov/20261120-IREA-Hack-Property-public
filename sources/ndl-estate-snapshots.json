@@ -1,0 +1,375 @@
+{
+  "observed_on": "2026-11-17",
+  "scope": "Public sources relevant to the estate retrofit evidence pilot. Geographic coverage is recorded per artefact.",
+  "prior_manifest": "sources/workbook-snapshots.json",
+  "catalogue_discovery": {
+    "bundle": "okf-data-gov-uk",
+    "local_observation": "2026-11-11 refresh, successor-v2",
+    "record_hash_semantics": "Hash of the retained OKF catalogue row. Provider file digests are recorded separately.",
+    "records": [
+      {
+        "catalogue_id": "01b3ee39-da3f-47b6-83da-dc98e73a461f",
+        "route": "dataset/01b3ee39-da3f-47b6-83da-dc98e73a461f",
+        "normalised_record_sha256": "06fb27ffc64efc5b4c02c2877510bf1a7097e76abd537bd33cd6c0b41e97a354"
+      },
+      {
+        "catalogue_id": "020403de-af6a-49a2-ae06-3b3a7eff4b97",
+        "route": "dataset/020403de-af6a-49a2-ae06-3b3a7eff4b97",
+        "normalised_record_sha256": "259323d86ab9185a3ee158a7373b4e0f7bcf5cbb32105fcfd953800572c62ffa"
+      },
+      {
+        "catalogue_id": "a3ad62cf-d8a2-4d3b-b3c6-24c35c5e0f71",
+        "route": "dataset/a3ad62cf-d8a2-4d3b-b3c6-24c35c5e0f71",
+        "normalised_record_sha256": "efe0d74711662d6f1071a54b4e6aa91cbd273438c70b5ce26e899aa7d2b4609c"
+      },
+      {
+        "catalogue_id": "c4f80d19-8cfa-4bf6-a283-83183842f876",
+        "route": "dataset/c4f80d19-8cfa-4bf6-a283-83183842f876",
+        "normalised_record_sha256": "094d7fe1a8af9578285bb83b247d7eca8214fc7371b3215f92dfafcba85cd3a0"
+      },
+      {
+        "catalogue_id": "c7c57a97-ff4a-404a-aa43-869e4312a2e6",
+        "route": "dataset/c7c57a97-ff4a-404a-aa43-869e4312a2e6",
+        "normalised_record_sha256": "cb1da072e7b46d7fea92e5c696eff0cadd3eaea45e104a63c782554283727a51"
+      },
+      {
+        "catalogue_id": "c86f9536-5225-45be-bde1-7f4aa2b7920b",
+        "route": "dataset/c86f9536-5225-45be-bde1-7f4aa2b7920b",
+        "normalised_record_sha256": "73ac539bad07d288fddc907b2b1ea84905a8b388a3fc05e950db4558fc981688"
+      },
+      {
+        "catalogue_id": "cf3f1137-c12b-44a1-a835-e80fe4a60b92",
+        "route": "dataset/cf3f1137-c12b-44a1-a835-e80fe4a60b92",
+        "normalised_record_sha256": "3c8fe55eae4cfaef6260641214c3eb4ffa9e28cd6f4240ec1ce623800614d1ec"
+      },
+      {
+        "catalogue_id": "d6467386-a08f-48f8-9e91-2e1e6531cce7",
+        "route": "dataset/d6467386-a08f-48f8-9e91-2e1e6531cce7",
+        "normalised_record_sha256": "20c2bde9f76922588b644163b065e71a08b579888d5536d3f21b7bf6b3baeab5"
+      },
+      {
+        "catalogue_id": "dfd734fb-cc68-4229-b60d-8c0280398052",
+        "route": "dataset/dfd734fb-cc68-4229-b60d-8c0280398052",
+        "normalised_record_sha256": "f2fe8f2f411073e5d2bfcda3fec717ef2417919ef336a338ce99f0544714fee1"
+      },
+      {
+        "catalogue_id": "fb2b3c66-0902-4900-be64-09057aafc634",
+        "route": "dataset/fb2b3c66-0902-4900-be64-09057aafc634",
+        "normalised_record_sha256": "e30bbfa8e446f28c0ecc192832a19da3e849770759ff3bd84a40b216778063de"
+      }
+    ]
+  },
+  "snapshots": [
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/Land.xlsx",
+      "url": "https://stinsiteservicesprod01.blob.core.windows.net/insite/Land.xlsx",
+      "source": "https://www.data.gov.uk/dataset/a3ad62cf-d8a2-4d3b-b3c6-24c35c5e0f71/the-government-property-estate-including-buildings-and-land",
+      "scope": "UK central government estate, with some overseas assets",
+      "bytes": 7786826,
+      "sha256": "bdd4b667967c8cc610769a8b0787f98fa2d155da3cd31719babbcb748632d9f0",
+      "format": "xlsx",
+      "last_modified": "Sun, 01 Nov 2026 05:06:00 GMT",
+      "etag": "0x8DF37D5D283C7AE"
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/Occupation.xlsx",
+      "url": "https://stinsiteservicesprod01.blob.core.windows.net/insite/Occupation.xlsx",
+      "source": "https://www.data.gov.uk/dataset/a3ad62cf-d8a2-4d3b-b3c6-24c35c5e0f71/the-government-property-estate-including-buildings-and-land",
+      "scope": "UK central government estate, with some overseas assets",
+      "bytes": 158023,
+      "sha256": "4a60ec0c52579b3678c9e6b745e8682c72d9be68263d8cab014978ec3c08ad1e",
+      "format": "xlsx",
+      "last_modified": "Sun, 01 Nov 2026 05:06:00 GMT",
+      "etag": "0x8DF37D5D26C3B8D"
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/Surplus.xlsx",
+      "url": "https://stinsiteservicesprod01.blob.core.windows.net/insite/Surplus.xlsx",
+      "source": "https://www.data.gov.uk/dataset/a3ad62cf-d8a2-4d3b-b3c6-24c35c5e0f71/the-government-property-estate-including-buildings-and-land",
+      "scope": "UK central government estate, with some overseas assets",
+      "bytes": 82856,
+      "sha256": "1316eac0d62542b3fe48d7a6dfe2c462070dd5c38fa244f995fe3ff6debe851b",
+      "format": "xlsx",
+      "last_modified": "Sun, 01 Nov 2026 05:06:00 GMT",
+      "etag": "0x8DF37D5D264075A"
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/VacantSpace.xlsx",
+      "url": "https://stinsiteservicesprod01.blob.core.windows.net/insite/VacantSpace.xlsx",
+      "source": "https://www.data.gov.uk/dataset/a3ad62cf-d8a2-4d3b-b3c6-24c35c5e0f71/the-government-property-estate-including-buildings-and-land",
+      "scope": "UK central government estate, with some overseas assets",
+      "bytes": 43990,
+      "sha256": "35eecb2010da77c6629d833077e5009ee53c20aa66cc7dbec760f0793b10fd0a",
+      "format": "xlsx",
+      "last_modified": "Sun, 01 Nov 2026 05:06:00 GMT",
+      "etag": "0x8DF37D5D264C9C9"
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/dec-aggregate.ods",
+      "url": "https://assets.publishing.service.gov.uk/media/6ae0babd7b7111c482d80a3c/DEC1-_Display_Energy_Certificates.ods",
+      "source": "https://www.gov.uk/government/statistical-data-sets/live-tables-on-energy-performance-of-buildings-certificates",
+      "scope": "England and Wales aggregate counts by local authority and DEC operational rating, Q3 2026 tables",
+      "bytes": 1343586,
+      "sha256": "010e1b2c6fcbbff175257d3f929032603ff370a9f9217989384309947fffd919",
+      "format": "ods",
+      "last_modified": "Tue, 27 Oct 2026 14:52:45 GMT",
+      "etag": "\"6ae0babd-148062\""
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/ea-dsm-1m-warwick-pilot.tif",
+      "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-surface-model-last-return-dsm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&coverageId=9ba4d5ac-d596-445a-9056-dae3ddec0178__Lidar_Composite_Elevation_LZ_DSM_1m&format=image%2Ftiff&subset=E%28427000%2C430000%29&subset=N%28264000%2C267000%29",
+      "source": "https://www.data.gov.uk/dataset/cf3f1137-c12b-44a1-a835-e80fe4a60b92/lidar-composite-digital-surface-model-dsm-1m",
+      "scope": "Warwick pilot bounding box in British National Grid (427000,264000,430000,267000)",
+      "bytes": 37749443,
+      "sha256": "febcb52d496a0c779d1be4ebbc2bddd8e865d2640be5317d8e7fbfe041de44ad",
+      "format": "tif",
+      "grid": {
+        "crs": "EPSG:27700",
+        "pixel_metres": 1,
+        "width": 3000,
+        "height": 3000,
+        "bbox": [
+          427000,
+          264000,
+          430000,
+          267000
+        ]
+      }
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/ea-dtm-1m-warwick-pilot.tif",
+      "url": "https://environment.data.gov.uk/spatialdata/lidar-composite-digital-terrain-model-dtm-1m/wcs?service=WCS&version=2.0.1&request=GetCoverage&coverageId=13787b9a-26a4-4775-8523-806d13af58fc__Lidar_Composite_Elevation_DTM_1m&format=image%2Ftiff&subset=E%28427000%2C430000%29&subset=N%28264000%2C267000%29",
+      "source": "https://www.data.gov.uk/dataset/01b3ee39-da3f-47b6-83da-dc98e73a461f/lidar-composite-digital-terrain-model-dtm-1m",
+      "scope": "Warwick pilot bounding box in British National Grid (427000,264000,430000,267000)",
+      "bytes": 37749443,
+      "sha256": "d35c940abf1143b06d6959e2204bbeeba116a657157744448957607385f3235a",
+      "format": "tif",
+      "grid": {
+        "crs": "EPSG:27700",
+        "pixel_metres": 1,
+        "width": 3000,
+        "height": 3000,
+        "bbox": [
+          427000,
+          264000,
+          430000,
+          267000
+        ]
+      }
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/epb-display-data-dictionary.csv",
+      "url": "https://get-energy-performance-data.communities.gov.uk/download/data-dictionary?property_type=display",
+      "source": "https://get-energy-performance-data.communities.gov.uk/guidance/data-dictionary",
+      "scope": "England and Wales data dictionary",
+      "bytes": 9316,
+      "sha256": "e0e2c05d890cfec670c5dc2114f513edbb877988df6774cd63b4ec735a5deb10",
+      "format": "csv",
+      "metadata_note": "Server Last-Modified is a 1980 default; actual dictionary edition date unconfirmed."
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/epb-non-domestic-data-dictionary.csv",
+      "url": "https://get-energy-performance-data.communities.gov.uk/download/data-dictionary?property_type=non-domestic",
+      "source": "https://get-energy-performance-data.communities.gov.uk/guidance/data-dictionary",
+      "scope": "England and Wales data dictionary",
+      "bytes": 6206,
+      "sha256": "31363651817ae763cbfd3e97860fb4a51baf25db1b228e1940cd67550823654d",
+      "format": "csv",
+      "metadata_note": "Server Last-Modified is a 1980 default; actual dictionary edition date unconfirmed."
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/ghg-conversion-factors-2026-flat-revised.xlsx",
+      "url": "https://assets.publishing.service.gov.uk/media/6a6c9748862aaf18d9c62ac9/ghg-conversion-factors-2026-flat-format-revised.xlsx",
+      "source": "https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2026",
+      "scope": "UK Government 2026 factors, revised flat file",
+      "bytes": 515426,
+      "sha256": "a9a455ab396dae226d510c7be6233748416d490c41a5d20f3dc7a0c45feecd5e",
+      "format": "xlsx",
+      "last_modified": "Fri, 31 Jul 2026 12:38:32 GMT",
+      "etag": "\"6a6c9748-7dd62\""
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/government-property-data-standard-content.json",
+      "url": "https://www.gov.uk/api/content/government/publications/government-property-data-standard/government-property-data-standard-govs004-pds010-html",
+      "source": "https://www.gov.uk/government/publications/government-property-data-standard/government-property-data-standard-govs004-pds010-html",
+      "scope": "Cabinet Office property data standard: public source content",
+      "bytes": 87853,
+      "sha256": "e206def9148d51958d68c22841332fb16f9d1ba97386a9283b2360c51b2cb45f",
+      "format": "json",
+      "etag": "W/\"e206def9148d51958d68c22841332fb1\""
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/he-listed-building-polygons-warwick-pilot.geojson",
+      "url": "https://services-eu1.arcgis.com/ZOdPfBS3aqqDYPUQ/ArcGIS/rest/services/National_Heritage_List_for_England_NHLE_v02_VIEW/FeatureServer/3/query?where=1%3D1&geometry=427000%2C264000%2C430000%2C267000&geometryType=esriGeometryEnvelope&spatialRel=esriSpatialRelIntersects&inSR=27700&outFields=%2A&outSR=4326&f=geojson",
+      "source": "https://www.data.gov.uk/dataset/c7c57a97-ff4a-404a-aa43-869e4312a2e6/historic-england-listed-buildings",
+      "scope": "Warwick pilot bounding box in British National Grid (427000,264000,430000,267000); not clipped",
+      "bytes": 195485,
+      "sha256": "5ffb990a91f475fc3e45538e03b5e400d794e24faa95309dbdb315a582e8bd8a",
+      "format": "geojson",
+      "last_modified": "Tue, 17 Nov 2026 06:46:06 GMT",
+      "etag": "sd20038_2084043670",
+      "features": 353
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/lga-land-and-building-schema.json",
+      "url": "https://raw.githubusercontent.com/esd-org-uk/schemas/master/LandAssets/Land%20and%20building.json",
+      "source": "https://schemas.opendata.esd.org.uk/LandAssets",
+      "scope": "England local government transparency schema",
+      "bytes": 12678,
+      "sha256": "53e9f513c1286970ca3547930a52cb85a3464fa8a7d447736cb2c1ff53934a0b",
+      "format": "json",
+      "etag": "\"98105540da248652dc0ce37a7392aa9490b83e7b25b29a002df092cb13304901\"",
+      "encoding": "UTF-16LE"
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/lids-2026-11_csv_BLPU-UPRN-TopographicArea-TOID-5.zip",
+      "url": "https://api.os.uk/downloads/v1/products/LIDS/downloads?area=GB&format=CSV&fileName=lids-2026-11_csv_BLPU-UPRN-TopographicArea-TOID-5.zip&redirect",
+      "source": "https://www.data.gov.uk/dataset/d6467386-a08f-48f8-9e91-2e1e6531cce7/os-open-linked-identifiers",
+      "scope": "Great Britain, method 5 relation",
+      "bytes": 850942605,
+      "sha256": "b0a22ea45e93fee8d4bec8520974919b271fa5c61ea24b8f41ab81b0f5706d2e",
+      "format": "zip",
+      "last_modified": "Wed, 04 Nov 2026 19:45:12 GMT",
+      "etag": "\"0x8DF3AAC244C8B70\"",
+      "publisher_md5_verified": "1006732fe56a4701a4eb89a3dd4938ad"
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/nd-need-2026-supporting-data.xlsx",
+      "url": "https://assets.publishing.service.gov.uk/media/6abbbe7a3239bb3cc19f5192/nd-need-2026-supporting-data.xlsx",
+      "source": "https://www.gov.uk/government/statistics/non-domestic-national-energy-efficiency-data-framework-nd-need-2026",
+      "scope": "England and Wales non-domestic energy use aggregate data",
+      "bytes": 185231,
+      "sha256": "b4fa9a7e47fdf229aba597f58a9f3c34570e35ded3bae9adbf5ff65bbc18a57c",
+      "format": "xlsx",
+      "last_modified": "Tue, 29 Sep 2026 13:34:50 GMT",
+      "etag": "\"6abbbe7a-2d38f\""
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/non-domestic-epc-aggregate.ods",
+      "url": "https://assets.publishing.service.gov.uk/media/6ae0bad17cf9b224890467a1/A-_Non-Domestic_Properties.ods",
+      "source": "https://www.gov.uk/government/statistical-data-sets/live-tables-on-energy-performance-of-buildings-certificates",
+      "scope": "England and Wales aggregate counts, Q3 2026 tables",
+      "bytes": 1493318,
+      "sha256": "1d0f8c6b39bdd8119c1bc583456bec89550a0288cd97a7ec9a2ef48ba50c2103",
+      "format": "ods",
+      "last_modified": "Tue, 27 Oct 2026 14:53:05 GMT",
+      "etag": "\"6ae0bad1-16c946\""
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/ons-uk-counties-unitaries-2025-bfc-shapefile.zip",
+      "url": "https://open-geography-portalx-ons.hub.arcgis.com/api/download/v1/items/a5c9ff451d9a4ba08d9680b3869c9d8f/shapefile?layers=0",
+      "source": "https://www.data.gov.uk/dataset/fb2b3c66-0902-4900-be64-09057aafc634/counties-and-unitary-authorities-december-2025-boundaries-uk-bfc",
+      "scope": "UK December 2025 BFC counties and unitary authorities",
+      "bytes": 50510625,
+      "sha256": "90f5f5ecf847125dc791b024e8ab6c6451525100b9390a118bf758accc08139b",
+      "format": "zip",
+      "last_modified": "Thu, 25 Jun 2026 08:32:52 GMT",
+      "etag": "\"0x8DED29459518E82\"",
+      "features": 218
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/ons-warwickshire-2025-bfc.geojson",
+      "url": "https://services1.arcgis.com/ESMARspQHYMw9BZ9/arcgis/rest/services/Counties_and_Unitary_Authorities_December_2025_Boundaries_UK_BFC/FeatureServer/0/query?where=CTYUA25CD%3D%27E10000031%27&outFields=CTYUA25CD%2CCTYUA25NM&outSR=4326&f=geojson",
+      "source": "https://www.data.gov.uk/dataset/fb2b3c66-0902-4900-be64-09057aafc634/counties-and-unitary-authorities-december-2025-boundaries-uk-bfc",
+      "scope": "Warwickshire county E10000031; December 2025 BFC",
+      "bytes": 1344455,
+      "sha256": "73d18baf313c655f2f5ea46af0b23f72f24e5d0337b95fc9e4185d31facf8b59",
+      "format": "geojson",
+      "last_modified": "Tue, 12 May 2026 09:31:35 GMT",
+      "etag": "sd26367_1272802553",
+      "features": 1
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/opmplc_essh_sk.zip",
+      "url": "https://api.os.uk/downloads/v1/products/OpenMapLocal/downloads?area=SK&format=ESRI%C2%AE+Shapefile&redirect",
+      "source": "https://www.ordnancesurvey.co.uk/products/os-open-map-local",
+      "scope": "National Grid square SK intersecting Warwickshire",
+      "bytes": 137251364,
+      "sha256": "2b77142d1e1bf7b0b2a94b5bf095d2889b2ca82638729589f713edbef38c0bd2",
+      "format": "zip",
+      "last_modified": "Wed, 28 Oct 2026 14:56:47 GMT",
+      "etag": "\"0x8DF3503B0B0201B\"",
+      "publisher_md5_verified": "91a53b418f347a6e80570deb74bb8f46"
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/opmplc_essh_so.zip",
+      "url": "https://api.os.uk/downloads/v1/products/OpenMapLocal/downloads?area=SO&format=ESRI%C2%AE+Shapefile&redirect",
+      "source": "https://www.ordnancesurvey.co.uk/products/os-open-map-local",
+      "scope": "National Grid square SO, neighbouring area context",
+      "bytes": 105426154,
+      "sha256": "99cfd94bc9b1316a77f8277e4f2a9d27d7adb6bcb205e25d26e93b3dec86638f",
+      "format": "zip",
+      "last_modified": "Wed, 28 Oct 2026 14:56:58 GMT",
+      "etag": "\"0x8DF3503B70D8BF9\"",
+      "publisher_md5_verified": "3e27b5a8863393c86e9bc042d14a0399"
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/opmplc_essh_sp.zip",
+      "url": "https://api.os.uk/downloads/v1/products/OpenMapLocal/downloads?area=SP&format=ESRI%C2%AE+Shapefile&redirect",
+      "source": "https://www.ordnancesurvey.co.uk/products/os-open-map-local",
+      "scope": "National Grid square SP intersecting Warwickshire",
+      "bytes": 127044917,
+      "sha256": "9e58bba71fe03e87cafac3cd9486b20e3813f460dc3c0a8ad4450a1cf6beb9d4",
+      "format": "zip",
+      "last_modified": "Wed, 28 Oct 2026 14:57:00 GMT",
+      "etag": "\"0x8DF3503B864EEDC\"",
+      "publisher_md5_verified": "4e5b2a41c56645efa76bbf84c44e4d14"
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/osopenuprn_202610_csv.zip",
+      "url": "https://api.os.uk/downloads/v1/products/OpenUPRN/downloads?area=GB&format=CSV&redirect",
+      "source": "https://www.data.gov.uk/dataset/c4f80d19-8cfa-4bf6-a283-83183842f876/os-open-uprn",
+      "scope": "Great Britain",
+      "bytes": 619869247,
+      "sha256": "d353528c91032b693e42cb84d8b7c359d87f625b43dc044b2f85d02dffb7904b",
+      "format": "zip",
+      "last_modified": "Wed, 04 Nov 2026 19:46:40 GMT",
+      "etag": "\"0x8DF3AAC58B2EEB4\"",
+      "publisher_md5_verified": "3a03b33581161dfd619fc3f8fe52d4ec"
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/property-portfolio-2024-25.ods",
+      "url": "https://assets.publishing.service.gov.uk/media/69f08b31d73531b6720a1334/Property_Portfolio_Accessible_Data_Tables_2024-25.ods",
+      "source": "https://www.gov.uk/government/publications/state-of-the-estate-in-202425",
+      "scope": "UK central government scope as defined in report, aggregate 2024/25",
+      "bytes": 42734,
+      "sha256": "bde413d56370780a92f64f331ffe66432ee64dd0a5377aa176082fce976d8245",
+      "format": "ods",
+      "last_modified": "Tue, 28 Apr 2026 10:25:53 GMT",
+      "etag": "\"69f08b31-a6ee\""
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/scotland-non-domestic-epc-2026q3.7z",
+      "url": "https://data.gov.scot/dataset/non_domestic_energy_performance_certificates___dataset_to_q1_2026/resource/ab755981-bf70-4ae5-8050-0e04f88cb8ba/download",
+      "source": "https://data.gov.scot/dataset/non_domestic_energy_performance_certificates___dataset_to_q1_2026",
+      "scope": "Scotland, non-domestic EPC management information, October 2026 extract; address conditions apply",
+      "bytes": 6041268,
+      "sha256": "8929d4760f30bb19534a800990fe90f6d3b2388f1b566431cd815b9233f06f06",
+      "format": "7z",
+      "last_modified": "Wed, 04 Nov 2026 13:10:40 GMT",
+      "etag": "\"88853d9942f876a0490473e7336befc7\""
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/state-of-estate-2024-25.ods",
+      "url": "https://assets.publishing.service.gov.uk/media/69f07515d73531b6720a1324/State_of_the_Estate_Accessible_Data_Tables_2024-25_v1.1.ods",
+      "source": "https://www.gov.uk/government/publications/state-of-the-estate-in-202425",
+      "scope": "UK central government scope as defined in report, aggregate 2024/25",
+      "bytes": 39001,
+      "sha256": "73b12e8662fb605dad30a4e633cf8302f2ded94de658aa44c88e98fdda92c033",
+      "format": "ods",
+      "last_modified": "Tue, 28 Apr 2026 08:51:33 GMT",
+      "etag": "\"69f07515-9859\""
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/ndl/wcc-property-asset-list-feb-2026.xlsx",
+      "url": "https://api.warwickshire.gov.uk/documents/WCCC-2082928926-182",
+      "source": "https://www.warwickshire.gov.uk/directory-record/8957/property-and-asset-list-february-2026",
+      "scope": "Warwickshire County Council published property and asset list",
+      "bytes": 159278,
+      "sha256": "99496d24456b2c3671c6f86278a205640879014fb6dc3307244f19ca0424f678",
+      "format": "xlsx",
+      "last_modified": "Mon, 02 Mar 2026 16:55:38 GMT",
+      "etag": "\"0x8DE787C87C5BA51\""
+    }
+  ]
+}

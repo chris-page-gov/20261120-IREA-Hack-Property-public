@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en-GB">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Runbook | Tower Hamlets retrofit notebook</title>
+<meta name="description" content="Explore evidence and open questions for public estate retrofit in Tower Hamlets.">
+<link rel="stylesheet" href="./notebook.css"><script src="./notebook.js" defer></script><link rel="stylesheet" href="../assets/terms.css"><script src="../assets/terms.js" defer></script></head>
+<body class="document">
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="site-width"><a class="brand" href="./">Tower Hamlets retrofit notebook</a>
+<nav aria-label="Notebook"><a href="./">Overview</a><a href="./explore.html">Estate map</a><a href="./guide.html">Quick guide</a><a href="./tracker.html">Tracker</a><a href="./evidence.html">Evidence</a><a href="./gaps.html">Evidence gaps</a><a href="./method.html">Tower Hamlets method</a><a href="./uk-method.html">UK-wide method</a><a href="./energy.html">Energy data</a><a href="./visualisation.html">Visualisation guide</a><a href="./access.html">Data requests</a><a href="./personas.html">Personas</a><a href="./walkthrough.html">Walkthrough</a><a href="./runbook.html" aria-current="page">Runbook</a></nav></div></header>
+<main id="main" class="site-width"><article class="prose"><h1 id="tower-hamlets-estate-map-runbook">Tower Hamlets estate map runbook</h1>
+<h2 id="open-and-check-the-preview">Open and check the preview</h2>
+<ol type="1">
+<li><p>On the demo Mac, open the <a href="http://127.0.0.1:4175/tower-hamlets-estate-map.html">Tower Hamlets map</a> in Edge. The preview is served from <code>$HOME/tmp/tower-hamlets-estate-map.html</code> on loopback port 4175.</p></li>
+<li><p>In Terminal, check that the listener is bound to <code>127.0.0.1:4175</code>, the page returns HTTP 200 and the OS Road sample tile returns HTTP 200 and <code>image/png</code>.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">lsof</span> <span class="at">-nP</span> <span class="at">-iTCP:4175</span> <span class="at">-sTCP:LISTEN</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-fsS</span> <span class="at">-o</span> /dev/null <span class="at">-w</span> <span class="st">&#39;%{http_code}\n&#39;</span> <span class="dt">\</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  http://127.0.0.1:4175/tower-hamlets-estate-map.html</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="ex">curl</span> <span class="at">-fsS</span> <span class="at">-o</span> /dev/null <span class="at">-w</span> <span class="st">&#39;%{http_code} %{content_type}\n&#39;</span> <span class="dt">\</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  http://127.0.0.1:4175/tiles/12/2048/1362.png</span></code></pre></div></li>
+<li><p>Check that the map starts with OS Road and shows 38 mapped locations and 62 non-domestic workbook records. Search for <code>London Import Building</code>, then select East London Tribunal and check the parent-building and second-floor notes. Check an annotated health or culture example.</p></li>
+<li><p>Switch the LSOA shading from IMD to IDACI and then IDAOPI. Toggle Output Area outlines and select an area clear of the markers. Check that the Output Area Census figures and parent LSOA indices have separate labels. Use the <a href="./guide.html">quick guide</a> for the interpretation.</p></li>
+</ol>
+<h2 id="restart-and-recover">Restart and recover</h2>
+<ol type="1">
+<li><p>If there is no listener, confirm that the local server script and live HTML still exist. Start the existing server in a dedicated terminal. Leave it running during the demonstration.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="bu">cd</span> <span class="va">$HOME</span>/tmp <span class="kw">&amp;&amp;</span> <span class="ex">/opt/homebrew/bin/python3</span> /private/tmp/serve_th_map.py</span></code></pre></div></li>
+<li><p>If the port is already occupied, identify the listener using <code>lsof</code>. If the preview and tile checks pass, reuse the listener. If the existing preview process needs restarting, stop it in its own terminal with Ctrl+C or send TERM to its verified PID, then start it again. Leave unrelated processes alone.</p></li>
+<li><p>Reload the Edge tab and repeat the preview checks. If the page loads and the sample tile fails, switch to OpenStreetMap in the layer control for the live walkthrough. Check the machine's network and the authorised local OS Maps API configuration before retrying OS Road. The server reads the configured key from a local file and passes it upstream. Keep the key out of URLs, Terminal output, Git and screenshots. A blank map with a successful tile check may also indicate that Edge could not load Leaflet or Proj4 from the external CDN.</p></li>
+<li><p>If the server script has gone, a plain loopback file server can restore access to surviving HTML and the OpenStreetMap option. Put a copy of the HTML in a dedicated local directory, then start this fallback from that directory once port 4175 is free.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">/opt/homebrew/bin/python3</span> <span class="at">-m</span> http.server 4175 <span class="at">--bind</span> 127.0.0.1</span></code></pre></div>
+<p>The fallback serves files only. Select OpenStreetMap in Edge. If the OS proxy script survives, keep it on loopback. Its static handler serves files relative to the directory it starts in. The command above uses the directory containing the preview HTML.</p></li>
+</ol>
+<h2 id="local-inputs-and-rebuild">Local inputs and rebuild</h2>
+<p>On 20 November 2026 the working assets were in <code>/private/tmp/tower-hamlets-estate-k3tuzffp/</code>, except where shown below. Temporary directories may be cleared after the session.</p>
+<table>
+<thead>
+<tr>
+<th>Local item</th>
+<th>Role</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>analysis.json</code></td>
+<td>BNG workbook point join against the Tower Hamlets and Poplar boundaries, including grouped source rows and geometry</td>
+</tr>
+<tr>
+<td><code>tower-hamlets-neighbourhoods.json</code></td>
+<td>169 LSOAs and 913 Output Areas. Its <code>provenance</code> records the source URLs and SHA-256 for the IMD CSV and two Census archives</td>
+</tr>
+<tr>
+<td><code>tower-hamlets-desnz-msoa-2024.json</code></td>
+<td>Filtered official DESNZ records with exact CSV URLs. Contains 34 named gas MSOAs and 34 named non-half-hourly electricity MSOAs, plus one borough-only half-hourly electricity row. The live preview does not use this file</td>
+</tr>
+<tr>
+<td><code>build-neighbourhoods.py</code></td>
+<td>Python standard-library script that fetches official ONS boundaries, IMD File 7 and Nomis tables, checks code coverage and writes the neighbourhood JSON alongside the script</td>
+</tr>
+<tr>
+<td><code>tower-hamlets-building-evidence.json</code></td>
+<td>Annotated shortlist and location caveats, with local OS-derived measurements</td>
+</tr>
+<tr>
+<td><code>/private/tmp/build_th_map.py</code></td>
+<td>Base workbook map renderer</td>
+</tr>
+<tr>
+<td><code>/private/tmp/extend_th_map.py</code>, <code>add_spatial_hit.py</code>, <code>add_building_notes.py</code></td>
+<td>Sequential scratch edits for neighbourhoods, area selection and building annotations. All three scripts are under <code>/private/tmp/</code></td>
+</tr>
+<tr>
+<td><code>/private/tmp/serve_th_map.py</code></td>
+<td>Local-only preview and OS Road raster proxy</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>For a repeat demo, use the existing HTML or an approved local copy. The checked-in repository contains the documentation and workbook manifest. Keep the generated HTML with embedded evidence, raw NGD data and credentials out of Git and any public share.</p></li>
+<li><p>To rebuild neighbourhood context, work on a copy of the temporary directory. Run <code>/opt/homebrew/bin/python3 build-neighbourhoods.py</code> from that copy with network access. Check the 169 and 913 feature counts, full child-to-parent code coverage and input hashes against the saved JSON. Current service responses can differ from the original capture.</p></li>
+<li><p>To rebuild the estate base, use the captured <code>analysis.json</code> with <code>build_th_map.py</code>. Redirect the hard-coded output path in a scratch copy before running it. If the join is lost, use the November workbook and May boundary editions in the <a href="./evidence.html#estate-and-geography">source notes</a>. Join in EPSG:27700, check the counts before filtering, drop the dwelling for this use case, then group by exact easting and northing.</p></li>
+<li><p>The scratch edit chain expects a manual OS Road change between the base renderer and <code>extend_th_map.py</code>. A trial rebuild stopped at the latter script's footer assertion. On a scratch copy, bring across the <code>const tileStatus=</code> line from the saved preview and use the footer in <code>extend_th_map.py</code>'s <code>needle2</code> for the intermediate HTML. This lets the three edits run in sequence. The live preview also includes later changes to visible labels and site pop-ups. Keep its HTML as the reference for an exact repeat. Recreate the annotated evidence only under the relevant OS entitlement and verify current service and address scope again. See the <a href="./evidence.html#building-identity-and-quantities">source notes</a>.</p></li>
+<li><p>To repeat the DESNZ extract, use the two non-domestic MSOA stacked CSVs linked from the <a href="./evidence.html#non-domestic-energy-consumption">energy source note</a>. Filter to Tower Hamlets and 2024, preserving the source area code, fuel, meter class, units and any missing or suppressed values. Check the row counts above. Keep the half-hourly “All MSOAs” row at borough level. Any future map join should use named MSOA codes for gas and non-half-hourly electricity only.</p></li>
+</ul>
+<div class="callout"><strong>Reading the local instructions?</strong><p>The localhost preview is for the demo Mac. You can use the hosted estate map in this notebook in any browser.</p><a href="./explore.html">Open the hosted map</a></div><p class="download"><a href="./markdown/tower-hamlets-estate-runbook.md" download>Download runbook as Markdown</a></p></article></main>
+<footer><div class="site-width"><span>Property data, AI and sustainability hackathon · 20 November 2026</span>
+<a href="../national/">National estate dashboard</a></div></footer>
+</body></html>

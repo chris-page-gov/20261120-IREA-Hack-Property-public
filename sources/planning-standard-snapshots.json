@@ -1,0 +1,46 @@
+{
+  "observed_on": "2026-11-18",
+  "scope": "England planning application data standard consultation and technical working draft.",
+  "publication_status": "Consultation and technical draft",
+  "consultation_closes_at": "2026-12-30T23:59:00+00:00",
+  "snapshots": [
+    {
+      "file": "sources/snapshots/2026-11-18/planning/mhclg-announcement.html",
+      "bytes": 72567,
+      "sha256": "b425a273c6ff841ff90c33ffa74f9de159402c3c6a841a8fedc3e57b3973397a",
+      "url": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+      "canonical_source": "https://mhclgdigital.blog.gov.uk/2026/11/18/data-driven-development-management-consulting-on-englands-first-mandatory-application-data-standard/",
+      "media_type": "text/html"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/consultation-metadata.json",
+      "bytes": 12641,
+      "sha256": "e03eaf67775e8eee99e3bfccaf9bc3eb1a8f26fe75dbcbf2aecc6051ab64f1f1",
+      "url": "https://www.gov.uk/api/content/government/consultations/data-standard-for-planning-applications",
+      "canonical_source": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications",
+      "media_type": "application/json"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/consultation-document.json",
+      "bytes": 65664,
+      "sha256": "e4d80e430a6e5f2bdea70ecfdafa23dd56d47f3ffb3447450d9a1dbec2020bc1",
+      "url": "https://www.gov.uk/api/content/government/consultations/data-standard-for-planning-applications/data-standard-for-planning-applications",
+      "canonical_source": "https://www.gov.uk/government/consultations/data-standard-for-planning-applications/data-standard-for-planning-applications",
+      "media_type": "application/json"
+    },
+    {
+      "file": "sources/snapshots/2026-11-18/planning/planning-application-technical-draft.zip",
+      "bytes": 530455,
+      "sha256": "56b275351cabfefdf189ec38a1671154eb516a2833aacc95383f805785f29709",
+      "url": "https://codeload.github.com/digital-land/planning-application-data-specification/tar.gz/3b1dacd63c489abf6b0ee8cc394214711e2b77fd",
+      "canonical_source": "https://github.com/digital-land/planning-application-data-specification/tree/3b1dacd63c489abf6b0ee8cc394214711e2b77fd",
+      "media_type": "application/zip",
+      "upstream_commit": "3b1dacd63c489abf6b0ee8cc394214711e2b77fd",
+      "upstream_commit_time": "2026-11-18T13:43:25Z",
+      "upstream_archive_sha256": "97cbc120a86501cf207d16a424ca66ddebad852b672d405efba0301b8a277684",
+      "derivation": "Allowlisted upstream technical files, original member bytes preserved. Examples and analysis records excluded.",
+      "files": 878,
+      "codelist_csv_files": 51
+    }
+  ]
+}

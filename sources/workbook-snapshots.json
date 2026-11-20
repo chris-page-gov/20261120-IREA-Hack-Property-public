@@ -1,0 +1,24 @@
+{
+  "observed_on": "2026-11-17",
+  "publisher": "Cabinet Office",
+  "catalogue_id": "a3ad62cf-d8a2-4d3b-b3c6-24c35c5e0f71",
+  "catalogue_licence": "UK Open Government Licence (OGL)",
+  "snapshots": [
+    {
+      "file": "sources/snapshots/2026-11-17/Building.xlsx",
+      "url": "https://stinsiteservicesprod01.blob.core.windows.net/insite/Building.xlsx",
+      "bytes": 10535374,
+      "sha256": "459fdb0b337e88c129d7eb4f79594016d07843f92078f889c42252f875c92c74",
+      "last_modified": "Sun, 01 Nov 2026 05:06:01 GMT",
+      "etag": "0x8DF37D5D28FEEFE"
+    },
+    {
+      "file": "sources/snapshots/2026-11-17/PropertyContract.xlsx",
+      "url": "https://stinsiteservicesprod01.blob.core.windows.net/insite/PropertyContract.xlsx",
+      "bytes": 14010640,
+      "sha256": "999941f894c4444216251dd868a875ce4f3e70e5b8a4e4405753371f8522fc4b",
+      "last_modified": "Sun, 01 Nov 2026 05:06:01 GMT",
+      "etag": "0x8DF37D5D2A0A50F"
+    }
+  ]
+}

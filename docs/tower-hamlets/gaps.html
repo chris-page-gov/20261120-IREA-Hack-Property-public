@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en-GB">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Evidence gaps | Tower Hamlets retrofit notebook</title>
+<meta name="description" content="Explore evidence and open questions for public estate retrofit in Tower Hamlets.">
+<link rel="stylesheet" href="./notebook.css"><script src="./notebook.js" defer></script><link rel="stylesheet" href="../assets/terms.css"><script src="../assets/terms.js" defer></script></head>
+<body class="document">
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="site-width"><a class="brand" href="./">Tower Hamlets retrofit notebook</a>
+<nav aria-label="Notebook"><a href="./">Overview</a><a href="./explore.html">Estate map</a><a href="./guide.html">Quick guide</a><a href="./tracker.html">Tracker</a><a href="./evidence.html">Evidence</a><a href="./gaps.html" aria-current="page">Evidence gaps</a><a href="./method.html">Tower Hamlets method</a><a href="./uk-method.html">UK-wide method</a><a href="./energy.html">Energy data</a><a href="./visualisation.html">Visualisation guide</a><a href="./access.html">Data requests</a><a href="./personas.html">Personas</a><a href="./walkthrough.html">Walkthrough</a><a href="./runbook.html">Runbook</a></nav></div></header>
+<main id="main" class="site-width"><article class="prose"><h1 id="tower-hamlets-retrofit-evidence-gaps">Tower Hamlets retrofit evidence gaps</h1>
+<p>The workbook, map and published statistics support discovery and triage. A building-level comparison of decarbonisation need requires current premises, a baseline that matches those premises and evidence about feasible measures. This assessment covers Tower Hamlets only. The user's hypothesis about missing energy evidence is pending verbatim confirmation following an interrupted conversation. No direction of effect is assumed. <a href="./method.html">Screening and validation method</a> · <a href="./evidence.html#assessment-against-the-hackathon-brief">Assessment against the hackathon brief</a></p>
+<nav aria-label="On this page"><ul><li><a href="#what-the-pilot-actually-observed">What the pilot actually observed</a></li><li><a href="#case-checks-that-affect-interpretation">Case checks that affect interpretation</a></li><li><a href="#priority-1-establish-which-premises-and-which-evidence-apply">Priority 1. Establish which premises and which evidence apply</a></li><li><a href="#priority-2-obtain-a-usable-baseline">Priority 2. Obtain a usable baseline</a></li><li><a href="#priority-3-compare-fairly-and-scope-measures">Priority 3. Compare fairly and scope measures</a></li></ul></nav><h2 id="what-the-pilot-actually-observed">What the pilot actually observed</h2>
+<p>The November Building workbook spatial join yielded <strong>63 rows and 41 property references</strong>. Excluding one dwelling leaves <strong>62 non-domestic rows at 38 approximate locations</strong>. A property reference, a coordinate group and an occupied premises are different units. Nine rows have a recorded EPC or DEC band. None of the 48 rows submitted by NHS organisations has a band in this snapshot. The counts say nothing about whether the premises hold a certificate.</p>
+<div class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>2025 neighbourhood filter</th>
+<th style="text-align: right;">Locations</th>
+<th style="text-align: right;">Workbook rows</th>
+<th style="text-align: right;">Rows with an EPC or DEC band</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>IMD national decile 1</td>
+<td style="text-align: right;">6</td>
+<td style="text-align: right;">11</td>
+<td style="text-align: right;">1, an EPC C with no recorded expiry and no DEC</td>
+</tr>
+<tr>
+<td>IMD national deciles 2 to 10</td>
+<td style="text-align: right;">32</td>
+<td style="text-align: right;">51</td>
+<td style="text-align: right;">8</td>
+</tr>
+<tr>
+<td>IDACI national decile 1</td>
+<td style="text-align: right;">28</td>
+<td style="text-align: right;">48</td>
+<td style="text-align: right;">4, including expired or inconsistent evidence</td>
+</tr>
+<tr>
+<td>IDAOPI national decile 1</td>
+<td style="text-align: right;">33</td>
+<td style="text-align: right;">56</td>
+<td style="text-align: right;">8</td>
+</tr>
+</tbody>
+</table></div>
+<p>The decile 1 filters overlap. These are descriptive coverage counts in a small, convenience snapshot drawn from submissions to the estate workbook. Organisation, facility use, certificate applicability, shared or reused records, and colocation can affect the observed counts. The snapshot supports no association or causal inference about deprivation, missing evidence or energy performance. See the <a href="./method.html#5-compare-coverage-and-test-sensitivity">unit and comparison rules</a>.</p>
+<h2 id="case-checks-that-affect-interpretation">Case checks that affect interpretation</h2>
+<div class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Case</th>
+<th>Observed evidence</th>
+<th>Implication for the next check</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aberfeldy Practice</td>
+<td>The practice moved in August 2024. The historic workbook point falls on a different building from the former surgery.</td>
+<td>Keep the historical row for reproducibility. Confirm the current premises and site ID before using any property evidence.</td>
+</tr>
+<tr>
+<td>Community Paediatrics</td>
+<td>The workbook point falls on a mixed-use building. NHS referral material points to Mile End Hospital and the location match remains unresolved.</td>
+<td>Ask the provider which premises operate the service. Leave the footprint, rating and energy attribution unresolved.</td>
+</tr>
+<tr>
+<td>Gill Street Health Centre</td>
+<td>Both workbook rows lack a band. The public register yielded a non-domestic EPC and a DEC at the confirmed site address, each within its stated validity dates at observation. The dates and area definitions differ.</td>
+<td>Confirm occupied floors, certificate and meter scope and the actual energy period. The site-level match leaves both raw rows and the workbook coverage counts as recorded. <a href="./evidence.html#gill-street-health-centre-public-register-check">Verified example</a></td>
+</tr>
+<tr>
+<td>Young V&amp;A</td>
+<td>The named address match and footprint are supported by local spatial checks. Floor count remains unknown.</td>
+<td>Confirm occupier, measured extent and eligible certificate scope.</td>
+</tr>
+<tr>
+<td>East London Tribunal Hearing Centre</td>
+<td>HMCTS lists second-floor occupancy. The UPRN and footprint describe the parent building.</td>
+<td>Check demised space, service charges and meter topology before using any whole-building figure for the tribunal.</td>
+</tr>
+<tr>
+<td>The White Chapel Building</td>
+<td>Workbook DEC band B conflicts with operating rating 100.</td>
+<td>Retain both source values and mark the conflict. Resolve against the original certificate and its issue date.</td>
+</tr>
+</tbody>
+</table></div>
+<p><a href="./evidence.html#building-identity-and-quantities">Case sources and address evidence</a> · <a href="./walkthrough.html">Gill Street walkthrough</a></p>
+<h2 id="priority-1-establish-which-premises-and-which-evidence-apply">Priority 1. Establish which premises and which evidence apply</h2>
+<div class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Gap and consequence</th>
+<th>First route and minimum evidence</th>
+<th>Acceptance check and fallback</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Current service, holding and tenure.</strong> Workbook records may describe former, parent or shared premises. A misidentified site invalidates downstream checks.</td>
+<td>Occupier or provider estates team, followed by the landlord or lease manager. Request service name, current and previous addresses with effective dates, holding and tenure, UPRN where held, demised floor or unit, landlord responsibilities and agreement to access records. For health sites, use ODS and the provider directory as independent identity leads. <a href="https://digital.nhs.uk/services/organisation-data-service">NHS ODS</a></td>
+<td>Confirm matches against provider evidence and dated premises records. Document relocation, closure and parent or child links. With only an address or an ambiguous match, retain a candidate and verify with the occupier before attributing performance.</td>
+</tr>
+<tr>
+<td><strong>Address, geometry and storeys.</strong> An address point or parent footprint leaves parts and occupied floors unresolved.</td>
+<td>Subject to entitlement, OS Places for current or retired address records and UPRN, NGD Building and Building Part for geometry, version and capture evidence, and a Built Address extract via OS Select+Build if approved and populated. Confirm occupied floors and boundaries with the estate team. <a href="https://docs.os.uk/os-apis/accessing-os-apis/os-places-api">OS Places</a> · <a href="https://docs.os.uk/osngd/data-structure/buildings/building-features/building">NGD Building</a> · <a href="https://docs.os.uk/osngd/data-structure/buildings/building-features/building-part">NGD Building Part</a> · <a href="https://docs.os.uk/osngd/data-structure/address/gb-address/built-address">Built Address</a></td>
+<td>Verify address lifecycle and unit, footprint and spatial agreement. Distinguish address floor fields and whole-building storeys. If missing, use dated plans or a site survey. OS Support's floor and UPRN enquiry was already sent and is awaiting a reply.</td>
+</tr>
+<tr>
+<td><strong>Certificate existence, validity and scope.</strong> Workbook band presence records a populated field. The EPC is a modelled asset rating used for the property market and relevant other purposes. The DEC is an operational rating based on consumption evidence and methodology. The two cannot be pooled as a performance measure.</td>
+<td>Search the MHCLG register by verified address and inspect the certificate. Use the bulk CSV or API under its terms and with the required account for repeatable checks. Capture type, report reference, address and rated unit, issue and expiry, status, band and numerical rating, area definition, and where available DEC consumption period and metered scope. <a href="./evidence.html#finding-energy-certificates">Register and bulk access routes</a> · <a href="https://www.gov.uk/government/publications/energy-performance-certificates-for-the-construction-sale-and-let-of-non-dwellings--2/a-guide-to-energy-performance-certificates-for-the-construction-sale-and-let-of-non-dwellings">Non-domestic EPC guidance</a></td>
+<td>Match the actual space, check status on a declared date, and reconcile band and score to the lodged report. A valid DEC can describe an older measured period. If absent or ambiguous, log search terms, date and outcome and seek a copy or clarification from the occupier.</td>
+</tr>
+<tr>
+<td><strong>DEC applicability.</strong> Frequent public use alone is insufficient, and the workbook has separate out-of-scope fields. A blank cannot establish applicability or non-compliance.</td>
+<td>Ask the responsible estate or compliance owner to record public authority occupation, frequent public visits, useful floor area and the scope under current guidance. Refer unresolved applicability to the relevant assessor or compliance lead. <a href="https://www.gov.uk/government/publications/government-methodology-for-producting-operational-ratings-display-energy-certificates-and-advisory-reports/the-government-methodology-for-operational-ratings-display-energy-certificates-and-recommendation-reports">MHCLG DEC methodology, updated 11 November 2026</a></td>
+<td>Assess the actual premises. The current guidance refers to public authority occupation, frequent public visits and total useful floor area over 250 m². Keep confirmed out-of-scope and unresolved cases separate. A DEC may include estimates or adjustments under its methodology, so confirm the underlying readings before reusing it as a site baseline.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="priority-2-obtain-a-usable-baseline">Priority 2. Obtain a usable baseline</h2>
+<div class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Gap and consequence</th>
+<th>First route and minimum evidence</th>
+<th>Acceptance check and fallback</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Meter coverage and energy period.</strong> No verified 12-month premises baseline is available from the pilot record. Estimated bills, shared supplies and missed fuels can change the result.</td>
+<td>Occupier energy manager, landlord or bill-payer. Request 12 consecutive months of bills or validated reads by fuel, preferably 24 to 36 months for a baseline covering operational or seasonal changes. Request meter register, meter-to-space map, period, units, consumption, actual or estimated reading status, imports and exports, submeter relationships and missing fuel declarations.</td>
+<td>Reconcile corrected bills, actual reads, submeters, boundary and periods. Dedupe overlapping charges or statements. Obtain reconciled records or submeter evidence if coverage is incomplete. Report partial evidence and exclude it from comparable site totals unless an approved, documented treatment applies.</td>
+</tr>
+<tr>
+<td><strong>NHS estate records.</strong> The workbook gap does not show whether a trust reported relevant energy. ERIC serves a different reporting purpose.</td>
+<td>NHS England's latest verified ERIC release is <strong>2025/26</strong>, published 15 October 2026. Use site CSV, definitions and UPRN match method, then confirm with the relevant trust. Keep 2024/25 as a separate historical release. <a href="https://digital.nhs.uk/data-and-information/publications/statistical/estates-returns-information-collection/summary-page-and-dataset-for-eric-2025-26">2025/26 release</a> · <a href="https://digital.nhs.uk/data-and-information/publications/statistical/estates-returns-information-collection/summary-page-and-dataset-for-eric-2024-25">2024/25 release</a> · <a href="https://digital.nhs.uk/data-and-information/keeping-data-safe-and-benefitting-the-public/how-we-look-after-your-health-and-care-information/directions-and-data-provision-notices/data-provision-notices-dpns/estates-return-information-collection-eric-data-provision-notice">Collection scope</a></td>
+<td>Check trust and site code, UPRN match quality, area, period and reported scope. Sites below 1,000 m² may be returned under Other Reportable Sites. More than one ERIC record can link to the same UPRN. Do not assume individual GP or NHS Property Services coverage or assign a trust total to a facility. Use occupier evidence if a match cannot be confirmed. <a href="https://digital.nhs.uk/data-and-information/publications/statistical/estates-returns-information-collection/summary-page-and-dataset-for-eric-2025-26/dq-report-other-issues">ERIC comparability notes</a></td>
+</tr>
+<tr>
+<td><strong>Measured floor area and condition.</strong> Workbook NIA, modelled gross area and whole-building footprint cannot be assumed equivalent to the energy denominator.</td>
+<td>Occupier, landlord and surveyor. Request dated plans and measured gross internal area (GIA), useful floor area or other applicable convention, storeys, conditioned extent, common areas and exclusions. For feasibility, request energy survey, plant schedule and service or condition report.</td>
+<td>Reconcile plans, measured areas and the actual metering boundary. For complex sites, check parts and floors individually. Use an NGD footprint or height estimate only for flagged preliminary quantities. If scope or area remains unresolved, withhold intensity and measure-specific costs.</td>
+</tr>
+<tr>
+<td><strong>Use, operation and carbon.</strong> Service schedules, ventilation and base loads affect comparability. Carbon factors and periods affect emissions.</td>
+<td>Facilities team for opening and occupancy hours, operating patterns, base and out-of-hours loads, HVAC, ventilation, heating and hot-water plant, changes and site conditions. Use weather data matched to dates and documented DESNZ factors for the relevant reporting period. <a href="https://www.gov.uk/government/publications/public-sector-emissions-measurement-and-reporting-guidance">Public sector emissions guidance</a> · <a href="https://www.gov.uk/government/publications/greenhouse-gas-reporting-conversion-factors-2026">2026 conversion factors</a></td>
+<td>Check continuity and fuel coverage. Document assumptions and factors by fuel, scope and year. When operational effects are unresolved, report raw figures with their scope and postpone like-for-like ranking.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="priority-3-compare-fairly-and-scope-measures">Priority 3. Compare fairly and scope measures</h2>
+<div class="table-scroll" tabindex="0"><table>
+<thead>
+<tr>
+<th>Gap and consequence</th>
+<th>Route and minimum evidence</th>
+<th>Acceptance check and fallback</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Comparable baselines and geography.</strong> Area and national totals cannot stand in for missing site data.</td>
+<td>Use ND-NEED measured peers by comparable use and size, where available. Request a controlled analysis or extract if the published cohort is insufficient. Use DESNZ MSOA figures only as area context and ECUK U6 as modelled UK end-use context. <a href="https://www.gov.uk/government/statistics/non-domestic-national-energy-efficiency-data-framework-nd-need-2026">ND-NEED 2026</a> · <a href="./evidence.html#non-domestic-energy-consumption">Local and national source notes</a></td>
+<td>Check population, fuel, year, area convention, use and meter coverage. DESNZ MSOAs combine commercial and industrial meters, with a borough-only half-hourly electricity row here. Never assign those figures or ECUK totals to a site, or distribute them across LSOAs. Withhold the peer comparison when the scope differs.</td>
+</tr>
+<tr>
+<td><strong>Retrofit feasibility, savings and costs.</strong> A high load or missing rating cannot tell us which work is feasible or how much carbon it would save.</td>
+<td>Surveyor and estate delivery team for condition, candidate measures, heat and electrical capacity, ventilation and controls, tenure, constraints, quantity and rate evidence, delivery window and disruption. Use comparable DESNZ and Salix PSDS projects for measure and cost context. Salix monitoring compares post-completion reporting with application predictions. Project monitoring records require an approved route. <a href="https://www.salixfinance.co.uk/delivery/annual-carbon-report">Salix reporting guidance</a> · <a href="./access.html#requests-for-the-non-domestic-pilot">DESNZ PSDS delivery and evaluation requests</a></td>
+<td>Check quantities, baseline and proposed systems at the same boundary. Record capital and operating assumptions, model version and ranges, and distinguish measured outcomes from modelled savings or design estimates. Use an investigation brief where the survey, cost or feasibility evidence is missing.</td>
+</tr>
+<tr>
+<td><strong>Facility role, access and equity.</strong> Site coordinates do not describe who uses a service, who can reach it or who would benefit.</td>
+<td>Service lead and local public health or neighbourhood team for verified use, opening patterns, service continuity and appropriately aggregated catchment or activity evidence, with period, method and disclosure controls. Use IMD, IDACI and IDAOPI at LSOA and Census figures at OA. <a href="./evidence.html#neighbourhood-context">Neighbourhood source notes</a></td>
+<td>Confirm the catchment basis, service changes, denominator and permitted aggregation. Describe vicinity context if no validated catchment is held. Do not infer household attributes, accessibility or individual need from area-level indicators.</td>
+</tr>
+<tr>
+<td><strong>Permitted use and scheme eligibility.</strong> Dataset access, publication rights and funding eligibility can differ.</td>
+<td>Data steward confirms OGL attribution and exclusions, current OS product entitlement and terms for derived data, bulk certificate and provider terms, and controlled handling of bills, leases and meter identifiers. Estate or programme owner verifies current scheme, eligibility rules, tenure and permission to carry out work. <a href="./evidence.html#building-identity-and-quantities">Licensing decisions</a> · <a href="https://www.ordnancesurvey.co.uk/customers/public-sector/public-sector-licensing/publish-derived-data">OS derived data guidance</a></td>
+<td>Record permitted actors, purpose, storage, derived outputs and release status for each source. Secure review for ambiguous rights. Where controls are unavailable, retain a public-source-only summary and record the gap. Funding stays unconfirmed until scheme and ownership checks pass.</td>
+</tr>
+</tbody>
+</table></div>
+<p>The <a href="./access.html">draft DESNZ, Salix and occupier requests</a> remain unsent. The <a href="./tracker.html">question tracker</a> records their status and the existing OS Support enquiry.</p>
+<p class="download"><a href="./markdown/tower-hamlets-evidence-gaps.md" download>Download evidence gaps as Markdown</a></p></article></main>
+<footer><div class="site-width"><span>Property data, AI and sustainability hackathon · 20 November 2026</span>
+<a href="../national/">National estate dashboard</a></div></footer>
+</body></html>

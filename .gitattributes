@@ -1,0 +1,6 @@
+*.pdf binary
+*.png binary
+*.jpg binary
+*.csv -diff -text
+docs/national/data/*.json -diff
+docs/tower-hamlets/map-assets/*.json -diff

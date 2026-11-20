@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-GB">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visualisation guide | Tower Hamlets retrofit notebook</title>
+<meta name="description" content="Explore evidence and open questions for public estate retrofit in Tower Hamlets.">
+<link rel="stylesheet" href="./notebook.css"><script src="./notebook.js" defer></script><link rel="stylesheet" href="../assets/terms.css"><script src="../assets/terms.js" defer></script></head>
+<body class="document">
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="site-width"><a class="brand" href="./">Tower Hamlets retrofit notebook</a>
+<nav aria-label="Notebook"><a href="./">Overview</a><a href="./explore.html">Estate map</a><a href="./guide.html">Quick guide</a><a href="./tracker.html">Tracker</a><a href="./evidence.html">Evidence</a><a href="./gaps.html">Evidence gaps</a><a href="./method.html">Tower Hamlets method</a><a href="./uk-method.html">UK-wide method</a><a href="./energy.html">Energy data</a><a href="./visualisation.html" aria-current="page">Visualisation guide</a><a href="./access.html">Data requests</a><a href="./personas.html">Personas</a><a href="./walkthrough.html">Walkthrough</a><a href="./runbook.html">Runbook</a></nav></div></header>
+<main id="main" class="site-width"><article class="prose"><h1 id="visualisation-metadata-for-the-estate-evidence">Visualisation metadata for the estate evidence</h1>
+<p>The <a href="./data/visualisation-specifications.json">dataset and view catalogue</a>, version 1.0.0, travels alongside the data. It answers what a later view should show, which fields to use and when the evidence is ready. It is a project-owned declarative specification. The datasets and the existing evidence notes remain the sources for values, scope and rights.</p>
+<table>
+<thead>
+<tr>
+<th>Contract field</th>
+<th>How to use it</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>datasets.&lt;dataset ID&gt;</code>, <code>edition</code>, <code>references</code></td>
+<td>Use the stable dataset ID to resolve its edition, method and source links. Notebook paths are relative to the public static Site origin. Local paths refer to ignored or scratch inputs.</td>
+</tr>
+<tr>
+<td><code>grain</code>, <code>measure</code>, <code>rules</code></td>
+<td>Check the unit of observation, units and denominators before filtering, grouping or comparing. Retain the scope and source edition with the result.</td>
+</tr>
+<tr>
+<td><code>physicalFields</code>, <code>semanticFields</code></td>
+<td>Physical names were checked against the identified input. Materialise semantic fields through the stated derivation or review. An empty physical list denotes a proposed data contract.</td>
+</tr>
+<tr>
+<td><code>views[].id</code>, <code>role</code>, <code>question</code>, <code>mark</code>, <code>encoding</code></td>
+<td>Select a view ID within a dataset. The channels identify the fields for axes, colour, facet, detail, tooltip, geometry or table columns. Where a view lists alternatives, follow its design note and use one compatible field per panel or selection.</td>
+</tr>
+<tr>
+<td><code>availability</code>, <code>needs</code></td>
+<td><code>available</code> means the captured input or documented evidence supports the view. <code>conditional</code> needs an additional verified input, join or rights decision. <code>planned</code> describes a future dataset or evidence collection.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="dataset-and-view-choices">Dataset and view choices</h2>
+<table>
+<thead>
+<tr>
+<th>Dataset ID</th>
+<th>Start here</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>uk-deprivation-area-reference</code></td>
+<td>Use <code>national-area-counts</code> with all four nation denominators. The CSV has no geometry. Use <code>national-decile-map</code> once the versioned boundaries and joins are verified.</td>
+</tr>
+<tr>
+<td><code>tower-hamlets-lsoa-deprivation</code> · <code>tower-hamlets-oa-census</code></td>
+<td>Shade one LSOA index at a time, with 1 most deprived. Show OA outlines and Census detail separately. Label the missing category and the 1–5 selection.</td>
+</tr>
+<tr>
+<td><code>tower-hamlets-estate-workbook-locations</code> · <code>tower-hamlets-certificate-evidence</code></td>
+<td>Count workbook rows, coordinate groups and verified premises separately. Use a point layer for discovery and a table for EPC and DEC evidence and exceptions.</td>
+</tr>
+<tr>
+<td><code>mile-end-eric-site-year</code> · <code>premises-meter-bills</code></td>
+<td>Keep energy use and costs in separate panels with aligned periods. Use ordered risk bands for backlog. Detailed billed and metered series need authorised inputs and comparable boundaries.</td>
+</tr>
+<tr>
+<td><code>tower-hamlets-desnz-subnational-energy</code> · <code>uk-ecuk-community-estate-2025</code></td>
+<td>Keep named MSOA gas and non-half-hourly electricity apart from borough-only half-hourly electricity. Label ECUK as modelled UK category totals in ktoe.</td>
+</tr>
+<tr>
+<td><code>public-estate-investment-ledger</code> · <code>public-estate-measure-outcomes</code></td>
+<td>Start with dated review tables. Use stage counts only with a declared denominator. Show before and after only for stable, scope-matched measurement windows.</td>
+</tr>
+</tbody>
+</table>
+<p>Record the catalogue pointer and stable ID <code>uk-deprivation-area-reference</code> alongside <code>/data/uk-deprivation-area-reference.csv</code> and its manifest on the notebook. A consumer should check the data edition, selected view, source terms and prerequisites before rendering. Keep current, expired, unmatched, unavailable, suppressed and ineligible states visible. Use tables where scope, matching or readiness needs to be read precisely.</p>
+<p><a href="./uk-method.html">UK screening method</a> · <a href="./evidence.html">Tower Hamlets evidence</a></p>
+<p class="download"><a href="./markdown/tower-hamlets-visualisation-guide.md" download>Download visualisation guide as Markdown</a></p></article></main>
+<footer><div class="site-width"><span>Property data, AI and sustainability hackathon · 20 November 2026</span>
+<a href="../national/">National estate dashboard</a></div></footer>
+</body></html>
