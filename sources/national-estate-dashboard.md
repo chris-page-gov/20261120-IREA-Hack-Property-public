@@ -33,6 +33,9 @@ local copy and produces `analysis/reviewed-dashboard-data.json` and
 `dashboard/src/data.json`. Neither output contains OS NGD feature bodies or a
 credential. A fixed snapshot was deployed on 20 November 2026 to the
 [owner-restricted Site](https://government-estate-retrofit-2026.crpage.chatgpt.site/?view=1&tab=dashboard).
+The later [public static national screen](https://chris-page-gov.github.io/20261120-IREA-Hack-Property-public/national/)
+uses the reviewed analysis JSON, a simplified ONS map and the full provisional
+candidate register. It makes no request to the local NGD service.
 The deployment and full HTML and snapshot asset readback passed. The live HTML
 and snapshot routes returned HTTP 200, and the snapshot hash matched the
 reviewed upload. The signed-in opening view rendered the overview, map and

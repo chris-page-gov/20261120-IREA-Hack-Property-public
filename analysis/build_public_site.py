@@ -110,8 +110,8 @@ def main() -> None:
     if register["counts"]["screeningRows"] != 2267 or len(register["records"]) != 2267:
         raise SystemExit("Candidate register count does not match the reviewed screen")
     shutil.copy2(ROOT / "analysis" / "candidate-register-2026-11-20.json", NATIONAL / "candidates.json")
-    shutil.copy2(ROOT / "dashboard" / "src" / "data.json", NATIONAL / "dashboard.json")
-    shutil.copy2(ROOT / "dashboard" / "src" / "content" / "dashboard" / "ons-area-map.json", NATIONAL / "ons-area-map.json")
+    shutil.copy2(ROOT / "analysis" / "reviewed-dashboard-data.json", NATIONAL / "dashboard.json")
+    shutil.copy2(ROOT / "analysis" / "ons-area-map.json", NATIONAL / "ons-area-map.json")
     candidate_csv(register)
     for source, dest in (
         (ROOT / "analysis" / "estate-screening-funnel-a4.pdf", DOCS / "assets" / "estate-screening-funnel-a4.pdf"),

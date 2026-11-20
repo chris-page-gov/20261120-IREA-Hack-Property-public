@@ -81,7 +81,8 @@ verified. The local joins and checks have **not** been applied nationally.
 - Tower Hamlets: [estate and geography](tower-hamlets-estate-evidence.md#estate-and-geography), [IMD threshold dry run](uk-public-estate-decarbonisation-method.md#tower-hamlets-threshold-dry-run) and [validation status](tower-hamlets-screening-method.md#verification-status-for-this-draft). Deprivation uses [English indices of deprivation 2025](https://www.gov.uk/government/statistics/english-indices-of-deprivation-2025) on official 2021 LSOAs.
 - Draft next-stage rule: [UK public estate decarbonisation method v0.2](uk-public-estate-decarbonisation-method.md#deprivation-and-energy-rating-filters) proposes nation-relative overall deciles 1–5 and separate, current, comparable D–G EPC and DEC checks. It requires site identity, ownership, investment and measure evidence before a funding shortlist.
 
-This diagram contains aggregated counts and method descriptions only. Check
-the source and derived-data licence review before adding workbook-derived
-record-level outputs to a public repository. No upload or publication is
-implied by the diagram.
+This diagram contains aggregated counts and method descriptions only. A
+separate [public research edition](https://chris-page-gov.github.io/20261120-IREA-Hack-Property-public/)
+now pairs it with the reviewed provisional register and source-specific
+attribution. The private research repository and its account-linked history
+remain separate. Publication does not verify ownership or a funded shortlist.
